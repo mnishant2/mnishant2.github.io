@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Nishant Mishra</title>
-    <link>/author/nishant-mishra/</link>
-      <atom:link href="/author/nishant-mishra/index.xml" rel="self" type="application/rss+xml" />
-    <description>Nishant Mishra</description>
+    <title>Deep Learning | Nishant Mishra</title>
+    <link>/tag/deep-learning/</link>
+      <atom:link href="/tag/deep-learning/index.xml" rel="self" type="application/rss+xml" />
+    <description>Deep Learning</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 18 Aug 2020 00:34:01 -0400</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
-      <title>Nishant Mishra</title>
-      <link>/author/nishant-mishra/</link>
+      <title>Deep Learning</title>
+      <link>/tag/deep-learning/</link>
     </image>
     
     <item>
