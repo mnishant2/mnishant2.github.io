@@ -622,7 +622,7 @@
        display: inline;
        font-family: 'Sofia';
        font-style: oblique;
-       font-size: 50px;
+       font-size: 5vw;
        padding-left: 10px;
        padding-top: 10px;
        padding-bottom: 10px;
@@ -694,28 +694,35 @@ A little more about me ...
       <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
 <style type="text/css" media="screen">
   .gr_grid_container {
-    width: 90%;
+    width: 98%;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url("../media/library.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-left: 40px;
+    padding-top: 20px;
   /* customize grid container div here. eg: width: 500px; */
 }
 .gr_grid_book_container {
   /* customize book cover container div here */
   float: left;
-  width: 98px;
+  width: 105px;
   height: 160px;
   padding: 10px 10px;
   overflow: hidden;
 }
 .google-maps {
       position: relative;
-      padding-bottom: 50%; // This is the aspect ratio
-      height: 0;
+      padding-bottom: 300px; // This is the aspect ratio
+      
   }
   .google-maps iframe {
       position: absolute;
       top: 0;
       left: 0;
       bottom:0;
-      width: 100% !important;
+      width: 70% !important;
+      height: 100% !important;      
     }
 </style>
 <head>
@@ -759,6 +766,7 @@ I also love reading, have a huge collection of books either read, or waiting to 
 <div class="google-maps">
 <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1Gv9jC882loL8K_dlpu-YlW_xYfHtjytb" width="640" height="480"></iframe>
 </div>
+<br><br>
 </body>
 
     </div>
