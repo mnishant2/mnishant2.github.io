@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>nlp | Nishant Mishra</title>
+    <link>/category/nlp/</link>
+      <atom:link href="/category/nlp/index.xml" rel="self" type="application/rss+xml" />
+    <description>nlp</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Tue, 21 May 2019 09:20:41 -0400</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>nlp</title>
+      <link>/category/nlp/</link>
+    </image>
+    
+    <item>
+      <title>Generic Extraction Module (G.E.M)</title>
+      <link>/project/gem/</link>
+      <pubDate>Tue, 21 May 2019 09:20:41 -0400</pubDate>
+      <guid>/project/gem/</guid>
+      <description>&lt;p&gt;The project at Signzy involved training a generalizable model for information retrieval from OCR output of Indian ID cards. We used both character level embeddings and word level embeddings(ELMO) in a stacked manner for language modelling before passing the concatenated embeddings to a bidirectional Long Short Term Memory neural network for final classification.&lt;/p&gt;
+&lt;p&gt;The model was trained on a large corpus of text OCR outputs obtained from our own proprietary ID cards dataset for extracting non-trivial information such as Names, dates, numbers, addreses from any card. The training was done in a way to ensure the embeddings were also fine tuned. The FlairNLP library was used to create the preprocessing, text embedding, training and postprocessing pipeline and training was performed using pytorch framework. Multiple combinations of embeddings including FlairEmbeddings(Contextualized string embeddings for sequence labelling), BERT, CharacterEmbeddings, ELMO, XLNet were benchmarked before settling on the final pair based on accuracy, compute and efficiency considerations.&lt;/p&gt;
+&lt;p&gt;Not only did the model perform admirably well on unseen text from ID types part of training data irrespective of variations in OCR output and image layout, but it generalised well for out of sample ID types too when finetuned with just 1-5 samples of these cards.&lt;/p&gt;
+&lt;p&gt;The idea behind this was to build a generic, flexible information retrieval engine thats pretrained to extract important information from OCR output of all ID cards without specifically being trained on them or having seen them, without any rule based processing, that can be easily finetuned on a very small number of samples of any new card type for optimum performance. This was made into a rest API as a plug and play product for clients to finetune the model on their samples and then use it out of the box to extract information from IDs. The performance was measured using precision and recall figures.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

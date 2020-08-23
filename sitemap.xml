@@ -3,6 +3,71 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/</loc>
+    <lastmod>2020-08-21T09:28:39-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/project/</loc>
+    <lastmod>2020-08-21T09:28:39-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/project/transe/</loc>
+    <lastmod>2020-08-21T09:28:39-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/project/charir/</loc>
+    <lastmod>2020-08-21T09:28:31-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/project/policy_gradient/</loc>
+    <lastmod>2020-08-21T09:25:48-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/project/march-madness/</loc>
+    <lastmod>2020-08-21T09:24:13-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/project/online_learning/</loc>
+    <lastmod>2020-08-21T09:23:37-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/project/speaker_recognition/</loc>
+    <lastmod>2020-08-21T09:22:49-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/project/cropnet/</loc>
+    <lastmod>2020-08-21T09:20:49-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/project/iqa/</loc>
+    <lastmod>2020-08-21T09:20:23-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/project/activity_recognition/</loc>
+    <lastmod>2020-08-21T09:20:15-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/project/ocr_asr/</loc>
+    <lastmod>2020-08-21T09:20:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/project/highlighter/</loc>
+    <lastmod>2020-08-21T09:18:07-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/author/ab-saravanan/</loc>
     <lastmod>2020-08-18T21:54:02-04:00</lastmod>
   </url>
@@ -14,11 +79,6 @@
   
   <url>
     <loc>/categories/</loc>
-    <lastmod>2020-08-18T21:54:02-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/deep-learning/</loc>
     <lastmod>2020-08-18T21:54:02-04:00</lastmod>
   </url>
   
@@ -38,17 +98,12 @@
   </url>
   
   <url>
-    <loc>/</loc>
-    <lastmod>2020-08-18T21:54:02-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/project/</loc>
-    <lastmod>2020-08-18T21:54:02-04:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/tags/</loc>
+    <lastmod>2020-08-18T21:54:02-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/vision/</loc>
     <lastmod>2020-08-18T21:54:02-04:00</lastmod>
   </url>
   
@@ -60,6 +115,21 @@
   <url>
     <loc>/portfolio/</loc>
     <lastmod>2020-08-18T21:54:02-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/project/gem/</loc>
+    <lastmod>2019-05-21T09:20:41-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/nlp/</loc>
+    <lastmod>2019-05-21T09:20:41-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/category/nlp/</loc>
+    <lastmod>2019-05-21T09:20:41-04:00</lastmod>
   </url>
   
   <url>
