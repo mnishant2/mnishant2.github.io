@@ -652,6 +652,8 @@ A little more about me ...
   
 
   
+    
+  
 
   
 
@@ -681,7 +683,7 @@ A little more about me ...
   
   
 
-  <section id="pg1" class="home-section wg-blank dark  " style="padding: 50px 0px 0px 0;" >
+  <section id="pg1" class="home-section wg-blank dark  " style="background-image: linear-gradient(#ba5370, #faaca8);padding: 20px 0px 0px 0;" >
     <div class="container">
       
 
@@ -699,7 +701,7 @@ A little more about me ...
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    padding-left: 40px;
+    padding-left: 20px;
     padding-top: 20px;
   /* customize grid container div here. eg: width: 500px; */
 }
@@ -713,7 +715,7 @@ A little more about me ...
 }
 .google-maps {
       position: relative;
-      padding-bottom: 300px; // This is the aspect ratio
+      padding-bottom: 75%; // This is the aspect ratio
       
   }
   .google-maps iframe {
@@ -721,16 +723,48 @@ A little more about me ...
       top: 0;
       left: 0;
       bottom:0;
-      width: 70% !important;
+      width: 100% !important;
       height: 100% !important;      
     }
+@media only screen and (min-width : 365px) {
+    /* Tablet view: 2 tiles */
+    .google-maps {
+      position: relative;
+      padding-bottom: 50%;
+    }
+}
+@media only screen and (min-width : 480px) {
+    /* Small desktop / ipad view: 3 tiles */
+    .google-maps {
+      position: relative;
+      padding-bottom: 60%;
+    }
+}
+@media only screen and (min-width : 999px) {
+   /* Medium desktop: 4 tiles */
+   .google-maps {
+      position: relative;
+      padding-bottom: 400px;
+   }
+   .google-maps iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom:0;
+      width: 60% !important;
+      height: 100% !important;
+      margin-left: 20%;
+      margin-right: auto;      
+    }
+}
 </style>
+<html>  
 <head>
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
 </head>
 <body>
-<p>When I am not busy training models or reading papers, I spend my time running through sitcoms, new and old. This means I have an enviable collection of hilarious shows behind me including both popular and relatively lesser known ones. You can find a list of top 15 peronal favourite sitcoms here, for reference in case you missed out on some.<br>
-I also love reading, have a huge collection of books either read, or waiting to be</p>
+When I am not busy training models or reading papers, I spend my time running through sitcoms, new and old. You can find a <a href="http://www.imdb.com/list/ls081666624/" style="color:yellow"> list of my personal favourite sitcoms here</a>, for reference in case you are looking for something new to binge on.   
+I also love reading, have a nice collection of books either read, or in the "to be read" list. The goodreads widget below shows some of the books I hold closest to my heart, those that have influenced me the most. 
 <div id="gr_grid_widget_1598120398">
   <!-- Show static html as a placeholder in case js is not enabled - javascript include will override this if things work -->
       <h2>
@@ -762,12 +796,114 @@ I also love reading, have a huge collection of books either read, or waiting to 
 </div>
 </div>
 <script src="https://www.goodreads.com/review/grid_widget/120261387.Nishant's%20favorites%20book%20montage?cover_size=medium&hide_link=&hide_title=&num_books=20&order=d&shelf=favorites&sort=date_added&widget_id=1598120398" type="text/javascript" charset="utf-8"></script>
-<br><br>
+<p>I also write, mostly poems and blogs. Over the years i have hopelessly struggled to maintain my personal blog, nevertheless you can find it here to go through whatever little I have published.
+<br><br></p>
 <div class="google-maps">
 <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1Gv9jC882loL8K_dlpu-YlW_xYfHtjytb" width="640" height="480"></iframe>
 </div>
 <br><br>
+
+<link rel="stylesheet" href=/css/hugo-easy-gallery.css />
+
+<div class="gallery caption-position-bottom caption-effect-slide hover-effect-zoom hover-transition" itemscope itemtype="http://schema.org/ImageGallery">
+				<div class="box">
+				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				    <div class="img" style="background-image: url('/media/back/back1-thumb.jpg');" >
+				      <img itemprop="thumbnail" src="/media/back/back1-thumb.jpg" alt="Back1" />
+				    </div>
+			      <figcaption>
+		          <p>Back1</p>
+			      </figcaption>
+				    <a href="/media/back/back1.jpg" itemprop="contentUrl"></a>
+				  </figure>
+				</div>
+				<div class="box">
+				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				    <div class="img" style="background-image: url('/media/back/back1-thumb.png');" >
+				      <img itemprop="thumbnail" src="/media/back/back1-thumb.png" alt="Back1" />
+				    </div>
+			      <figcaption>
+		          <p>Back1</p>
+			      </figcaption>
+				    <a href="/media/back/back1.png" itemprop="contentUrl"></a>
+				  </figure>
+				</div>
+				<div class="box">
+				  <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				    <div class="img" style="background-image: url('/media/back/sp1-thumb.jpg');" >
+				      <img itemprop="thumbnail" src="/media/back/sp1-thumb.jpg" alt="Sp1" />
+				    </div>
+			      <figcaption>
+		          <p>Sp1</p>
+			      </figcaption>
+				    <a href="/media/back/sp1.jpg" itemprop="contentUrl"></a>
+				  </figure>
+				</div>
+</div>
+
+
+
+
+
+  
+
+
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+<script src=/js/load-photoswipe.js></script>
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.css" integrity="sha256-sCl5PUOGMLfFYctzDW3MtRib0ctyUvI9Qsmq2wXOeBY=" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/default-skin/default-skin.min.css" integrity="sha256-BFeI1V+Vh1Rk37wswuOYn5lsTcaU96hGaI7OUVCLjPc=" crossorigin="anonymous" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.js" integrity="sha256-UplRCs9v4KXVJvVY+p+RSo5Q4ilAUXh7kpjyIP5odyc=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe-ui-default.min.js" integrity="sha256-PWHOlUzc96pMc8ThwRIXPn8yH4NOLu42RQ0b9SpnpFk=" crossorigin="anonymous"></script>
+
+
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+<div class="pswp__bg"></div>
+
+<div class="pswp__scroll-wrap">
+    
+    <div class="pswp__container">
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+    </div>
+    
+    <div class="pswp__ui pswp__ui--hidden">
+    <div class="pswp__top-bar">
+      
+      <div class="pswp__counter"></div>
+      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+      <button class="pswp__button pswp__button--share" title="Share"></button>
+      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+      
+      
+      <div class="pswp__preloader">
+        <div class="pswp__preloader__icn">
+          <div class="pswp__preloader__cut">
+            <div class="pswp__preloader__donut"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+      <div class="pswp__share-tooltip"></div>
+    </div>
+    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+    </button>
+    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+    </button>
+    <div class="pswp__caption">
+      <div class="pswp__caption__center"></div>
+    </div>
+    </div>
+    </div>
+</div>
+
 </body>
+</html>
 
     </div>
   
