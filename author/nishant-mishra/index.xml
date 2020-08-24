@@ -5,12 +5,20 @@
     <link>/author/nishant-mishra/</link>
       <atom:link href="/author/nishant-mishra/index.xml" rel="self" type="application/rss+xml" />
     <description>Nishant Mishra</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Tue, 18 Aug 2020 00:34:01 -0400</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Nishant Mishra</title>
       <link>/author/nishant-mishra/</link>
     </image>
+    
+    <item>
+      <title>Dory OCR</title>
+      <link>/project/dory-ocr/</link>
+      <pubDate>Tue, 18 Aug 2020 00:34:01 -0400</pubDate>
+      <guid>/project/dory-ocr/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
