@@ -30,7 +30,7 @@
   
     
   
-  <meta name="description" content="">
+  <meta name="description" content="An ensemble model to quantify image quality to filter poor quality images at the client end to prevent redundant processing">
 
   
   <link rel="alternate" hreflang="en-us" href="/project/iqa/">
@@ -241,21 +241,20 @@
   
   
     
-    
   
   
-  <meta property="twitter:card" content="summary">
+  <meta property="twitter:card" content="summary_large_image">
   
   <meta property="og:site_name" content="Nishant Mishra">
   <meta property="og:url" content="/project/iqa/">
   <meta property="og:title" content="IQA | Nishant Mishra">
-  <meta property="og:description" content=""><meta property="og:image" content="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png">
-  <meta property="twitter:image" content="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
+  <meta property="og:description" content="An ensemble model to quantify image quality to filter poor quality images at the client end to prevent redundant processing"><meta property="og:image" content="/project/iqa/featured.jpg">
+  <meta property="twitter:image" content="/project/iqa/featured.jpg"><meta property="og:locale" content="en-us">
   
     
-      <meta property="article:published_time" content="2020-08-21T09:20:23-04:00">
+      <meta property="article:published_time" content="2019-01-21T09:20:23-04:00">
     
-    <meta property="article:modified_time" content="2020-08-21T09:20:23-04:00">
+    <meta property="article:modified_time" content="2019-01-21T09:20:23-04:00">
   
 
   
@@ -281,8 +280,12 @@
   },
   "headline": "IQA",
   
-  "datePublished": "2020-08-21T09:20:23-04:00",
-  "dateModified": "2020-08-21T09:20:23-04:00",
+  "image": [
+    "/project/iqa/featured.jpg"
+  ],
+  
+  "datePublished": "2019-01-21T09:20:23-04:00",
+  "dateModified": "2019-01-21T09:20:23-04:00",
   
   "author": {
     "@type": "Person",
@@ -297,7 +300,7 @@
       "url": "/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png"
     }
   },
-  "description": ""
+  "description": "An ensemble model to quantify image quality to filter poor quality images at the client end to prevent redundant processing"
 }
 </script>
 
@@ -598,22 +601,40 @@
 
 
 
-  
+
+
+
+
+
+
+
 
   
   
+    
   
+
+
 <div class="article-container pt-3">
   <h1>IQA</h1>
 
   
 
   
-    
 
 
 <div class="article-metadata">
 
+  
+  
+  
+  
+  <div>
+    
+
+  
+  <span >Nishant Mishra</span>, <span >AB Saravanan</span>, <span >Christen Miller</span>
+  </div>
   
   
 
@@ -623,7 +644,7 @@
     
       
     
-    Aug 21, 2020
+    Jan 21, 2019
   </span>
   
 
@@ -640,25 +661,36 @@
 
   
   
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder mr-1"></i><a href="/category/vision/">vision</a>, <a href="/category/ensemble/">ensemble</a></span>
+  
 
 </div>
 
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 423px;">
+  <div style="position: relative">
+    <img src="/project/iqa/featured_hu26458c474303b5662d41a313480fd3a4_1039121_720x0_resize_q90_lanczos.jpg" alt="" class="featured-image">
+    <span class="article-header-caption">A flow chart diagram depicting the IQA model and its position in the overall product pipeline</span>
+  </div>
 </div>
 
 
@@ -666,7 +698,15 @@
   <div class="article-container">
 
     <div class="article-style">
-      
+      <p>Many of the vision based applications or APIs meant for information retrieval/data verification such as Text extraction or face recognition need a minimal quality of image for efficient processing and adequate performance. Hence it becomes imperative to implement an Image quality assessment layer before proceeding with further processing. This will ensure smooth applicaton of the vision algorithms, reliable performance and an overall time reduction by ensuring less redundant computations on oor quality images, and prventing multiple requests and passes through the algorithm.</p>
+<p>This additional filter helps by ensuring only optimal quality images are passed on and poor quality images are screened at the client/user stage itself saving the users time and the server unnecessary processing, ensuring higher throughput and efficiency.</p>
+<p>We implemented one such pipeline using an ensemble of models that qualitatively analysed images and produced a quantitative measure for image quality that could then be used as a threshold for decision on whether they are sent for downstream processing or the user is notified to repeat the request with better quality images. This quantitative score ensures flexibility for different tasks and different people tailored to their needs.</p>
+<p>The model detects the blur in an image(
+<a href="">BlurNet</a>), brightness of the image(a 
+<a href="">ResNet-18</a> model trained for binary classification i.e dark vs bright) and the text readability(based on performance of text detection and OCR algorithms along with other filtering and morphological operations on the image to estimate textual region) and a meta layer performed computation on their individual outputs to provide a final cumulative Image Quality Score.</p>
+<p>The final meta learner was trained taking the outputs of individual models as input with the average image quality scores assigned to each image by annotators being the output score. The annotation was done by assigning each image to atleast five random users and asking them to score the image on the three parameters i.e Blur, Brightness and readability out of 10 solely on their personal discretion. These scores were then fit into a weighting formula to generate a cumulative score. This final score obtained from all the annotators for each image was averaged to output the final ground truth score for the image.</p>
+<p>The clients get both the final score as well as outputs from each individual model along with a short description about the image quality based on the score for analysis.</p>
+
     </div>
 
     
@@ -675,6 +715,18 @@
 
 
 
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tag/vision/">vision</a>
+  
+  <a class="badge badge-light" href="/tag/blur/">blur</a>
+  
+  <a class="badge badge-light" href="/tag/brightness/">brightness</a>
+  
+  <a class="badge badge-light" href="/tag/text-readability/">text readability</a>
+  
+</div>
 
 
 
@@ -774,122 +826,39 @@
 
 
   
-  
+    
+    
 
 
 
 
 
   
-    
-    
-    
-      
-    
-    
-    
-    <div class="media author-card content-widget-hr">
-      
-        
-        <img class="avatar mr-3 avatar-circle" src="/author/nishant-mishra/avatar_hu1fef3c132241d276c6bdd94fb6aee72d_1622346_270x270_fill_lanczos_center_2.png" alt="Nishant Mishra">
-      
 
-      <div class="media-body">
-        <h5 class="card-title"><a href="/">Nishant Mishra</a></h5>
-        <h6 class="card-subtitle">Graduate Student(MS Thesis)</h6>
-        <p class="card-text">My research interests include distributed robotics, mobile computing and programmable matter.</p>
-        <ul class="network-icon" aria-hidden="true">
-  
-    
-    
-    
-      
-    
-    
-    
-    
-    
-      
-    
-    <li>
-      <a href="/#contact" >
-        <i class="fas fa-envelope"></i>
-      </a>
-    </li>
-  
-    
-    
-    
-    
-    
-    
-    
-      
-    
-    <li>
-      <a href="https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ" target="_blank" rel="noopener">
-        <i class="ai ai-google-scholar"></i>
-      </a>
-    </li>
-  
-    
-    
-    
-      
-    
-    
-    
-    
-    
-      
-    
-    <li>
-      <a href="https://github.com/mnishant2" target="_blank" rel="noopener">
-        <i class="fab fa-github"></i>
-      </a>
-    </li>
-  
-    
-    
-    
-      
-    
-    
-    
-    
-    
-      
-    
-    <li>
-      <a href="https://linkedin.com/in/mnishant2" target="_blank" rel="noopener">
-        <i class="fab fa-linkedin"></i>
-      </a>
-    </li>
-  
-    
-    
-    
-      
-    
-    
-    
-    
-    
-      
-    
-    <li>
-      <a href="https://medium.com/@mnishant2" target="_blank" rel="noopener">
-        <i class="fab fa-medium"></i>
-      </a>
-    </li>
-  
-</ul>
 
-      </div>
-    </div>
+  
+    
+    
+
+
+
+
+
   
 
 
+  
+    
+    
+
+
+
+
+
+  
+
+
+  
 
 
 
@@ -931,6 +900,17 @@
 
 
   
+  
+  <div class="article-widget content-widget-hr">
+    <h3>Related</h3>
+    <ul>
+      
+      <li><a href="/project/dory-ocr/">Dory OCR</a></li>
+      
+      <li><a href="/project/highlighter/">Highlighter(Auto field detection)</a></li>
+      
+    </ul>
+  </div>
   
 
 
