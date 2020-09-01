@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ashita Diwan | Nishant Mishra</title>
+    <link>/author/ashita-diwan/</link>
+      <atom:link href="/author/ashita-diwan/index.xml" rel="self" type="application/rss+xml" />
+    <description>Ashita Diwan</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Sun, 15 Dec 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Ashita Diwan</title>
+      <link>/author/ashita-diwan/</link>
+    </image>
+    
+    <item>
+      <title>Incremental Knowledge Graphs</title>
+      <link>/project/transe/</link>
+      <pubDate>Sun, 15 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>/project/transe/</guid>
+      <description>&lt;p&gt;This project was directed towards the final course project requirement for 
+&lt;a href=&#34;https://www.mcgill.ca/study/2019-2020/courses/comp-550&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;COMP 550: Natural Language Processing&lt;/a&gt; course at McGill University.&lt;/p&gt;
+&lt;p&gt;Knowledge graphs (KGs) succinctly represent
+real-world facts as multi-relational graphs. A
+plethora of work exists in embedding the information
+in KG to a continuous vector space in
+order to obtain new facts and facilitate multiple
+down-stream NLP tasks.&lt;/p&gt;
+&lt;p&gt;Despite the popularity
+of the KG embedding problem, to the
+best of our knowledge, we find that no existing
+work handles dynamic/evolving knowledge
+graphs that incorporates facts about new
+entities.&lt;/p&gt;
+&lt;p&gt;In this project, we propose this problem
+as an incremental learning problem and
+propose solutions to obtain representations for
+new entities and also update the representations
+of old entities that share facts with these
+newer entities. The primary motive of this setup is to avoid
+relearning the knowledge graph embedding altogether
+with the occurrence of every new set
+of facts (triplets).&lt;/p&gt;
+&lt;p&gt;We build our solutions with
+
+&lt;a href=&#34;https://papers.nips.cc/paper/5071-translating-embeddings-for-modeling-multi-relational-data.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;TransE(Bordes et al.)&lt;/a&gt; as our base KG embedding model and
+evaluate the learned embeddings on facts associated
+with these new entities.&lt;/p&gt;
+&lt;p&gt;To this aim, we formulated
+two solutions; the first approach followed a finetuning
+based transfer-learning solution, and the
+second followed a model-agnostic meta-learning
+based approach with Graph Convolutional Networks
+(GCN). While our model-specific finetuning
+approach fared well, the proposed model independent
+approach failed to learn representations for a new entity.&lt;/p&gt;
+&lt;p&gt;We used 
+&lt;a href=&#34;https://github.com/thunlp/OpenKE&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;OpenKE’s&lt;/a&gt; implementation for setting our model. For our
+task, we made changes to the TransE model, so
+that it can learn the representations of the new entities. We employed the 
+&lt;a href=&#34;https://www.microsoft.com/en-us/download/details.aspx?id=52312&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;FB20K&lt;/a&gt; dataset
+(
+&lt;a href=&#34;http://nlp.csai.tsinghua.edu.cn/~lzy/publications/aaai2016_dkrl.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Xie et al., 2016&lt;/a&gt;) for our task. In addition to
+containing all the entities and relations from the
+FB15K dataset, this dataset also contains new entities
+which was required for our setup. We evaluate the models for link prediction, which
+aims to predict the missing h or t for a relation fact
+(h, r, t).&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
