@@ -30,7 +30,7 @@
   
     
   
-  <meta name="description" content="">
+  <meta name="description" content="In this project, we apply currently available solutions to address incremental knowledge graph embedding to several applications to test their efficiency.">
 
   
   <link rel="alternate" hreflang="en-us" href="/project/online_learning/">
@@ -241,21 +241,20 @@
   
   
     
-    
   
   
-  <meta property="twitter:card" content="summary">
+  <meta property="twitter:card" content="summary_large_image">
   
   <meta property="og:site_name" content="Nishant Mishra">
   <meta property="og:url" content="/project/online_learning/">
-  <meta property="og:title" content="Online_learning | Nishant Mishra">
-  <meta property="og:description" content=""><meta property="og:image" content="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png">
-  <meta property="twitter:image" content="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
+  <meta property="og:title" content="Online Learning of temporal Knowledge Graphs | Nishant Mishra">
+  <meta property="og:description" content="In this project, we apply currently available solutions to address incremental knowledge graph embedding to several applications to test their efficiency."><meta property="og:image" content="/project/online_learning/featured.png">
+  <meta property="twitter:image" content="/project/online_learning/featured.png"><meta property="og:locale" content="en-us">
   
     
-      <meta property="article:published_time" content="2020-08-21T09:23:37-04:00">
+      <meta property="article:published_time" content="2020-04-14T09:23:37-04:00">
     
-    <meta property="article:modified_time" content="2020-08-21T09:23:37-04:00">
+    <meta property="article:modified_time" content="2020-04-14T09:23:37-04:00">
   
 
   
@@ -279,14 +278,18 @@
     "@type": "WebPage",
     "@id": "/project/online_learning/"
   },
-  "headline": "Online_learning",
+  "headline": "Online Learning of temporal Knowledge Graphs",
   
-  "datePublished": "2020-08-21T09:23:37-04:00",
-  "dateModified": "2020-08-21T09:23:37-04:00",
+  "image": [
+    "/project/online_learning/featured.png"
+  ],
+  
+  "datePublished": "2020-04-14T09:23:37-04:00",
+  "dateModified": "2020-04-14T09:23:37-04:00",
   
   "author": {
     "@type": "Person",
-    "name": "Nishant Mishra"
+    "name": "Paniz Bertsch"
   },
   
   "publisher": {
@@ -297,7 +300,7 @@
       "url": "/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png"
     }
   },
-  "description": ""
+  "description": "In this project, we apply currently available solutions to address incremental knowledge graph embedding to several applications to test their efficiency."
 }
 </script>
 
@@ -315,7 +318,7 @@
 
 
 
-  <title>Online_learning | Nishant Mishra</title>
+  <title>Online Learning of temporal Knowledge Graphs | Nishant Mishra</title>
 
 </head>
 <body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
@@ -598,22 +601,40 @@
 
 
 
-  
+
+
+
+
+
+
+
 
   
-  
-  
-<div class="article-container pt-3">
-  <h1>Online_learning</h1>
-
-  
-
   
     
+  
+
+
+<div class="article-container pt-3">
+  <h1>Online Learning of temporal Knowledge Graphs</h1>
+
+  
+
+  
 
 
 <div class="article-metadata">
 
+  
+  
+  
+  
+  <div>
+    
+
+  
+  <span >Paniz Bertsch</span>, <span >Albert Orozco Camacho</span>, <span >Nishant Mishra</span>
+  </div>
   
   
 
@@ -623,7 +644,7 @@
     
       
     
-    Aug 21, 2020
+    Apr 14, 2020
   </span>
   
 
@@ -643,7 +664,36 @@
 
 </div>
 
-    
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
 
 
 
@@ -659,6 +709,36 @@
 
 
   
+  
+  
+    
+  
+  
+  
+  
+  
+    
+    
+      
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1" href="/files/online_learning.pdf" target="_blank" >
+    <i class="fas fa-file-pdf mr-1"></i>
+    Report
+  </a>
+
+
+</div>
+
+
+</div>
+
+
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 629px;">
+  <div style="position: relative">
+    <img src="/project/online_learning/featured_hu5c4ac65dbfc97d01f71a0b4967caea4c_582121_720x0_resize_lanczos_2.png" alt="" class="featured-image">
+    <span class="article-header-caption">Visualization of the freebase graph</span>
+  </div>
 </div>
 
 
@@ -666,7 +746,112 @@
   <div class="article-container">
 
     <div class="article-style">
+      <p>This project was undertaken as part of the  final project for COMP 766: Graph Representation Learning.</p>
+<p>For many computer science sub-fields, knowledge graphs (KG) remain a constant
+abstraction whose usefulness relies in their representation power. However, dynamic
+environments, such as the temporal streams of social media information,
+brings a greater necessity of incorporating additional structures to KG’s.</p>
+<p>In this project, we applied currently available solutions to address incremental
+knowledge graph embedding to several applications to test their efficiency. We also
+proposed an embedding model agnostic framework to make these models
+incremental. Firstly, we proposed a window-based incremental learning approach
+that discards least happening facts and performs link prediction on updated triples.
+Next, we presented experiments on a GCN model-agnostic meta-learning based approach.</p>
+<p>To create edge embedding vectors, we experimented with two methods:</p>
+<ol>
+<li>Concatenating head and tail’s 128-dimensional Node2Vec embedding vectors to create
+256-dimensional edge embedding</li>
+<li>Subtracting head embedding from tail embedding vector to create 128-dimensional edge
+embedding vector
+Our best model is the Window-based KG Incremental Learning, where
+edge representations, are calculated from subtraction of embedding vectors of head
+and tail nodes</li>
+</ol>
+<p>For the experiment, link prediction adjusted to a binary classification, with 0 and 1 representing
+link is present or absent respectively, was used, with Random-Forest model for training and prediction.
+Also, dataset is divided to training set and nine test sets as incremental updates, to generate 9 snapshots of graph with each snapshot, adding new nodes and updating edges compare to previous graph snapshot.</p>
+<p>The second method we experimented with followed a model-agnostic meta-learning based approach
+with Graph Convolutional Networks(GCN). The idea here is to learn a GCN to predict the embeddings
+of new nodes given the old embeddings of its neighboring entities in the old graph and similarly
+obtain an updated representation of old entities based on the recently learned embedding of new
+entities. These two predictions are jointly iterated. This can be viewed as learning to learn problem
+(meta-learning).
+
+<link rel="stylesheet" href=/css/hugo-easy-gallery.css />
+<div class="box" style="max-width:50%">
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="/media/tsne-2d-40clusters.png#center" alt="tsne visualization of top 40 entity embeddings cluster"/>
+    </div>
+    <a href="../../media/tsne-2d-40clusters.png#center" itemprop="contentUrl"></a>
+      <figcaption>
+          <p>tsne visualization of top 40 entity embeddings cluster</p>
+      </figcaption>
+  </figure>
+</div>
+
+
+
+
+
+  
+
+
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+<script src=/js/load-photoswipe.js></script>
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.css" integrity="sha256-sCl5PUOGMLfFYctzDW3MtRib0ctyUvI9Qsmq2wXOeBY=" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/default-skin/default-skin.min.css" integrity="sha256-BFeI1V+Vh1Rk37wswuOYn5lsTcaU96hGaI7OUVCLjPc=" crossorigin="anonymous" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.js" integrity="sha256-UplRCs9v4KXVJvVY+p+RSo5Q4ilAUXh7kpjyIP5odyc=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe-ui-default.min.js" integrity="sha256-PWHOlUzc96pMc8ThwRIXPn8yH4NOLu42RQ0b9SpnpFk=" crossorigin="anonymous"></script>
+
+
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+<div class="pswp__bg"></div>
+
+<div class="pswp__scroll-wrap">
+    
+    <div class="pswp__container">
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+    </div>
+    
+    <div class="pswp__ui pswp__ui--hidden">
+    <div class="pswp__top-bar">
       
+      <div class="pswp__counter"></div>
+      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+      <button class="pswp__button pswp__button--share" title="Share"></button>
+      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+      
+      
+      <div class="pswp__preloader">
+        <div class="pswp__preloader__icn">
+          <div class="pswp__preloader__cut">
+            <div class="pswp__preloader__donut"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+      <div class="pswp__share-tooltip"></div>
+    </div>
+    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+    </button>
+    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+    </button>
+    <div class="pswp__caption">
+      <div class="pswp__caption__center"></div>
+    </div>
+    </div>
+    </div>
+</div>
+</p>
+
     </div>
 
     
@@ -689,7 +874,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=/project/online_learning/&amp;text=Online_learning" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=/project/online_learning/&amp;text=Online%20Learning%20of%20temporal%20Knowledge%20Graphs" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -702,7 +887,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=/project/online_learning/&amp;t=Online_learning" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=/project/online_learning/&amp;t=Online%20Learning%20of%20temporal%20Knowledge%20Graphs" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -715,7 +900,7 @@
       
       
       <li>
-        <a href="mailto:?subject=Online_learning&amp;body=/project/online_learning/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=Online%20Learning%20of%20temporal%20Knowledge%20Graphs&amp;body=/project/online_learning/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -728,7 +913,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=/project/online_learning/&amp;title=Online_learning" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=/project/online_learning/&amp;title=Online%20Learning%20of%20temporal%20Knowledge%20Graphs" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -741,7 +926,7 @@
       
       
       <li>
-        <a href="whatsapp://send?text=Online_learning%20/project/online_learning/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="whatsapp://send?text=Online%20Learning%20of%20temporal%20Knowledge%20Graphs%20/project/online_learning/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -754,7 +939,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=/project/online_learning/&amp;title=Online_learning" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=/project/online_learning/&amp;title=Online%20Learning%20of%20temporal%20Knowledge%20Graphs" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -774,122 +959,39 @@
 
 
   
-  
+    
+    
 
 
 
 
 
   
-    
-    
-    
-      
-    
-    
-    
-    <div class="media author-card content-widget-hr">
-      
-        
-        <img class="avatar mr-3 avatar-circle" src="/author/nishant-mishra/avatar_hu1fef3c132241d276c6bdd94fb6aee72d_1622346_270x270_fill_lanczos_center_2.png" alt="Nishant Mishra">
-      
 
-      <div class="media-body">
-        <h5 class="card-title"><a href="/">Nishant Mishra</a></h5>
-        <h6 class="card-subtitle">Graduate Student(MS Thesis)</h6>
-        <p class="card-text">My research interests include distributed robotics, mobile computing and programmable matter.</p>
-        <ul class="network-icon" aria-hidden="true">
-  
-    
-    
-    
-      
-    
-    
-    
-    
-    
-      
-    
-    <li>
-      <a href="/#contact" >
-        <i class="fas fa-envelope"></i>
-      </a>
-    </li>
-  
-    
-    
-    
-    
-    
-    
-    
-      
-    
-    <li>
-      <a href="https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ" target="_blank" rel="noopener">
-        <i class="ai ai-google-scholar"></i>
-      </a>
-    </li>
-  
-    
-    
-    
-      
-    
-    
-    
-    
-    
-      
-    
-    <li>
-      <a href="https://github.com/mnishant2" target="_blank" rel="noopener">
-        <i class="fab fa-github"></i>
-      </a>
-    </li>
-  
-    
-    
-    
-      
-    
-    
-    
-    
-    
-      
-    
-    <li>
-      <a href="https://linkedin.com/in/mnishant2" target="_blank" rel="noopener">
-        <i class="fab fa-linkedin"></i>
-      </a>
-    </li>
-  
-    
-    
-    
-      
-    
-    
-    
-    
-    
-      
-    
-    <li>
-      <a href="https://medium.com/@mnishant2" target="_blank" rel="noopener">
-        <i class="fab fa-medium"></i>
-      </a>
-    </li>
-  
-</ul>
 
-      </div>
-    </div>
+  
+    
+    
+
+
+
+
+
   
 
 
+  
+    
+    
+
+
+
+
+
+  
+
+
+  
 
 
 

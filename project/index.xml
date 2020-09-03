@@ -29,14 +29,6 @@
     </item>
     
     <item>
-      <title>Online_learning</title>
-      <link>/project/online_learning/</link>
-      <pubDate>Fri, 21 Aug 2020 09:23:37 -0400</pubDate>
-      <guid>/project/online_learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Speaker_recognition</title>
       <link>/project/speaker_recognition/</link>
       <pubDate>Fri, 21 Aug 2020 09:22:49 -0400</pubDate>
@@ -93,18 +85,29 @@
       <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
       <guid>/project/policy_gradient/</guid>
       <description>&lt;p&gt;This project was done as part of my final project submission for 
-&lt;a href=&#34;https://www.cs.mcgill.ca/~dprecup/courses/RL/lectures.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;COMP767: Reinforcement Learning&lt;/a&gt; course at McGill University&lt;/p&gt;
+&lt;a href=&#34;https://www.cs.mcgill.ca/~dprecup/courses/RL/lectures.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;COMP767: Reinforcement Learning&lt;/a&gt;
+&lt;a href=&#34;https://www.cs.mcgill.ca/~dprecup/courses/RL/lectures.html&#34; target=&#34;_blank&#34;&gt;COMP767: Reinforcement Learning&lt;/a&gt;
+ course at McGill University&lt;/p&gt;
 &lt;p&gt;In the recent years, significant work has been done in the field of Deep Reinforcement
 Learning, to solve challenging problems in many diverse domains. One such example,
 are Policy gradient algorithms, which are ubiquitous in state-of-the-art continuous control
 tasks. Policy gradient methods can be generally divided into two groups: off-policy
 gradient methods, such as 
-&lt;a href=&#34;https://arxiv.org/abs/1509.02971&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Deep Deterministic Policy Gradients (DDPG)&lt;/a&gt;, 
+&lt;a href=&#34;https://arxiv.org/abs/1509.02971&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Deep Deterministic Policy Gradients (DDPG)&lt;/a&gt;
+&lt;a href=&#34;https://arxiv.org/abs/1509.02971&#34; target=&#34;_blank&#34;&gt;Deep Deterministic Policy Gradients (DDPG)&lt;/a&gt;
+, 
 &lt;a href=&#34;https://arxiv.org/pdf/1802.09477.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Twin Delayed
-Deep Deterministic (TD3)&lt;/a&gt;, 
-&lt;a href=&#34;https://arxiv.org/abs/1801.01290&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Soft Actor Critic (SAC)&lt;/a&gt; and on-policy methods, such as
+Deep Deterministic (TD3)&lt;/a&gt;
+&lt;a href=&#34;https://arxiv.org/pdf/1802.09477.pdf&#34; target=&#34;_blank&#34;&gt;Twin Delayed
+Deep Deterministic (TD3)&lt;/a&gt;
+, 
+&lt;a href=&#34;https://arxiv.org/abs/1801.01290&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Soft Actor Critic (SAC)&lt;/a&gt;
+&lt;a href=&#34;https://arxiv.org/abs/1801.01290&#34; target=&#34;_blank&#34;&gt;Soft Actor Critic (SAC)&lt;/a&gt;
+ and on-policy methods, such as
 
-&lt;a href=&#34;https://arxiv.org/abs/1502.05477&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Trust Region Policy Optimization (TRPO)&lt;/a&gt;.&lt;/p&gt;
+&lt;a href=&#34;https://arxiv.org/abs/1502.05477&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Trust Region Policy Optimization (TRPO)&lt;/a&gt;
+&lt;a href=&#34;https://arxiv.org/abs/1502.05477&#34; target=&#34;_blank&#34;&gt;Trust Region Policy Optimization (TRPO)&lt;/a&gt;
+.&lt;/p&gt;
 &lt;p&gt;However, despite these successes on paper, reproducing deep RL results is rarely straightforward. There are many sources of possible instability and variance including extrinsic
 factors (such as hyper-parameters, noise-functions used) or intrinsic factors (such as random
 seeds, environment properties).&lt;/p&gt;
@@ -118,12 +121,127 @@ Network Size, Batch Sizes) on the performance of these methods.&lt;/p&gt;
     </item>
     
     <item>
+      <title>Online Learning of temporal Knowledge Graphs</title>
+      <link>/project/online_learning/</link>
+      <pubDate>Tue, 14 Apr 2020 09:23:37 -0400</pubDate>
+      <guid>/project/online_learning/</guid>
+      <description>&lt;p&gt;This project was undertaken as part of the  final project for COMP 766: Graph Representation Learning.&lt;/p&gt;
+&lt;p&gt;For many computer science sub-fields, knowledge graphs (KG) remain a constant
+abstraction whose usefulness relies in their representation power. However, dynamic
+environments, such as the temporal streams of social media information,
+brings a greater necessity of incorporating additional structures to KG’s.&lt;/p&gt;
+&lt;p&gt;In this project, we applied currently available solutions to address incremental
+knowledge graph embedding to several applications to test their efficiency. We also
+proposed an embedding model agnostic framework to make these models
+incremental. Firstly, we proposed a window-based incremental learning approach
+that discards least happening facts and performs link prediction on updated triples.
+Next, we presented experiments on a GCN model-agnostic meta-learning based approach.&lt;/p&gt;
+&lt;p&gt;To create edge embedding vectors, we experimented with two methods:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Concatenating head and tail’s 128-dimensional Node2Vec embedding vectors to create
+256-dimensional edge embedding&lt;/li&gt;
+&lt;li&gt;Subtracting head embedding from tail embedding vector to create 128-dimensional edge
+embedding vector
+Our best model is the Window-based KG Incremental Learning, where
+edge representations, are calculated from subtraction of embedding vectors of head
+and tail nodes&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;For the experiment, link prediction adjusted to a binary classification, with 0 and 1 representing
+link is present or absent respectively, was used, with Random-Forest model for training and prediction.
+Also, dataset is divided to training set and nine test sets as incremental updates, to generate 9 snapshots of graph with each snapshot, adding new nodes and updating edges compare to previous graph snapshot.&lt;/p&gt;
+&lt;p&gt;The second method we experimented with followed a model-agnostic meta-learning based approach
+with Graph Convolutional Networks(GCN). The idea here is to learn a GCN to predict the embeddings
+of new nodes given the old embeddings of its neighboring entities in the old graph and similarly
+obtain an updated representation of old entities based on the recently learned embedding of new
+entities. These two predictions are jointly iterated. This can be viewed as learning to learn problem
+(meta-learning).
+
+&lt;link rel=&#34;stylesheet&#34; href=/css/hugo-easy-gallery.css /&gt;
+&lt;div class=&#34;box&#34; style=&#34;max-width:50%&#34;&gt;
+  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/media/tsne-2d-40clusters.png#center&#34; alt=&#34;tsne visualization of top 40 entity embeddings cluster&#34;/&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;../../media/tsne-2d-40clusters.png#center&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+      &lt;figcaption&gt;
+          &lt;p&gt;tsne visualization of top 40 entity embeddings cluster&lt;/p&gt;
+      &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+
+
+
+
+  
+
+
+&lt;script src=&#34;https://code.jquery.com/jquery-1.12.4.min.js&#34; integrity=&#34;sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=&#34; crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;script src=/js/load-photoswipe.js&gt;&lt;/script&gt;
+
+
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.css&#34; integrity=&#34;sha256-sCl5PUOGMLfFYctzDW3MtRib0ctyUvI9Qsmq2wXOeBY=&#34; crossorigin=&#34;anonymous&#34; /&gt;
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/default-skin/default-skin.min.css&#34; integrity=&#34;sha256-BFeI1V+Vh1Rk37wswuOYn5lsTcaU96hGaI7OUVCLjPc=&#34; crossorigin=&#34;anonymous&#34; /&gt;
+&lt;script src=&#34;https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.js&#34; integrity=&#34;sha256-UplRCs9v4KXVJvVY+p+RSo5Q4ilAUXh7kpjyIP5odyc=&#34; crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe-ui-default.min.js&#34; integrity=&#34;sha256-PWHOlUzc96pMc8ThwRIXPn8yH4NOLu42RQ0b9SpnpFk=&#34; crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+
+
+&lt;div class=&#34;pswp&#34; tabindex=&#34;-1&#34; role=&#34;dialog&#34; aria-hidden=&#34;true&#34;&gt;
+
+&lt;div class=&#34;pswp__bg&#34;&gt;&lt;/div&gt;
+
+&lt;div class=&#34;pswp__scroll-wrap&#34;&gt;
+    
+    &lt;div class=&#34;pswp__container&#34;&gt;
+      &lt;div class=&#34;pswp__item&#34;&gt;&lt;/div&gt;
+      &lt;div class=&#34;pswp__item&#34;&gt;&lt;/div&gt;
+      &lt;div class=&#34;pswp__item&#34;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    
+    &lt;div class=&#34;pswp__ui pswp__ui--hidden&#34;&gt;
+    &lt;div class=&#34;pswp__top-bar&#34;&gt;
+      
+      &lt;div class=&#34;pswp__counter&#34;&gt;&lt;/div&gt;
+      &lt;button class=&#34;pswp__button pswp__button--close&#34; title=&#34;Close (Esc)&#34;&gt;&lt;/button&gt;
+      &lt;button class=&#34;pswp__button pswp__button--share&#34; title=&#34;Share&#34;&gt;&lt;/button&gt;
+      &lt;button class=&#34;pswp__button pswp__button--fs&#34; title=&#34;Toggle fullscreen&#34;&gt;&lt;/button&gt;
+      &lt;button class=&#34;pswp__button pswp__button--zoom&#34; title=&#34;Zoom in/out&#34;&gt;&lt;/button&gt;
+      
+      
+      &lt;div class=&#34;pswp__preloader&#34;&gt;
+        &lt;div class=&#34;pswp__preloader__icn&#34;&gt;
+          &lt;div class=&#34;pswp__preloader__cut&#34;&gt;
+            &lt;div class=&#34;pswp__preloader__donut&#34;&gt;&lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;pswp__share-modal pswp__share-modal--hidden pswp__single-tap&#34;&gt;
+      &lt;div class=&#34;pswp__share-tooltip&#34;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;button class=&#34;pswp__button pswp__button--arrow--left&#34; title=&#34;Previous (arrow left)&#34;&gt;
+    &lt;/button&gt;
+    &lt;button class=&#34;pswp__button pswp__button--arrow--right&#34; title=&#34;Next (arrow right)&#34;&gt;
+    &lt;/button&gt;
+    &lt;div class=&#34;pswp__caption&#34;&gt;
+      &lt;div class=&#34;pswp__caption__center&#34;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Incremental Knowledge Graphs</title>
       <link>/project/transe/</link>
       <pubDate>Sun, 15 Dec 2019 00:00:00 +0000</pubDate>
       <guid>/project/transe/</guid>
       <description>&lt;p&gt;This project was directed towards the final course project requirement for 
-&lt;a href=&#34;https://www.mcgill.ca/study/2019-2020/courses/comp-550&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;COMP 550: Natural Language Processing&lt;/a&gt; course at McGill University.&lt;/p&gt;
+&lt;a href=&#34;https://www.mcgill.ca/study/2019-2020/courses/comp-550&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;COMP 550: Natural Language Processing&lt;/a&gt;
+&lt;a href=&#34;https://www.mcgill.ca/study/2019-2020/courses/comp-550&#34; target=&#34;_blank&#34;&gt;COMP 550: Natural Language Processing&lt;/a&gt;
+ course at McGill University.&lt;/p&gt;
 &lt;p&gt;Knowledge graphs (KGs) succinctly represent
 real-world facts as multi-relational graphs. A
 plethora of work exists in embedding the information
@@ -147,7 +265,9 @@ with the occurrence of every new set
 of facts (triplets).&lt;/p&gt;
 &lt;p&gt;We build our solutions with
 
-&lt;a href=&#34;https://papers.nips.cc/paper/5071-translating-embeddings-for-modeling-multi-relational-data.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;TransE(Bordes et al.)&lt;/a&gt; as our base KG embedding model and
+&lt;a href=&#34;https://papers.nips.cc/paper/5071-translating-embeddings-for-modeling-multi-relational-data.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;TransE(Bordes et al.)&lt;/a&gt;
+&lt;a href=&#34;https://papers.nips.cc/paper/5071-translating-embeddings-for-modeling-multi-relational-data.pdf&#34; target=&#34;_blank&#34;&gt;TransE(Bordes et al.)&lt;/a&gt;
+ as our base KG embedding model and
 evaluate the learned embeddings on facts associated
 with these new entities.&lt;/p&gt;
 &lt;p&gt;To this aim, we formulated
@@ -159,12 +279,18 @@ based approach with Graph Convolutional Networks
 approach fared well, the proposed model independent
 approach failed to learn representations for a new entity.&lt;/p&gt;
 &lt;p&gt;We used 
-&lt;a href=&#34;https://github.com/thunlp/OpenKE&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;OpenKE’s&lt;/a&gt; implementation for setting our model. For our
+&lt;a href=&#34;https://github.com/thunlp/OpenKE&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;OpenKE’s&lt;/a&gt;
+&lt;a href=&#34;https://github.com/thunlp/OpenKE&#34; target=&#34;_blank&#34;&gt;OpenKE’s&lt;/a&gt;
+ implementation for setting our model. For our
 task, we made changes to the TransE model, so
 that it can learn the representations of the new entities. We employed the 
-&lt;a href=&#34;https://www.microsoft.com/en-us/download/details.aspx?id=52312&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;FB20K&lt;/a&gt; dataset
+&lt;a href=&#34;https://www.microsoft.com/en-us/download/details.aspx?id=52312&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;FB20K&lt;/a&gt;
+&lt;a href=&#34;https://www.microsoft.com/en-us/download/details.aspx?id=52312&#34; target=&#34;_blank&#34;&gt;FB20K&lt;/a&gt;
+ dataset
 (
-&lt;a href=&#34;http://nlp.csai.tsinghua.edu.cn/~lzy/publications/aaai2016_dkrl.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Xie et al., 2016&lt;/a&gt;) for our task. In addition to
+&lt;a href=&#34;http://nlp.csai.tsinghua.edu.cn/~lzy/publications/aaai2016_dkrl.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Xie et al., 2016&lt;/a&gt;
+&lt;a href=&#34;http://nlp.csai.tsinghua.edu.cn/~lzy/publications/aaai2016_dkrl.pdf&#34; target=&#34;_blank&#34;&gt;Xie et al., 2016&lt;/a&gt;
+) for our task. In addition to
 containing all the entities and relations from the
 FB15K dataset, this dataset also contains new entities
 which was required for our setup. We evaluate the models for link prediction, which
@@ -179,11 +305,19 @@ aims to predict the missing h or t for a relation fact
       <pubDate>Tue, 21 May 2019 09:20:41 -0400</pubDate>
       <guid>/project/gem/</guid>
       <description>&lt;p&gt;The project at Signzy involved training a generalizable model for information retrieval from OCR output of Indian ID cards. We used both character level embeddings and word level embeddings(
-&lt;a href=&#34;https://allennlp.org/elmo&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ELMO&lt;/a&gt;) in a stacked manner for language modelling before passing the concatenated embeddings to a bidirectional Long Short Term Memory neural network with Conditional Random Field modelling on LSTM output (
-&lt;a href=&#34;https://arxiv.org/abs/1508.01991&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Huang et al.&lt;/a&gt;) for final classification.&lt;/p&gt;
+&lt;a href=&#34;https://allennlp.org/elmo&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ELMO&lt;/a&gt;
+&lt;a href=&#34;https://allennlp.org/elmo&#34; target=&#34;_blank&#34;&gt;ELMO&lt;/a&gt;
+) in a stacked manner for language modelling before passing the concatenated embeddings to a bidirectional Long Short Term Memory neural network with Conditional Random Field modelling on LSTM output (
+&lt;a href=&#34;https://arxiv.org/abs/1508.01991&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Huang et al.&lt;/a&gt;
+&lt;a href=&#34;https://arxiv.org/abs/1508.01991&#34; target=&#34;_blank&#34;&gt;Huang et al.&lt;/a&gt;
+) for final classification.&lt;/p&gt;
 &lt;p&gt;The model was trained on a large corpus of text OCR outputs obtained from our own proprietary ID cards dataset for extracting non-trivial information such as Names, dates, numbers, addreses from any card. The training was done in a way to ensure the embeddings were also fine tuned. The 
-&lt;a href=&#34;https://github.com/flairNLP/flair&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;FlairNLP library&lt;/a&gt; was used to create the preprocessing, text embedding, training and postprocessing pipeline and training was performed using pytorch framework. Multiple combinations of embeddings including FlairEmbeddings(
-&lt;a href=&#34;https://www.aclweb.org/anthology/C18-1139/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Contextualized string embeddings for sequence labelling&lt;/a&gt;), BERT, CharacterEmbeddings, ELMO, XLNet were benchmarked before settling on the final pair based on accuracy, compute and efficiency considerations.&lt;/p&gt;
+&lt;a href=&#34;https://github.com/flairNLP/flair&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;FlairNLP library&lt;/a&gt;
+&lt;a href=&#34;https://github.com/flairNLP/flair&#34; target=&#34;_blank&#34;&gt;FlairNLP library&lt;/a&gt;
+ was used to create the preprocessing, text embedding, training and postprocessing pipeline and training was performed using pytorch framework. Multiple combinations of embeddings including FlairEmbeddings(
+&lt;a href=&#34;https://www.aclweb.org/anthology/C18-1139/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Contextualized string embeddings for sequence labelling&lt;/a&gt;
+&lt;a href=&#34;https://www.aclweb.org/anthology/C18-1139/&#34; target=&#34;_blank&#34;&gt;Contextualized string embeddings for sequence labelling&lt;/a&gt;
+), BERT, CharacterEmbeddings, ELMO, XLNet were benchmarked before settling on the final pair based on accuracy, compute and efficiency considerations.&lt;/p&gt;
 &lt;p&gt;Not only did the model perform admirably well on unseen text from ID types part of training data irrespective of variations in OCR output and image layout, but it generalised well for out of sample ID types too when finetuned with just 1-5 samples of these cards.&lt;/p&gt;
 &lt;p&gt;The idea behind this was to build a generic, flexible information retrieval engine thats pretrained to extract important information from OCR output of all ID cards without specifically being trained on them or having seen them, without any rule based processing, that can be easily finetuned on a very small number of samples of any new card type for optimum performance. This was made into a rest API as a plug and play product for clients to finetune the model on their samples and then use it out of the box to extract information from IDs. The performance was measured using precision and recall figures.&lt;/p&gt;
 </description>
@@ -198,8 +332,12 @@ aims to predict the missing h or t for a relation fact
 &lt;p&gt;This additional filter helps by ensuring only optimal quality images are passed on and poor quality images are screened at the client/user stage itself saving the users time and the server unnecessary processing, ensuring higher throughput and efficiency.&lt;/p&gt;
 &lt;p&gt;We implemented one such pipeline using an ensemble of models that qualitatively analysed images and produced a quantitative measure for image quality that could then be used as a threshold for decision on whether they are sent for downstream processing or the user is notified to repeat the request with better quality images. This quantitative score ensures flexibility for different tasks and different people tailored to their needs.&lt;/p&gt;
 &lt;p&gt;The model detects the blur in an image(
-&lt;a href=&#34;&#34;&gt;BlurNet&lt;/a&gt;), brightness of the image(a 
-&lt;a href=&#34;&#34;&gt;ResNet-18&lt;/a&gt; model trained for binary classification i.e dark vs bright) and the text readability(based on performance of text detection and OCR algorithms along with other filtering and morphological operations on the image to estimate textual region) and a meta layer performed computation on their individual outputs to provide a final cumulative Image Quality Score.&lt;/p&gt;
+&lt;a href=&#34;&#34;&gt;BlurNet&lt;/a&gt;
+&lt;a href=&#34;&#34;&gt;BlurNet&lt;/a&gt;
+), brightness of the image(a 
+&lt;a href=&#34;&#34;&gt;ResNet-18&lt;/a&gt;
+&lt;a href=&#34;&#34;&gt;ResNet-18&lt;/a&gt;
+ model trained for binary classification i.e dark vs bright) and the text readability(based on performance of text detection and OCR algorithms along with other filtering and morphological operations on the image to estimate textual region) and a meta layer performed computation on their individual outputs to provide a final cumulative Image Quality Score.&lt;/p&gt;
 &lt;p&gt;The final meta learner was trained taking the outputs of individual models as input with the average image quality scores assigned to each image by annotators being the output score. The annotation was done by assigning each image to atleast five random users and asking them to score the image on the three parameters i.e Blur, Brightness and readability out of 10 solely on their personal discretion. These scores were then fit into a weighting formula to generate a cumulative score. This final score obtained from all the annotators for each image was averaged to output the final ground truth score for the image.&lt;/p&gt;
 &lt;p&gt;The clients get both the final score as well as outputs from each individual model along with a short description about the image quality based on the score for analysis.&lt;/p&gt;
 </description>

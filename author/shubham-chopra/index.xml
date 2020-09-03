@@ -18,18 +18,29 @@
       <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
       <guid>/project/policy_gradient/</guid>
       <description>&lt;p&gt;This project was done as part of my final project submission for 
-&lt;a href=&#34;https://www.cs.mcgill.ca/~dprecup/courses/RL/lectures.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;COMP767: Reinforcement Learning&lt;/a&gt; course at McGill University&lt;/p&gt;
+&lt;a href=&#34;https://www.cs.mcgill.ca/~dprecup/courses/RL/lectures.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;COMP767: Reinforcement Learning&lt;/a&gt;
+&lt;a href=&#34;https://www.cs.mcgill.ca/~dprecup/courses/RL/lectures.html&#34; target=&#34;_blank&#34;&gt;COMP767: Reinforcement Learning&lt;/a&gt;
+ course at McGill University&lt;/p&gt;
 &lt;p&gt;In the recent years, significant work has been done in the field of Deep Reinforcement
 Learning, to solve challenging problems in many diverse domains. One such example,
 are Policy gradient algorithms, which are ubiquitous in state-of-the-art continuous control
 tasks. Policy gradient methods can be generally divided into two groups: off-policy
 gradient methods, such as 
-&lt;a href=&#34;https://arxiv.org/abs/1509.02971&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Deep Deterministic Policy Gradients (DDPG)&lt;/a&gt;, 
+&lt;a href=&#34;https://arxiv.org/abs/1509.02971&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Deep Deterministic Policy Gradients (DDPG)&lt;/a&gt;
+&lt;a href=&#34;https://arxiv.org/abs/1509.02971&#34; target=&#34;_blank&#34;&gt;Deep Deterministic Policy Gradients (DDPG)&lt;/a&gt;
+, 
 &lt;a href=&#34;https://arxiv.org/pdf/1802.09477.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Twin Delayed
-Deep Deterministic (TD3)&lt;/a&gt;, 
-&lt;a href=&#34;https://arxiv.org/abs/1801.01290&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Soft Actor Critic (SAC)&lt;/a&gt; and on-policy methods, such as
+Deep Deterministic (TD3)&lt;/a&gt;
+&lt;a href=&#34;https://arxiv.org/pdf/1802.09477.pdf&#34; target=&#34;_blank&#34;&gt;Twin Delayed
+Deep Deterministic (TD3)&lt;/a&gt;
+, 
+&lt;a href=&#34;https://arxiv.org/abs/1801.01290&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Soft Actor Critic (SAC)&lt;/a&gt;
+&lt;a href=&#34;https://arxiv.org/abs/1801.01290&#34; target=&#34;_blank&#34;&gt;Soft Actor Critic (SAC)&lt;/a&gt;
+ and on-policy methods, such as
 
-&lt;a href=&#34;https://arxiv.org/abs/1502.05477&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Trust Region Policy Optimization (TRPO)&lt;/a&gt;.&lt;/p&gt;
+&lt;a href=&#34;https://arxiv.org/abs/1502.05477&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Trust Region Policy Optimization (TRPO)&lt;/a&gt;
+&lt;a href=&#34;https://arxiv.org/abs/1502.05477&#34; target=&#34;_blank&#34;&gt;Trust Region Policy Optimization (TRPO)&lt;/a&gt;
+.&lt;/p&gt;
 &lt;p&gt;However, despite these successes on paper, reproducing deep RL results is rarely straightforward. There are many sources of possible instability and variance including extrinsic
 factors (such as hyper-parameters, noise-functions used) or intrinsic factors (such as random
 seeds, environment properties).&lt;/p&gt;

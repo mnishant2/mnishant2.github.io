@@ -677,8 +677,6 @@
 
 
 
-  
-
 
 
 
@@ -699,9 +697,6 @@
 
 
 
-<a class="btn btn-outline-primary my-1 mr-1" href="/project/transe/transe.pdf" target="_blank" rel="noopener">
-  PDF
-</a>
 
 
 
@@ -717,6 +712,24 @@
 
 
 
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+    
+      
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1" href="/files/transe.pdf" target="_blank" >
+    <i class="fas fa-file-pdf mr-1"></i>
+    Report
+  </a>
 
 
 </div>
@@ -738,7 +751,9 @@
 
     <div class="article-style">
       <p>This project was directed towards the final course project requirement for 
-<a href="https://www.mcgill.ca/study/2019-2020/courses/comp-550" target="_blank" rel="noopener">COMP 550: Natural Language Processing</a> course at McGill University.</p>
+<a href="https://www.mcgill.ca/study/2019-2020/courses/comp-550" target="_blank" rel="noopener">COMP 550: Natural Language Processing</a>
+<a href="https://www.mcgill.ca/study/2019-2020/courses/comp-550" target="_blank">COMP 550: Natural Language Processing</a>
+ course at McGill University.</p>
 <p>Knowledge graphs (KGs) succinctly represent
 real-world facts as multi-relational graphs. A
 plethora of work exists in embedding the information
@@ -762,7 +777,9 @@ with the occurrence of every new set
 of facts (triplets).</p>
 <p>We build our solutions with
 
-<a href="https://papers.nips.cc/paper/5071-translating-embeddings-for-modeling-multi-relational-data.pdf" target="_blank" rel="noopener">TransE(Bordes et al.)</a> as our base KG embedding model and
+<a href="https://papers.nips.cc/paper/5071-translating-embeddings-for-modeling-multi-relational-data.pdf" target="_blank" rel="noopener">TransE(Bordes et al.)</a>
+<a href="https://papers.nips.cc/paper/5071-translating-embeddings-for-modeling-multi-relational-data.pdf" target="_blank">TransE(Bordes et al.)</a>
+ as our base KG embedding model and
 evaluate the learned embeddings on facts associated
 with these new entities.</p>
 <p>To this aim, we formulated
@@ -774,12 +791,18 @@ based approach with Graph Convolutional Networks
 approach fared well, the proposed model independent
 approach failed to learn representations for a new entity.</p>
 <p>We used 
-<a href="https://github.com/thunlp/OpenKE" target="_blank" rel="noopener">OpenKE’s</a> implementation for setting our model. For our
+<a href="https://github.com/thunlp/OpenKE" target="_blank" rel="noopener">OpenKE’s</a>
+<a href="https://github.com/thunlp/OpenKE" target="_blank">OpenKE’s</a>
+ implementation for setting our model. For our
 task, we made changes to the TransE model, so
 that it can learn the representations of the new entities. We employed the 
-<a href="https://www.microsoft.com/en-us/download/details.aspx?id=52312" target="_blank" rel="noopener">FB20K</a> dataset
+<a href="https://www.microsoft.com/en-us/download/details.aspx?id=52312" target="_blank" rel="noopener">FB20K</a>
+<a href="https://www.microsoft.com/en-us/download/details.aspx?id=52312" target="_blank">FB20K</a>
+ dataset
 (
-<a href="http://nlp.csai.tsinghua.edu.cn/~lzy/publications/aaai2016_dkrl.pdf" target="_blank" rel="noopener">Xie et al., 2016</a>) for our task. In addition to
+<a href="http://nlp.csai.tsinghua.edu.cn/~lzy/publications/aaai2016_dkrl.pdf" target="_blank" rel="noopener">Xie et al., 2016</a>
+<a href="http://nlp.csai.tsinghua.edu.cn/~lzy/publications/aaai2016_dkrl.pdf" target="_blank">Xie et al., 2016</a>
+) for our task. In addition to
 containing all the entities and relations from the
 FB15K dataset, this dataset also contains new entities
 which was required for our setup. We evaluate the models for link prediction, which

@@ -18,18 +18,29 @@
       <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
       <guid>/project/policy_gradient/</guid>
       <description>&lt;p&gt;This project was done as part of my final project submission for 
-&lt;a href=&#34;https://www.cs.mcgill.ca/~dprecup/courses/RL/lectures.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;COMP767: Reinforcement Learning&lt;/a&gt; course at McGill University&lt;/p&gt;
+&lt;a href=&#34;https://www.cs.mcgill.ca/~dprecup/courses/RL/lectures.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;COMP767: Reinforcement Learning&lt;/a&gt;
+&lt;a href=&#34;https://www.cs.mcgill.ca/~dprecup/courses/RL/lectures.html&#34; target=&#34;_blank&#34;&gt;COMP767: Reinforcement Learning&lt;/a&gt;
+ course at McGill University&lt;/p&gt;
 &lt;p&gt;In the recent years, significant work has been done in the field of Deep Reinforcement
 Learning, to solve challenging problems in many diverse domains. One such example,
 are Policy gradient algorithms, which are ubiquitous in state-of-the-art continuous control
 tasks. Policy gradient methods can be generally divided into two groups: off-policy
 gradient methods, such as 
-&lt;a href=&#34;https://arxiv.org/abs/1509.02971&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Deep Deterministic Policy Gradients (DDPG)&lt;/a&gt;, 
+&lt;a href=&#34;https://arxiv.org/abs/1509.02971&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Deep Deterministic Policy Gradients (DDPG)&lt;/a&gt;
+&lt;a href=&#34;https://arxiv.org/abs/1509.02971&#34; target=&#34;_blank&#34;&gt;Deep Deterministic Policy Gradients (DDPG)&lt;/a&gt;
+, 
 &lt;a href=&#34;https://arxiv.org/pdf/1802.09477.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Twin Delayed
-Deep Deterministic (TD3)&lt;/a&gt;, 
-&lt;a href=&#34;https://arxiv.org/abs/1801.01290&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Soft Actor Critic (SAC)&lt;/a&gt; and on-policy methods, such as
+Deep Deterministic (TD3)&lt;/a&gt;
+&lt;a href=&#34;https://arxiv.org/pdf/1802.09477.pdf&#34; target=&#34;_blank&#34;&gt;Twin Delayed
+Deep Deterministic (TD3)&lt;/a&gt;
+, 
+&lt;a href=&#34;https://arxiv.org/abs/1801.01290&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Soft Actor Critic (SAC)&lt;/a&gt;
+&lt;a href=&#34;https://arxiv.org/abs/1801.01290&#34; target=&#34;_blank&#34;&gt;Soft Actor Critic (SAC)&lt;/a&gt;
+ and on-policy methods, such as
 
-&lt;a href=&#34;https://arxiv.org/abs/1502.05477&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Trust Region Policy Optimization (TRPO)&lt;/a&gt;.&lt;/p&gt;
+&lt;a href=&#34;https://arxiv.org/abs/1502.05477&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Trust Region Policy Optimization (TRPO)&lt;/a&gt;
+&lt;a href=&#34;https://arxiv.org/abs/1502.05477&#34; target=&#34;_blank&#34;&gt;Trust Region Policy Optimization (TRPO)&lt;/a&gt;
+.&lt;/p&gt;
 &lt;p&gt;However, despite these successes on paper, reproducing deep RL results is rarely straightforward. There are many sources of possible instability and variance including extrinsic
 factors (such as hyper-parameters, noise-functions used) or intrinsic factors (such as random
 seeds, environment properties).&lt;/p&gt;
@@ -48,7 +59,9 @@ Network Size, Batch Sizes) on the performance of these methods.&lt;/p&gt;
       <pubDate>Sun, 15 Dec 2019 00:00:00 +0000</pubDate>
       <guid>/project/transe/</guid>
       <description>&lt;p&gt;This project was directed towards the final course project requirement for 
-&lt;a href=&#34;https://www.mcgill.ca/study/2019-2020/courses/comp-550&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;COMP 550: Natural Language Processing&lt;/a&gt; course at McGill University.&lt;/p&gt;
+&lt;a href=&#34;https://www.mcgill.ca/study/2019-2020/courses/comp-550&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;COMP 550: Natural Language Processing&lt;/a&gt;
+&lt;a href=&#34;https://www.mcgill.ca/study/2019-2020/courses/comp-550&#34; target=&#34;_blank&#34;&gt;COMP 550: Natural Language Processing&lt;/a&gt;
+ course at McGill University.&lt;/p&gt;
 &lt;p&gt;Knowledge graphs (KGs) succinctly represent
 real-world facts as multi-relational graphs. A
 plethora of work exists in embedding the information
@@ -72,7 +85,9 @@ with the occurrence of every new set
 of facts (triplets).&lt;/p&gt;
 &lt;p&gt;We build our solutions with
 
-&lt;a href=&#34;https://papers.nips.cc/paper/5071-translating-embeddings-for-modeling-multi-relational-data.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;TransE(Bordes et al.)&lt;/a&gt; as our base KG embedding model and
+&lt;a href=&#34;https://papers.nips.cc/paper/5071-translating-embeddings-for-modeling-multi-relational-data.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;TransE(Bordes et al.)&lt;/a&gt;
+&lt;a href=&#34;https://papers.nips.cc/paper/5071-translating-embeddings-for-modeling-multi-relational-data.pdf&#34; target=&#34;_blank&#34;&gt;TransE(Bordes et al.)&lt;/a&gt;
+ as our base KG embedding model and
 evaluate the learned embeddings on facts associated
 with these new entities.&lt;/p&gt;
 &lt;p&gt;To this aim, we formulated
@@ -84,12 +99,18 @@ based approach with Graph Convolutional Networks
 approach fared well, the proposed model independent
 approach failed to learn representations for a new entity.&lt;/p&gt;
 &lt;p&gt;We used 
-&lt;a href=&#34;https://github.com/thunlp/OpenKE&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;OpenKE’s&lt;/a&gt; implementation for setting our model. For our
+&lt;a href=&#34;https://github.com/thunlp/OpenKE&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;OpenKE’s&lt;/a&gt;
+&lt;a href=&#34;https://github.com/thunlp/OpenKE&#34; target=&#34;_blank&#34;&gt;OpenKE’s&lt;/a&gt;
+ implementation for setting our model. For our
 task, we made changes to the TransE model, so
 that it can learn the representations of the new entities. We employed the 
-&lt;a href=&#34;https://www.microsoft.com/en-us/download/details.aspx?id=52312&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;FB20K&lt;/a&gt; dataset
+&lt;a href=&#34;https://www.microsoft.com/en-us/download/details.aspx?id=52312&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;FB20K&lt;/a&gt;
+&lt;a href=&#34;https://www.microsoft.com/en-us/download/details.aspx?id=52312&#34; target=&#34;_blank&#34;&gt;FB20K&lt;/a&gt;
+ dataset
 (
-&lt;a href=&#34;http://nlp.csai.tsinghua.edu.cn/~lzy/publications/aaai2016_dkrl.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Xie et al., 2016&lt;/a&gt;) for our task. In addition to
+&lt;a href=&#34;http://nlp.csai.tsinghua.edu.cn/~lzy/publications/aaai2016_dkrl.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Xie et al., 2016&lt;/a&gt;
+&lt;a href=&#34;http://nlp.csai.tsinghua.edu.cn/~lzy/publications/aaai2016_dkrl.pdf&#34; target=&#34;_blank&#34;&gt;Xie et al., 2016&lt;/a&gt;
+) for our task. In addition to
 containing all the entities and relations from the
 FB15K dataset, this dataset also contains new entities
 which was required for our setup. We evaluate the models for link prediction, which
