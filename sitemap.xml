@@ -33,11 +33,6 @@
   </url>
   
   <url>
-    <loc>/project/activity_recognition/</loc>
-    <lastmod>2020-08-21T09:20:15-04:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/project/ocr_asr/</loc>
     <lastmod>2020-08-21T09:20:00-04:00</lastmod>
   </url>
@@ -153,7 +148,37 @@
   </url>
   
   <url>
+    <loc>/tag/fb20k/</loc>
+    <lastmod>2020-04-14T09:23:37-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/gcn/</loc>
+    <lastmod>2020-04-14T09:23:37-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/graph/</loc>
+    <lastmod>2020-04-14T09:23:37-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/category/graph-representation-learning/</loc>
+    <lastmod>2020-04-14T09:23:37-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/knowledge-bases/</loc>
+    <lastmod>2020-04-14T09:23:37-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/project/online_learning/</loc>
+    <lastmod>2020-04-14T09:23:37-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/other/</loc>
     <lastmod>2020-04-14T09:23:37-04:00</lastmod>
   </url>
   
@@ -168,17 +193,7 @@
   </url>
   
   <url>
-    <loc>/tag/gcn/</loc>
-    <lastmod>2019-12-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/tag/graph-represeantation-learning/</loc>
-    <lastmod>2019-12-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/category/graph-representation-learning/</loc>
     <lastmod>2019-12-15T00:00:00+00:00</lastmod>
   </url>
   
@@ -214,37 +229,82 @@
   
   <url>
     <loc>/tag/blur/</loc>
-    <lastmod>2019-01-21T09:20:23-04:00</lastmod>
+    <lastmod>2019-01-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/tag/brightness/</loc>
-    <lastmod>2019-01-21T09:20:23-04:00</lastmod>
+    <lastmod>2019-01-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/author/christen-miller/</loc>
-    <lastmod>2019-01-21T09:20:23-04:00</lastmod>
+    <lastmod>2019-01-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/category/ensemble/</loc>
-    <lastmod>2019-01-21T09:20:23-04:00</lastmod>
+    <loc>/category/ensemble-learning/</loc>
+    <lastmod>2019-01-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/project/iqa/</loc>
-    <lastmod>2019-01-21T09:20:23-04:00</lastmod>
+    <lastmod>2019-01-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/resnet18/</loc>
+    <lastmod>2019-01-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/tag/text-readability/</loc>
-    <lastmod>2019-01-21T09:20:23-04:00</lastmod>
+    <lastmod>2019-01-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/category/vision/</loc>
-    <lastmod>2019-01-21T09:20:23-04:00</lastmod>
+    <lastmod>2019-01-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/project/activity_recognition/</loc>
+    <lastmod>2017-10-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/deep-learning/</loc>
+    <lastmod>2017-10-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/hackathon/</loc>
+    <lastmod>2017-10-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/kth/</loc>
+    <lastmod>2017-10-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/opencv/</loc>
+    <lastmod>2017-10-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/pca/</loc>
+    <lastmod>2017-10-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/rohit-mohan/</loc>
+    <lastmod>2017-10-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/sih/</loc>
+    <lastmod>2017-10-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>

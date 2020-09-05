@@ -23,7 +23,7 @@
     <item>
       <title>IQA</title>
       <link>/project/iqa/</link>
-      <pubDate>Mon, 21 Jan 2019 09:20:23 -0400</pubDate>
+      <pubDate>Mon, 21 Jan 2019 00:00:00 +0000</pubDate>
       <guid>/project/iqa/</guid>
       <description>&lt;p&gt;Many of the vision based applications or APIs meant for information retrieval/data verification such as Text extraction or face recognition need a minimal quality of image for efficient processing and adequate performance. Hence it becomes imperative to implement an Image quality assessment layer before proceeding with further processing. This will ensure smooth applicaton of the vision algorithms, reliable performance and an overall time reduction by ensuring less redundant computations on oor quality images, and prventing multiple requests and passes through the algorithm.&lt;/p&gt;
 &lt;p&gt;This additional filter helps by ensuring only optimal quality images are passed on and poor quality images are screened at the client/user stage itself saving the users time and the server unnecessary processing, ensuring higher throughput and efficiency.&lt;/p&gt;

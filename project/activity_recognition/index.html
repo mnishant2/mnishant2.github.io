@@ -30,7 +30,7 @@
   
     
   
-  <meta name="description" content="">
+  <meta name="description" content="Using traditional computer vision with deep learning algorithms for Anomalous activity detection from CCTV camera feed">
 
   
   <link rel="alternate" hreflang="en-us" href="/project/activity_recognition/">
@@ -247,14 +247,14 @@
   
   <meta property="og:site_name" content="Nishant Mishra">
   <meta property="og:url" content="/project/activity_recognition/">
-  <meta property="og:title" content="Activity_recognition | Nishant Mishra">
-  <meta property="og:description" content=""><meta property="og:image" content="/project/activity_recognition/featured.gif">
+  <meta property="og:title" content="Activity Recognition | Nishant Mishra">
+  <meta property="og:description" content="Using traditional computer vision with deep learning algorithms for Anomalous activity detection from CCTV camera feed"><meta property="og:image" content="/project/activity_recognition/featured.gif">
   <meta property="twitter:image" content="/project/activity_recognition/featured.gif"><meta property="og:locale" content="en-us">
   
     
-      <meta property="article:published_time" content="2020-08-21T09:20:15-04:00">
+      <meta property="article:published_time" content="2017-10-15T00:00:00&#43;00:00">
     
-    <meta property="article:modified_time" content="2020-08-21T09:20:15-04:00">
+    <meta property="article:modified_time" content="2017-10-15T00:00:00&#43;00:00">
   
 
   
@@ -278,14 +278,14 @@
     "@type": "WebPage",
     "@id": "/project/activity_recognition/"
   },
-  "headline": "Activity_recognition",
+  "headline": "Activity Recognition",
   
   "image": [
     "/project/activity_recognition/featured.gif"
   ],
   
-  "datePublished": "2020-08-21T09:20:15-04:00",
-  "dateModified": "2020-08-21T09:20:15-04:00",
+  "datePublished": "2017-10-15T00:00:00Z",
+  "dateModified": "2017-10-15T00:00:00Z",
   
   "author": {
     "@type": "Person",
@@ -300,7 +300,7 @@
       "url": "/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png"
     }
   },
-  "description": ""
+  "description": "Using traditional computer vision with deep learning algorithms for Anomalous activity detection from CCTV camera feed"
 }
 </script>
 
@@ -318,7 +318,7 @@
 
 
 
-  <title>Activity_recognition | Nishant Mishra</title>
+  <title>Activity Recognition | Nishant Mishra</title>
 
 </head>
 <body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
@@ -614,7 +614,7 @@
 
 
 <div class="article-container pt-3">
-  <h1>Activity_recognition</h1>
+  <h1>Activity Recognition</h1>
 
   
 
@@ -625,6 +625,16 @@
 
   
   
+  
+  
+  <div>
+    
+
+  
+  <span >Nishant Mishra</span>, <span >Rohit Mohan</span>
+  </div>
+  
+  
 
   
   <span class="article-date">
@@ -632,7 +642,7 @@
     
       
     
-    Aug 21, 2020
+    Oct 15, 2017
   </span>
   
 
@@ -648,6 +658,10 @@
   
 
   
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder mr-1"></i><a href="/category/vision/">vision</a>, <a href="/category/deep-learning/">deep learning</a></span>
   
 
 </div>
@@ -665,6 +679,71 @@
 
 
 
+
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1" href="https://github.com/mnishant2/Anomalous-Activity-Detection" target="_blank" target="_blank" rel="noopener">
+    <i class="fab fa-github mr-1"></i>
+    Code
+  </a>
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1" href="https://youtu.be/X4-FKr6lOTY" target="_blank" target="_blank" rel="noopener">
+    <i class="fas fa-play mr-1"></i>
+    Video
+  </a>
+
+
+</div>
 
 
 </div>
@@ -682,7 +761,22 @@
   <div class="article-container">
 
     <div class="article-style">
-      
+      <p>This work was selected for and presented at the final round of Smart India Hackathon 2017 by government of India.
+The project involved implementing a proof of concept system to detect anomalous activities from camera feed. For this purpose we used the 
+<a href="https://www.csc.kth.se/cvap/actions/" target="_blank" rel="noopener">Database for recognition of human actions</a>
+<a href="https://www.csc.kth.se/cvap/actions/" target="_blank">Database for recognition of human actions</a>
+ from the Computer Science department at KTH Royal institute of technology.</p>
+<p>The database consists of seven types of human actions (walking, jogging, running, boxing, hand waving, sliding and hand clapping) performed several times by 25 subjects in four different scenarios: outdoors:s1, outdoors with scale variation:s2, outdoors with different clothes:s3 and indoors:s4. All sequences were taken over homogeneous backgrounds with a static camera with 25fps frame rate. The sequences were downsampled to the spatial resolution of 160x120 pixels and have a length of four seconds in average.</p>
+<p>The SOP of the project was preprocessing and feature extraction from the sequences to be passed on for training. All the frames were smoothed with a gaussian filter. This was followed by contour detection. A novel approach of pooling extracted contours(green boxes in video) after 
+<a href="https://docs.opencv.org/3.4/d1/dc5/tutorial_background_subtraction.html" target="_blank" rel="noopener">Mixture of Gaussian based Background subtraction</a>
+<a href="https://docs.opencv.org/3.4/d1/dc5/tutorial_background_subtraction.html" target="_blank">Mixture of Gaussian based Background subtraction</a>
+ to get an aggregate binary boundary image of the foreground(contour of the subjects)(blue bounding box in video) as features was implemented.</p>
+<p>In order to account for the temporal aspect, these final contour images were aggregated in batches of five consecutive frames to be passed on to the Neural Network for training. Additional quantities such as centroid, median topmost, bottommost coordinates of the contours, and squared differences of consecutive left and right coordinates were also claculated for the batch of five frames and passed on to represent the speed and posture. All of these features were concatenated and 
+<a href="https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.PCA.html" target="_blank" rel="noopener">Principal Component Analysis</a>
+<a href="https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.PCA.html" target="_blank">Principal Component Analysis</a>
+ was applied to them for reducing the dimensionality with n_components=100 that captured most of the variance in the feature space while minimizing the dimension and hence computation and storage requirements. The features were than stored using cPickle.</p>
+<p>Both Fully connected neural network and CNN were used for training with comparable performance, with an accuracy of ~96% for classification of activities as anomaalous or normal. From the above mentioned actions, boxing and sliding were grouped as anomalous activities and the rest 5 as non anomalous.</p>
+
     </div>
 
     
@@ -691,6 +785,24 @@
 
 
 
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tag/vision/">vision</a>
+  
+  <a class="badge badge-light" href="/tag/deep-learning/">deep learning</a>
+  
+  <a class="badge badge-light" href="/tag/hackathon/">hackathon</a>
+  
+  <a class="badge badge-light" href="/tag/sih/">SIH</a>
+  
+  <a class="badge badge-light" href="/tag/kth/">KTH</a>
+  
+  <a class="badge badge-light" href="/tag/pca/">PCA</a>
+  
+  <a class="badge badge-light" href="/tag/opencv/">opencv</a>
+  
+</div>
 
 
 
@@ -705,7 +817,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=/project/activity_recognition/&amp;text=Activity_recognition" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=/project/activity_recognition/&amp;text=Activity%20Recognition" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -718,7 +830,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=/project/activity_recognition/&amp;t=Activity_recognition" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=/project/activity_recognition/&amp;t=Activity%20Recognition" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -731,7 +843,7 @@
       
       
       <li>
-        <a href="mailto:?subject=Activity_recognition&amp;body=/project/activity_recognition/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=Activity%20Recognition&amp;body=/project/activity_recognition/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -744,7 +856,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=/project/activity_recognition/&amp;title=Activity_recognition" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=/project/activity_recognition/&amp;title=Activity%20Recognition" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -757,7 +869,7 @@
       
       
       <li>
-        <a href="whatsapp://send?text=Activity_recognition%20/project/activity_recognition/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="whatsapp://send?text=Activity%20Recognition%20/project/activity_recognition/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -770,7 +882,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=/project/activity_recognition/&amp;title=Activity_recognition" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=/project/activity_recognition/&amp;title=Activity%20Recognition" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -790,122 +902,28 @@
 
 
   
-  
+    
+    
 
 
 
 
 
   
-    
-    
-    
-      
-    
-    
-    
-    <div class="media author-card content-widget-hr">
-      
-        
-        <img class="avatar mr-3 avatar-circle" src="/author/nishant-mishra/avatar_hu1fef3c132241d276c6bdd94fb6aee72d_1622346_270x270_fill_lanczos_center_2.png" alt="Nishant Mishra">
-      
 
-      <div class="media-body">
-        <h5 class="card-title"><a href="/">Nishant Mishra</a></h5>
-        <h6 class="card-subtitle">Graduate Student(MS Thesis)</h6>
-        <p class="card-text">My research interests include distributed robotics, mobile computing and programmable matter.</p>
-        <ul class="network-icon" aria-hidden="true">
-  
-    
-    
-    
-      
-    
-    
-    
-    
-    
-      
-    
-    <li>
-      <a href="/#contact" >
-        <i class="fas fa-envelope"></i>
-      </a>
-    </li>
-  
-    
-    
-    
-    
-    
-    
-    
-      
-    
-    <li>
-      <a href="https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ" target="_blank" rel="noopener">
-        <i class="ai ai-google-scholar"></i>
-      </a>
-    </li>
-  
-    
-    
-    
-      
-    
-    
-    
-    
-    
-      
-    
-    <li>
-      <a href="https://github.com/mnishant2" target="_blank" rel="noopener">
-        <i class="fab fa-github"></i>
-      </a>
-    </li>
-  
-    
-    
-    
-      
-    
-    
-    
-    
-    
-      
-    
-    <li>
-      <a href="https://linkedin.com/in/mnishant2" target="_blank" rel="noopener">
-        <i class="fab fa-linkedin"></i>
-      </a>
-    </li>
-  
-    
-    
-    
-      
-    
-    
-    
-    
-    
-      
-    
-    <li>
-      <a href="https://medium.com/@mnishant2" target="_blank" rel="noopener">
-        <i class="fab fa-medium"></i>
-      </a>
-    </li>
-  
-</ul>
 
-      </div>
-    </div>
+  
+    
+    
+
+
+
+
+
   
 
 
+  
 
 
 
@@ -947,6 +965,21 @@
 
 
   
+  
+  <div class="article-widget content-widget-hr">
+    <h3>Related</h3>
+    <ul>
+      
+      <li><a href="/project/dory-ocr/">Dory OCR</a></li>
+      
+      <li><a href="/project/iqa/">IQA</a></li>
+      
+      <li><a href="/project/highlighter/">Highlighter(Auto field detection)</a></li>
+      
+      <li><a href="/project/gem/">Generic Extraction Module (G.E.M)</a></li>
+      
+    </ul>
+  </div>
   
 
 

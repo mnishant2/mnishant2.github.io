@@ -5,12 +5,297 @@
     <link>/author/nishant-mishra/</link>
       <atom:link href="/author/nishant-mishra/index.xml" rel="self" type="application/rss+xml" />
     <description>Nishant Mishra</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Fri, 21 Aug 2020 09:18:07 -0400</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Nishant Mishra</title>
       <link>/author/nishant-mishra/</link>
     </image>
+    
+    <item>
+      <title>Highlighter(Auto field detection)</title>
+      <link>/project/highlighter/</link>
+      <pubDate>Fri, 21 Aug 2020 09:18:07 -0400</pubDate>
+      <guid>/project/highlighter/</guid>
+      <description>&lt;p&gt;This project involved an automatic highlighter tool for automatic highlighting and extraction of specific form fields from documents for further processing such as Optical Character Recognition, information retrieval from handwritten documents or even to facilitate semi manual digital population of records from forms using a user interface.&lt;/p&gt;
+&lt;p&gt;The tool utilizes document layout detection, classical Computer vision techniques like template matching and mathematical heuristics to create a generalizable automatic highlighting tool using only one sample of the concerned document.&lt;/p&gt;
+&lt;p&gt;The associated repository here is designed for handling a particular bank form and is a command line highlighting tool that can be appropriated/extended for other documents and interfaces.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Dory OCR</title>
+      <link>/project/dory-ocr/</link>
+      <pubDate>Tue, 18 Aug 2020 00:34:01 -0400</pubDate>
+      <guid>/project/dory-ocr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Policy Gradient</title>
+      <link>/project/policy_gradient/</link>
+      <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
+      <guid>/project/policy_gradient/</guid>
+      <description>&lt;p&gt;This project was done as part of my final project submission for 
+&lt;a href=&#34;https://www.cs.mcgill.ca/~dprecup/courses/RL/lectures.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;COMP767: Reinforcement Learning&lt;/a&gt;
+&lt;a href=&#34;https://www.cs.mcgill.ca/~dprecup/courses/RL/lectures.html&#34; target=&#34;_blank&#34;&gt;COMP767: Reinforcement Learning&lt;/a&gt;
+ course at McGill University&lt;/p&gt;
+&lt;p&gt;In the recent years, significant work has been done in the field of Deep Reinforcement
+Learning, to solve challenging problems in many diverse domains. One such example,
+are Policy gradient algorithms, which are ubiquitous in state-of-the-art continuous control
+tasks. Policy gradient methods can be generally divided into two groups: off-policy
+gradient methods, such as 
+&lt;a href=&#34;https://arxiv.org/abs/1509.02971&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Deep Deterministic Policy Gradients (DDPG)&lt;/a&gt;
+&lt;a href=&#34;https://arxiv.org/abs/1509.02971&#34; target=&#34;_blank&#34;&gt;Deep Deterministic Policy Gradients (DDPG)&lt;/a&gt;
+, 
+&lt;a href=&#34;https://arxiv.org/pdf/1802.09477.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Twin Delayed
+Deep Deterministic (TD3)&lt;/a&gt;
+&lt;a href=&#34;https://arxiv.org/pdf/1802.09477.pdf&#34; target=&#34;_blank&#34;&gt;Twin Delayed
+Deep Deterministic (TD3)&lt;/a&gt;
+, 
+&lt;a href=&#34;https://arxiv.org/abs/1801.01290&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Soft Actor Critic (SAC)&lt;/a&gt;
+&lt;a href=&#34;https://arxiv.org/abs/1801.01290&#34; target=&#34;_blank&#34;&gt;Soft Actor Critic (SAC)&lt;/a&gt;
+ and on-policy methods, such as
+
+&lt;a href=&#34;https://arxiv.org/abs/1502.05477&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Trust Region Policy Optimization (TRPO)&lt;/a&gt;
+&lt;a href=&#34;https://arxiv.org/abs/1502.05477&#34; target=&#34;_blank&#34;&gt;Trust Region Policy Optimization (TRPO)&lt;/a&gt;
+.&lt;/p&gt;
+&lt;p&gt;However, despite these successes on paper, reproducing deep RL results is rarely straightforward. There are many sources of possible instability and variance including extrinsic
+factors (such as hyper-parameters, noise-functions used) or intrinsic factors (such as random
+seeds, environment properties).&lt;/p&gt;
+&lt;p&gt;In this project, we perform two different analysis on these policy gradient methods:
+(i) Reproduction and Comparison: We implement a variant of DDPG, based on the original
+paper. We then attempt to reproduce the results of DDPG (our implementation) and
+TD3 and compare them with the well-established methods of REINFORCE and A2C.
+(ii) Hyper-Parameter Tuning: We also, study the effect of various Hyper-Parameters(namely
+Network Size, Batch Sizes) on the performance of these methods.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Online Learning of temporal Knowledge Graphs</title>
+      <link>/project/online_learning/</link>
+      <pubDate>Tue, 14 Apr 2020 09:23:37 -0400</pubDate>
+      <guid>/project/online_learning/</guid>
+      <description>&lt;p&gt;This project was undertaken as part of the  final project for 
+&lt;a href=&#34;https://cs.mcgill.ca/~wlh/comp766/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;COMP 766: Graph Representation Learning&lt;/a&gt;
+&lt;a href=&#34;https://cs.mcgill.ca/~wlh/comp766/&#34; target=&#34;_blank&#34;&gt;COMP 766: Graph Representation Learning&lt;/a&gt;
+ course at McGill University.&lt;/p&gt;
+&lt;p&gt;For many computer science sub-fields, knowledge graphs (KG) remain a constant
+abstraction whose usefulness relies in their representation power. However, dynamic
+environments, such as the temporal streams of social media information,
+brings a greater necessity of incorporating additional structures to KG’s.&lt;/p&gt;
+&lt;p&gt;In this project, we applied currently available solutions to address incremental
+knowledge graph embedding to several applications to test their efficiency. We also
+proposed an embedding model agnostic framework to make these models
+incremental. Firstly, we proposed a window-based incremental learning approach
+that discards least happening facts and performs link prediction on updated triples.
+Next, we presented experiments on a GCN model-agnostic meta-learning based approach.&lt;/p&gt;
+&lt;p&gt;To create edge embedding vectors, we experimented with two methods:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Concatenating head and tail’s 128-dimensional Node2Vec embedding vectors to create
+256-dimensional edge embedding&lt;/li&gt;
+&lt;li&gt;Subtracting head embedding from tail embedding vector to create 128-dimensional edge
+embedding vector
+Our best model is the Window-based KG Incremental Learning, where
+edge representations, are calculated from subtraction of embedding vectors of head
+and tail nodes&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;For the experiment, link prediction adjusted to a binary classification, with 0 and 1 representing
+link is present or absent respectively, was used, with Random-Forest model for training and prediction.
+Also, dataset is divided to training set and nine test sets as incremental updates, to generate 9 snapshots of graph with each snapshot, adding new nodes and updating edges compare to previous graph snapshot.&lt;/p&gt;
+&lt;p&gt;The second method we experimented with followed a model-agnostic meta-learning based approach
+with Graph Convolutional Networks(GCN). The idea here is to learn a GCN to predict the embeddings
+of new nodes given the old embeddings of its neighboring entities in the old graph and similarly
+obtain an updated representation of old entities based on the recently learned embedding of new
+entities. These two predictions are jointly iterated. This can be viewed as learning to learn problem
+(meta-learning).
+
+&lt;link rel=&#34;stylesheet&#34; href=/css/hugo-easy-gallery.css /&gt;
+&lt;div class=&#34;box&#34; style=&#34;max-width:50%&#34;&gt;
+  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/media/tsne-2d-40clusters.png#center&#34; alt=&#34;tsne visualization of top 40 entity embeddings cluster&#34;/&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;../../media/tsne-2d-40clusters.png#center&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+      &lt;figcaption&gt;
+          &lt;p&gt;tsne visualization of top 40 entity embeddings cluster&lt;/p&gt;
+      &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+
+
+
+
+  
+
+
+&lt;script src=&#34;https://code.jquery.com/jquery-1.12.4.min.js&#34; integrity=&#34;sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=&#34; crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;script src=/js/load-photoswipe.js&gt;&lt;/script&gt;
+
+
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.css&#34; integrity=&#34;sha256-sCl5PUOGMLfFYctzDW3MtRib0ctyUvI9Qsmq2wXOeBY=&#34; crossorigin=&#34;anonymous&#34; /&gt;
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/default-skin/default-skin.min.css&#34; integrity=&#34;sha256-BFeI1V+Vh1Rk37wswuOYn5lsTcaU96hGaI7OUVCLjPc=&#34; crossorigin=&#34;anonymous&#34; /&gt;
+&lt;script src=&#34;https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.js&#34; integrity=&#34;sha256-UplRCs9v4KXVJvVY+p+RSo5Q4ilAUXh7kpjyIP5odyc=&#34; crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe-ui-default.min.js&#34; integrity=&#34;sha256-PWHOlUzc96pMc8ThwRIXPn8yH4NOLu42RQ0b9SpnpFk=&#34; crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+
+
+&lt;div class=&#34;pswp&#34; tabindex=&#34;-1&#34; role=&#34;dialog&#34; aria-hidden=&#34;true&#34;&gt;
+
+&lt;div class=&#34;pswp__bg&#34;&gt;&lt;/div&gt;
+
+&lt;div class=&#34;pswp__scroll-wrap&#34;&gt;
+    
+    &lt;div class=&#34;pswp__container&#34;&gt;
+      &lt;div class=&#34;pswp__item&#34;&gt;&lt;/div&gt;
+      &lt;div class=&#34;pswp__item&#34;&gt;&lt;/div&gt;
+      &lt;div class=&#34;pswp__item&#34;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    
+    &lt;div class=&#34;pswp__ui pswp__ui--hidden&#34;&gt;
+    &lt;div class=&#34;pswp__top-bar&#34;&gt;
+      
+      &lt;div class=&#34;pswp__counter&#34;&gt;&lt;/div&gt;
+      &lt;button class=&#34;pswp__button pswp__button--close&#34; title=&#34;Close (Esc)&#34;&gt;&lt;/button&gt;
+      &lt;button class=&#34;pswp__button pswp__button--share&#34; title=&#34;Share&#34;&gt;&lt;/button&gt;
+      &lt;button class=&#34;pswp__button pswp__button--fs&#34; title=&#34;Toggle fullscreen&#34;&gt;&lt;/button&gt;
+      &lt;button class=&#34;pswp__button pswp__button--zoom&#34; title=&#34;Zoom in/out&#34;&gt;&lt;/button&gt;
+      
+      
+      &lt;div class=&#34;pswp__preloader&#34;&gt;
+        &lt;div class=&#34;pswp__preloader__icn&#34;&gt;
+          &lt;div class=&#34;pswp__preloader__cut&#34;&gt;
+            &lt;div class=&#34;pswp__preloader__donut&#34;&gt;&lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;pswp__share-modal pswp__share-modal--hidden pswp__single-tap&#34;&gt;
+      &lt;div class=&#34;pswp__share-tooltip&#34;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;button class=&#34;pswp__button pswp__button--arrow--left&#34; title=&#34;Previous (arrow left)&#34;&gt;
+    &lt;/button&gt;
+    &lt;button class=&#34;pswp__button pswp__button--arrow--right&#34; title=&#34;Next (arrow right)&#34;&gt;
+    &lt;/button&gt;
+    &lt;div class=&#34;pswp__caption&#34;&gt;
+      &lt;div class=&#34;pswp__caption__center&#34;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Incremental Knowledge Graphs</title>
+      <link>/project/transe/</link>
+      <pubDate>Sun, 15 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>/project/transe/</guid>
+      <description>&lt;p&gt;This project was directed towards the final course project requirement for 
+&lt;a href=&#34;https://www.mcgill.ca/study/2019-2020/courses/comp-550&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;COMP 550: Natural Language Processing&lt;/a&gt;
+&lt;a href=&#34;https://www.mcgill.ca/study/2019-2020/courses/comp-550&#34; target=&#34;_blank&#34;&gt;COMP 550: Natural Language Processing&lt;/a&gt;
+ course at McGill University.&lt;/p&gt;
+&lt;p&gt;Knowledge graphs (KGs) succinctly represent
+real-world facts as multi-relational graphs. A
+plethora of work exists in embedding the information
+in KG to a continuous vector space in
+order to obtain new facts and facilitate multiple
+down-stream NLP tasks.&lt;/p&gt;
+&lt;p&gt;Despite the popularity
+of the KG embedding problem, to the
+best of our knowledge, we find that no existing
+work handles dynamic/evolving knowledge
+graphs that incorporates facts about new
+entities.&lt;/p&gt;
+&lt;p&gt;In this project, we propose this problem
+as an incremental learning problem and
+propose solutions to obtain representations for
+new entities and also update the representations
+of old entities that share facts with these
+newer entities. The primary motive of this setup is to avoid
+relearning the knowledge graph embedding altogether
+with the occurrence of every new set
+of facts (triplets).&lt;/p&gt;
+&lt;p&gt;We build our solutions with
+
+&lt;a href=&#34;https://papers.nips.cc/paper/5071-translating-embeddings-for-modeling-multi-relational-data.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;TransE(Bordes et al.)&lt;/a&gt;
+&lt;a href=&#34;https://papers.nips.cc/paper/5071-translating-embeddings-for-modeling-multi-relational-data.pdf&#34; target=&#34;_blank&#34;&gt;TransE(Bordes et al.)&lt;/a&gt;
+ as our base KG embedding model and
+evaluate the learned embeddings on facts associated
+with these new entities.&lt;/p&gt;
+&lt;p&gt;To this aim, we formulated
+two solutions; the first approach followed a finetuning
+based transfer-learning solution, and the
+second followed a model-agnostic meta-learning
+based approach with Graph Convolutional Networks
+(GCN). While our model-specific finetuning
+approach fared well, the proposed model independent
+approach failed to learn representations for a new entity.&lt;/p&gt;
+&lt;p&gt;We used 
+&lt;a href=&#34;https://github.com/thunlp/OpenKE&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;OpenKE’s&lt;/a&gt;
+&lt;a href=&#34;https://github.com/thunlp/OpenKE&#34; target=&#34;_blank&#34;&gt;OpenKE’s&lt;/a&gt;
+ implementation for setting our model. For our
+task, we made changes to the TransE model, so
+that it can learn the representations of the new entities. We employed the 
+&lt;a href=&#34;https://www.microsoft.com/en-us/download/details.aspx?id=52312&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;FB20K&lt;/a&gt;
+&lt;a href=&#34;https://www.microsoft.com/en-us/download/details.aspx?id=52312&#34; target=&#34;_blank&#34;&gt;FB20K&lt;/a&gt;
+ dataset
+(
+&lt;a href=&#34;http://nlp.csai.tsinghua.edu.cn/~lzy/publications/aaai2016_dkrl.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Xie et al., 2016&lt;/a&gt;
+&lt;a href=&#34;http://nlp.csai.tsinghua.edu.cn/~lzy/publications/aaai2016_dkrl.pdf&#34; target=&#34;_blank&#34;&gt;Xie et al., 2016&lt;/a&gt;
+) for our task. In addition to
+containing all the entities and relations from the
+FB15K dataset, this dataset also contains new entities
+which was required for our setup. We evaluate the models for link prediction, which
+aims to predict the missing h or t for a relation fact
+(h, r, t).&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>IQA</title>
+      <link>/project/iqa/</link>
+      <pubDate>Mon, 21 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>/project/iqa/</guid>
+      <description>&lt;p&gt;Many of the vision based applications or APIs meant for information retrieval/data verification such as Text extraction or face recognition need a minimal quality of image for efficient processing and adequate performance. Hence it becomes imperative to implement an Image quality assessment layer before proceeding with further processing. This will ensure smooth applicaton of the vision algorithms, reliable performance and an overall time reduction by ensuring less redundant computations on oor quality images, and prventing multiple requests and passes through the algorithm.&lt;/p&gt;
+&lt;p&gt;This additional filter helps by ensuring only optimal quality images are passed on and poor quality images are screened at the client/user stage itself saving the users time and the server unnecessary processing, ensuring higher throughput and efficiency.&lt;/p&gt;
+&lt;p&gt;We implemented one such pipeline using an ensemble of models that qualitatively analysed images and produced a quantitative measure for image quality that could then be used as a threshold for decision on whether they are sent for downstream processing or the user is notified to repeat the request with better quality images. This quantitative score ensures flexibility for different tasks and different people tailored to their needs.&lt;/p&gt;
+&lt;p&gt;The model detects the blur in an image(
+&lt;a href=&#34;&#34;&gt;BlurNet&lt;/a&gt;
+&lt;a href=&#34;&#34;&gt;BlurNet&lt;/a&gt;
+), brightness of the image(a 
+&lt;a href=&#34;&#34;&gt;ResNet-18&lt;/a&gt;
+&lt;a href=&#34;&#34;&gt;ResNet-18&lt;/a&gt;
+ model trained for binary classification i.e dark vs bright) and the text readability(based on performance of text detection and OCR algorithms along with other filtering and morphological operations on the image to estimate textual region) and a meta layer performed computation on their individual outputs to provide a final cumulative Image Quality Score.&lt;/p&gt;
+&lt;p&gt;The final meta learner was trained taking the outputs of individual models as input with the average image quality scores assigned to each image by annotators being the output score. The annotation was done by assigning each image to atleast five random users and asking them to score the image on the three parameters i.e Blur, Brightness and readability out of 10 solely on their personal discretion. These scores were then fit into a weighting formula to generate a cumulative score. This final score obtained from all the annotators for each image was averaged to output the final ground truth score for the image.&lt;/p&gt;
+&lt;p&gt;The clients get both the final score as well as outputs from each individual model along with a short description about the image quality based on the score for analysis.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Activity Recognition</title>
+      <link>/project/activity_recognition/</link>
+      <pubDate>Sun, 15 Oct 2017 00:00:00 +0000</pubDate>
+      <guid>/project/activity_recognition/</guid>
+      <description>&lt;p&gt;This work was selected for and presented at the final round of Smart India Hackathon 2017 by government of India.
+The project involved implementing a proof of concept system to detect anomalous activities from camera feed. For this purpose we used the 
+&lt;a href=&#34;https://www.csc.kth.se/cvap/actions/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Database for recognition of human actions&lt;/a&gt;
+&lt;a href=&#34;https://www.csc.kth.se/cvap/actions/&#34; target=&#34;_blank&#34;&gt;Database for recognition of human actions&lt;/a&gt;
+ from the Computer Science department at KTH Royal institute of technology.&lt;/p&gt;
+&lt;p&gt;The database consists of seven types of human actions (walking, jogging, running, boxing, hand waving, sliding and hand clapping) performed several times by 25 subjects in four different scenarios: outdoors:s1, outdoors with scale variation:s2, outdoors with different clothes:s3 and indoors:s4. All sequences were taken over homogeneous backgrounds with a static camera with 25fps frame rate. The sequences were downsampled to the spatial resolution of 160x120 pixels and have a length of four seconds in average.&lt;/p&gt;
+&lt;p&gt;The SOP of the project was preprocessing and feature extraction from the sequences to be passed on for training. All the frames were smoothed with a gaussian filter. This was followed by contour detection. A novel approach of pooling extracted contours(green boxes in video) after 
+&lt;a href=&#34;https://docs.opencv.org/3.4/d1/dc5/tutorial_background_subtraction.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Mixture of Gaussian based Background subtraction&lt;/a&gt;
+&lt;a href=&#34;https://docs.opencv.org/3.4/d1/dc5/tutorial_background_subtraction.html&#34; target=&#34;_blank&#34;&gt;Mixture of Gaussian based Background subtraction&lt;/a&gt;
+ to get an aggregate binary boundary image of the foreground(contour of the subjects)(blue bounding box in video) as features was implemented.&lt;/p&gt;
+&lt;p&gt;In order to account for the temporal aspect, these final contour images were aggregated in batches of five consecutive frames to be passed on to the Neural Network for training. Additional quantities such as centroid, median topmost, bottommost coordinates of the contours, and squared differences of consecutive left and right coordinates were also claculated for the batch of five frames and passed on to represent the speed and posture. All of these features were concatenated and 
+&lt;a href=&#34;https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.PCA.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Principal Component Analysis&lt;/a&gt;
+&lt;a href=&#34;https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.PCA.html&#34; target=&#34;_blank&#34;&gt;Principal Component Analysis&lt;/a&gt;
+ was applied to them for reducing the dimensionality with n_components=100 that captured most of the variance in the feature space while minimizing the dimension and hence computation and storage requirements. The features were than stored using cPickle.&lt;/p&gt;
+&lt;p&gt;Both Fully connected neural network and CNN were used for training with comparable performance, with an accuracy of ~96% for classification of activities as anomaalous or normal. From the above mentioned actions, boxing and sliding were grouped as anomalous activities and the rest 5 as non anomalous.&lt;/p&gt;
+</description>
+    </item>
     
   </channel>
 </rss>

@@ -34,7 +34,7 @@
     <item>
       <title>IQA</title>
       <link>/project/iqa/</link>
-      <pubDate>Mon, 21 Jan 2019 09:20:23 -0400</pubDate>
+      <pubDate>Mon, 21 Jan 2019 00:00:00 +0000</pubDate>
       <guid>/project/iqa/</guid>
       <description>&lt;p&gt;Many of the vision based applications or APIs meant for information retrieval/data verification such as Text extraction or face recognition need a minimal quality of image for efficient processing and adequate performance. Hence it becomes imperative to implement an Image quality assessment layer before proceeding with further processing. This will ensure smooth applicaton of the vision algorithms, reliable performance and an overall time reduction by ensuring less redundant computations on oor quality images, and prventing multiple requests and passes through the algorithm.&lt;/p&gt;
 &lt;p&gt;This additional filter helps by ensuring only optimal quality images are passed on and poor quality images are screened at the client/user stage itself saving the users time and the server unnecessary processing, ensuring higher throughput and efficiency.&lt;/p&gt;
@@ -48,6 +48,29 @@
  model trained for binary classification i.e dark vs bright) and the text readability(based on performance of text detection and OCR algorithms along with other filtering and morphological operations on the image to estimate textual region) and a meta layer performed computation on their individual outputs to provide a final cumulative Image Quality Score.&lt;/p&gt;
 &lt;p&gt;The final meta learner was trained taking the outputs of individual models as input with the average image quality scores assigned to each image by annotators being the output score. The annotation was done by assigning each image to atleast five random users and asking them to score the image on the three parameters i.e Blur, Brightness and readability out of 10 solely on their personal discretion. These scores were then fit into a weighting formula to generate a cumulative score. This final score obtained from all the annotators for each image was averaged to output the final ground truth score for the image.&lt;/p&gt;
 &lt;p&gt;The clients get both the final score as well as outputs from each individual model along with a short description about the image quality based on the score for analysis.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Activity Recognition</title>
+      <link>/project/activity_recognition/</link>
+      <pubDate>Sun, 15 Oct 2017 00:00:00 +0000</pubDate>
+      <guid>/project/activity_recognition/</guid>
+      <description>&lt;p&gt;This work was selected for and presented at the final round of Smart India Hackathon 2017 by government of India.
+The project involved implementing a proof of concept system to detect anomalous activities from camera feed. For this purpose we used the 
+&lt;a href=&#34;https://www.csc.kth.se/cvap/actions/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Database for recognition of human actions&lt;/a&gt;
+&lt;a href=&#34;https://www.csc.kth.se/cvap/actions/&#34; target=&#34;_blank&#34;&gt;Database for recognition of human actions&lt;/a&gt;
+ from the Computer Science department at KTH Royal institute of technology.&lt;/p&gt;
+&lt;p&gt;The database consists of seven types of human actions (walking, jogging, running, boxing, hand waving, sliding and hand clapping) performed several times by 25 subjects in four different scenarios: outdoors:s1, outdoors with scale variation:s2, outdoors with different clothes:s3 and indoors:s4. All sequences were taken over homogeneous backgrounds with a static camera with 25fps frame rate. The sequences were downsampled to the spatial resolution of 160x120 pixels and have a length of four seconds in average.&lt;/p&gt;
+&lt;p&gt;The SOP of the project was preprocessing and feature extraction from the sequences to be passed on for training. All the frames were smoothed with a gaussian filter. This was followed by contour detection. A novel approach of pooling extracted contours(green boxes in video) after 
+&lt;a href=&#34;https://docs.opencv.org/3.4/d1/dc5/tutorial_background_subtraction.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Mixture of Gaussian based Background subtraction&lt;/a&gt;
+&lt;a href=&#34;https://docs.opencv.org/3.4/d1/dc5/tutorial_background_subtraction.html&#34; target=&#34;_blank&#34;&gt;Mixture of Gaussian based Background subtraction&lt;/a&gt;
+ to get an aggregate binary boundary image of the foreground(contour of the subjects)(blue bounding box in video) as features was implemented.&lt;/p&gt;
+&lt;p&gt;In order to account for the temporal aspect, these final contour images were aggregated in batches of five consecutive frames to be passed on to the Neural Network for training. Additional quantities such as centroid, median topmost, bottommost coordinates of the contours, and squared differences of consecutive left and right coordinates were also claculated for the batch of five frames and passed on to represent the speed and posture. All of these features were concatenated and 
+&lt;a href=&#34;https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.PCA.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Principal Component Analysis&lt;/a&gt;
+&lt;a href=&#34;https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.PCA.html&#34; target=&#34;_blank&#34;&gt;Principal Component Analysis&lt;/a&gt;
+ was applied to them for reducing the dimensionality with n_components=100 that captured most of the variance in the feature space while minimizing the dimension and hence computation and storage requirements. The features were than stored using cPickle.&lt;/p&gt;
+&lt;p&gt;Both Fully connected neural network and CNN were used for training with comparable performance, with an accuracy of ~96% for classification of activities as anomaalous or normal. From the above mentioned actions, boxing and sliding were grouped as anomalous activities and the rest 5 as non anomalous.&lt;/p&gt;
 </description>
     </item>
     
