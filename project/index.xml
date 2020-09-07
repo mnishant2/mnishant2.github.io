@@ -5,12 +5,36 @@
     <link>/project/</link>
       <atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Fri, 21 Aug 2020 09:28:31 -0400</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Sun, 06 Sep 2020 14:12:10 -0400</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Projects</title>
       <link>/project/</link>
     </image>
+    
+    <item>
+      <title>Blurnet</title>
+      <link>/project/blurnet/</link>
+      <pubDate>Sun, 06 Sep 2020 14:12:10 -0400</pubDate>
+      <guid>/project/blurnet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GAN</title>
+      <link>/project/gan/</link>
+      <pubDate>Sun, 06 Sep 2020 14:11:56 -0400</pubDate>
+      <guid>/project/gan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Image_stitching</title>
+      <link>/project/image_stitching/</link>
+      <pubDate>Sun, 06 Sep 2020 14:11:05 -0400</pubDate>
+      <guid>/project/image_stitching/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>CharIR</title>
@@ -29,30 +53,6 @@
     </item>
     
     <item>
-      <title>Speaker_recognition</title>
-      <link>/project/speaker_recognition/</link>
-      <pubDate>Fri, 21 Aug 2020 09:22:49 -0400</pubDate>
-      <guid>/project/speaker_recognition/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Cropnet</title>
-      <link>/project/cropnet/</link>
-      <pubDate>Fri, 21 Aug 2020 09:20:49 -0400</pubDate>
-      <guid>/project/cropnet/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>OCR_ASR</title>
-      <link>/project/ocr_asr/</link>
-      <pubDate>Fri, 21 Aug 2020 09:20:00 -0400</pubDate>
-      <guid>/project/ocr_asr/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Highlighter(Auto field detection)</title>
       <link>/project/highlighter/</link>
       <pubDate>Fri, 21 Aug 2020 09:18:07 -0400</pubDate>
@@ -64,21 +64,13 @@
     </item>
     
     <item>
-      <title>Dory OCR</title>
-      <link>/project/dory-ocr/</link>
-      <pubDate>Tue, 18 Aug 2020 00:34:01 -0400</pubDate>
-      <guid>/project/dory-ocr/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Policy Gradient</title>
       <link>/project/policy_gradient/</link>
       <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
       <guid>/project/policy_gradient/</guid>
       <description>&lt;p&gt;This project was done as part of my final project submission for 
 &lt;a href=&#34;https://www.cs.mcgill.ca/~dprecup/courses/RL/lectures.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;COMP767: Reinforcement Learning&lt;/a&gt;
-&lt;a href=&#34;https://www.cs.mcgill.ca/~dprecup/courses/RL/lectures.html&#34; target=&#34;_blank&#34;&gt;COMP767: Reinforcement Learning&lt;/a&gt;
+
  course at McGill University&lt;/p&gt;
 &lt;p&gt;In the recent years, significant work has been done in the field of Deep Reinforcement
 Learning, to solve challenging problems in many diverse domains. One such example,
@@ -86,19 +78,18 @@ are Policy gradient algorithms, which are ubiquitous in state-of-the-art continu
 tasks. Policy gradient methods can be generally divided into two groups: off-policy
 gradient methods, such as 
 &lt;a href=&#34;https://arxiv.org/abs/1509.02971&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Deep Deterministic Policy Gradients (DDPG)&lt;/a&gt;
-&lt;a href=&#34;https://arxiv.org/abs/1509.02971&#34; target=&#34;_blank&#34;&gt;Deep Deterministic Policy Gradients (DDPG)&lt;/a&gt;
+
 , 
 &lt;a href=&#34;https://arxiv.org/pdf/1802.09477.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Twin Delayed
 Deep Deterministic (TD3)&lt;/a&gt;
-&lt;a href=&#34;https://arxiv.org/pdf/1802.09477.pdf&#34; target=&#34;_blank&#34;&gt;Twin Delayed
-Deep Deterministic (TD3)&lt;/a&gt;
+
 , 
 &lt;a href=&#34;https://arxiv.org/abs/1801.01290&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Soft Actor Critic (SAC)&lt;/a&gt;
-&lt;a href=&#34;https://arxiv.org/abs/1801.01290&#34; target=&#34;_blank&#34;&gt;Soft Actor Critic (SAC)&lt;/a&gt;
+
  and on-policy methods, such as
 
 &lt;a href=&#34;https://arxiv.org/abs/1502.05477&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Trust Region Policy Optimization (TRPO)&lt;/a&gt;
-&lt;a href=&#34;https://arxiv.org/abs/1502.05477&#34; target=&#34;_blank&#34;&gt;Trust Region Policy Optimization (TRPO)&lt;/a&gt;
+
 .&lt;/p&gt;
 &lt;p&gt;However, despite these successes on paper, reproducing deep RL results is rarely straightforward. There are many sources of possible instability and variance including extrinsic
 factors (such as hyper-parameters, noise-functions used) or intrinsic factors (such as random
@@ -119,7 +110,7 @@ Network Size, Batch Sizes) on the performance of these methods.&lt;/p&gt;
       <guid>/project/online_learning/</guid>
       <description>&lt;p&gt;This project was undertaken as part of the  final project for 
 &lt;a href=&#34;https://cs.mcgill.ca/~wlh/comp766/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;COMP 766: Graph Representation Learning&lt;/a&gt;
-&lt;a href=&#34;https://cs.mcgill.ca/~wlh/comp766/&#34; target=&#34;_blank&#34;&gt;COMP 766: Graph Representation Learning&lt;/a&gt;
+
  course at McGill University.&lt;/p&gt;
 &lt;p&gt;For many computer science sub-fields, knowledge graphs (KG) remain a constant
 abstraction whose usefulness relies in their representation power. However, dynamic
@@ -235,7 +226,7 @@ entities. These two predictions are jointly iterated. This can be viewed as lear
       <guid>/project/transe/</guid>
       <description>&lt;p&gt;This project was directed towards the final course project requirement for 
 &lt;a href=&#34;https://www.mcgill.ca/study/2019-2020/courses/comp-550&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;COMP 550: Natural Language Processing&lt;/a&gt;
-&lt;a href=&#34;https://www.mcgill.ca/study/2019-2020/courses/comp-550&#34; target=&#34;_blank&#34;&gt;COMP 550: Natural Language Processing&lt;/a&gt;
+
  course at McGill University.&lt;/p&gt;
 &lt;p&gt;Knowledge graphs (KGs) succinctly represent
 real-world facts as multi-relational graphs. A
@@ -261,7 +252,7 @@ of facts (triplets).&lt;/p&gt;
 &lt;p&gt;We build our solutions with
 
 &lt;a href=&#34;https://papers.nips.cc/paper/5071-translating-embeddings-for-modeling-multi-relational-data.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;TransE(Bordes et al.)&lt;/a&gt;
-&lt;a href=&#34;https://papers.nips.cc/paper/5071-translating-embeddings-for-modeling-multi-relational-data.pdf&#34; target=&#34;_blank&#34;&gt;TransE(Bordes et al.)&lt;/a&gt;
+
  as our base KG embedding model and
 evaluate the learned embeddings on facts associated
 with these new entities.&lt;/p&gt;
@@ -275,16 +266,16 @@ approach fared well, the proposed model independent
 approach failed to learn representations for a new entity.&lt;/p&gt;
 &lt;p&gt;We used 
 &lt;a href=&#34;https://github.com/thunlp/OpenKE&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;OpenKE’s&lt;/a&gt;
-&lt;a href=&#34;https://github.com/thunlp/OpenKE&#34; target=&#34;_blank&#34;&gt;OpenKE’s&lt;/a&gt;
+
  implementation for setting our model. For our
 task, we made changes to the TransE model, so
 that it can learn the representations of the new entities. We employed the 
 &lt;a href=&#34;https://www.microsoft.com/en-us/download/details.aspx?id=52312&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;FB20K&lt;/a&gt;
-&lt;a href=&#34;https://www.microsoft.com/en-us/download/details.aspx?id=52312&#34; target=&#34;_blank&#34;&gt;FB20K&lt;/a&gt;
+
  dataset
 (
 &lt;a href=&#34;http://nlp.csai.tsinghua.edu.cn/~lzy/publications/aaai2016_dkrl.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Xie et al., 2016&lt;/a&gt;
-&lt;a href=&#34;http://nlp.csai.tsinghua.edu.cn/~lzy/publications/aaai2016_dkrl.pdf&#34; target=&#34;_blank&#34;&gt;Xie et al., 2016&lt;/a&gt;
+
 ) for our task. In addition to
 containing all the entities and relations from the
 FB15K dataset, this dataset also contains new entities
@@ -295,23 +286,245 @@ aims to predict the missing h or t for a relation fact
     </item>
     
     <item>
+      <title>Modified MNIST [Kaggle]</title>
+      <link>/project/modified_mnist/</link>
+      <pubDate>Thu, 14 Nov 2019 14:11:29 -0400</pubDate>
+      <guid>/project/modified_mnist/</guid>
+      <description>&lt;p&gt;This was a 
+&lt;a href=&#34;https://www.kaggle.com/c/modified-mnist&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;competition hosted on Kaggle&lt;/a&gt;
+
+ and was a miniproject for the 
+&lt;a href=&#34;https://cs.mcgill.ca/~wlh/comp551/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;COMP 551: Applied Machine Learning&lt;/a&gt;
+
+ Course.
+We analyze different Machine Learning models to process a modified version of the MNIST dataset and develop a supervised classification model that can predict the number with the largest numeric value that is present in an Image.&lt;/p&gt;
+&lt;p&gt;We analyze Images from a modified version of the 
+&lt;a href=&#34;http://yann.lecun.com/exdb/mnist/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MNIST dataset (Yann Le Cunn, 2001)&lt;/a&gt;
+
+. MNIST is a dataset that contains handwritten numeric digits from 0-9 and the goal is to classify which digit is present in an image. The given dataset contains 50,000 modified MNIST images.The images are grayscale images of size 128*128. Each image contains three MNIST style randomly sampled numbers on custom grayscale backgrounds each at various positions and orientations in the image. The task was to train a model in order to identify the number with the highest numerical value in the image.&lt;/p&gt;
+&lt;p&gt;We experimented numerous models with different configurations for this task. The models chosen were primarily pretrained complex neural network models, such as ResNets, VGGNets and 
+&lt;a href=&#34;&#34;&gt;EfficientNets&lt;/a&gt;
+
+. After fine-tuning the best performing models’ hyper-parameters, to further boost the classification accuracy, we used various data augmentation techniques, including Affine Transformation
+Mappings, Scale-Space blurring, Contrast changes and Perspective transforms. By doing so, we were able to gain a higher accuracy on the test set, as compared to before data augmentation.
+
+&lt;link rel=&#34;stylesheet&#34; href=/css/hugo-easy-gallery.css /&gt;
+&lt;div class=&#34;box&#34; &gt;
+  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/media/modified_mnist2.jpg#center&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;../../media/modified_mnist2.jpg#center&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+
+
+
+
+  
+
+
+&lt;script src=&#34;https://code.jquery.com/jquery-1.12.4.min.js&#34; integrity=&#34;sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=&#34; crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;script src=/js/load-photoswipe.js&gt;&lt;/script&gt;
+
+
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.css&#34; integrity=&#34;sha256-sCl5PUOGMLfFYctzDW3MtRib0ctyUvI9Qsmq2wXOeBY=&#34; crossorigin=&#34;anonymous&#34; /&gt;
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/default-skin/default-skin.min.css&#34; integrity=&#34;sha256-BFeI1V+Vh1Rk37wswuOYn5lsTcaU96hGaI7OUVCLjPc=&#34; crossorigin=&#34;anonymous&#34; /&gt;
+&lt;script src=&#34;https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.js&#34; integrity=&#34;sha256-UplRCs9v4KXVJvVY+p+RSo5Q4ilAUXh7kpjyIP5odyc=&#34; crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe-ui-default.min.js&#34; integrity=&#34;sha256-PWHOlUzc96pMc8ThwRIXPn8yH4NOLu42RQ0b9SpnpFk=&#34; crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+
+
+&lt;div class=&#34;pswp&#34; tabindex=&#34;-1&#34; role=&#34;dialog&#34; aria-hidden=&#34;true&#34;&gt;
+
+&lt;div class=&#34;pswp__bg&#34;&gt;&lt;/div&gt;
+
+&lt;div class=&#34;pswp__scroll-wrap&#34;&gt;
+    
+    &lt;div class=&#34;pswp__container&#34;&gt;
+      &lt;div class=&#34;pswp__item&#34;&gt;&lt;/div&gt;
+      &lt;div class=&#34;pswp__item&#34;&gt;&lt;/div&gt;
+      &lt;div class=&#34;pswp__item&#34;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    
+    &lt;div class=&#34;pswp__ui pswp__ui--hidden&#34;&gt;
+    &lt;div class=&#34;pswp__top-bar&#34;&gt;
+      
+      &lt;div class=&#34;pswp__counter&#34;&gt;&lt;/div&gt;
+      &lt;button class=&#34;pswp__button pswp__button--close&#34; title=&#34;Close (Esc)&#34;&gt;&lt;/button&gt;
+      &lt;button class=&#34;pswp__button pswp__button--share&#34; title=&#34;Share&#34;&gt;&lt;/button&gt;
+      &lt;button class=&#34;pswp__button pswp__button--fs&#34; title=&#34;Toggle fullscreen&#34;&gt;&lt;/button&gt;
+      &lt;button class=&#34;pswp__button pswp__button--zoom&#34; title=&#34;Zoom in/out&#34;&gt;&lt;/button&gt;
+      
+      
+      &lt;div class=&#34;pswp__preloader&#34;&gt;
+        &lt;div class=&#34;pswp__preloader__icn&#34;&gt;
+          &lt;div class=&#34;pswp__preloader__cut&#34;&gt;
+            &lt;div class=&#34;pswp__preloader__donut&#34;&gt;&lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;pswp__share-modal pswp__share-modal--hidden pswp__single-tap&#34;&gt;
+      &lt;div class=&#34;pswp__share-tooltip&#34;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;button class=&#34;pswp__button pswp__button--arrow--left&#34; title=&#34;Previous (arrow left)&#34;&gt;
+    &lt;/button&gt;
+    &lt;button class=&#34;pswp__button pswp__button--arrow--right&#34; title=&#34;Next (arrow right)&#34;&gt;
+    &lt;/button&gt;
+    &lt;div class=&#34;pswp__caption&#34;&gt;
+      &lt;div class=&#34;pswp__caption__center&#34;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;The final fine-tuned model was able to achieve an accuracy of 99% on the validation data, and an accuracy of 99.166% on the test data in the public leaderboard of the competition. We finished 
+&lt;a href=&#34;https://www.kaggle.com/c/modified-mnist/leaderboard&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;2nd and 4th out of 105 teams(Group 30) on the public and the private leaderboards&lt;/a&gt;
+
+ of the competition respectively.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>SIFT</title>
+      <link>/project/sift/</link>
+      <pubDate>Mon, 11 Nov 2019 14:11:11 -0400</pubDate>
+      <guid>/project/sift/</guid>
+      <description>&lt;p&gt;In this project, which was essentially an assignment in 
+&lt;a href=&#34;&#34;&gt;COMP558:Fundamentals of Computer Vision&lt;/a&gt;
+
+ course, I implemented the 
+&lt;a href=&#34;&#34;&gt;Scale Invariant Feature Transform(SIFT)&lt;/a&gt;
+
+ algorithm from scratch. SIFT is a traditional computer vision feature extraction technique. SIFT features are scale, space and rotationally invariant.&lt;/p&gt;
+&lt;p&gt;SIFT is a highly involved algorithm and thus implementing it from scratch is an arduous tasks. At an abstract level the SIFT algorithm can be described in five steps&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Find Scale Space Extrema&lt;/strong&gt;: We construct the 
+&lt;a href=&#34;&#34;&gt;Laplacian(Difference of Gaussian) pyramid&lt;/a&gt;
+
+ for the given image and using this pyramid, we
+found local extremas in each level of the laplacian pyramid by taking a local area and
+comparing the intensities in that local region for the same scale as well as the
+adjacent(next and previous) levels in the pyramid. Two local
+neighbourhood sizes(3&lt;em&gt;3,5&lt;/em&gt;5) were tried.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Keypoint Localization&lt;/strong&gt;: A large number of keypoints are generated by the first step which might not be useful. Corner cases and low contrast keypoints are discarded. Also a threshold was specified in order to select only strong extremas. A 
+&lt;a href=&#34;&#34;&gt;taylor series expansion&lt;/a&gt;
+
+ of scale space is done to get a more accurate value of extrema and those falling below the threshold were discarded.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Gradient Calculation&lt;/strong&gt;: For each keypoint detected, a square neigborhood(17x17 in our case) was taken around them at their respective scales. Intensity gradients and orientation were calculated for the given neighborhood. A 
+&lt;a href=&#34;&#34;&gt;gaussian mask&lt;/a&gt;
+
+ of the same size as our neighborhood was used as a weighting mask over gradient magnitude matrix.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;SIFT Feature Descriptors&lt;/strong&gt;: SIFT feature descriptors are created by taking histograms of gradients orientations for each keypoint neighborhoods. Orientations are divided into bins of various ranges(36 bins of 10 deg in our case), and for each gradient falling in a bin the gradient magnitude value is added to that particular bin. Once we have the histogram we find the orientation with the highest weighted value. Its the principle orientation and the desriptors(orientation vectors) are shifted counterclockwise such that principle orientation becomes the first bin. This lends SIFT features their rotational invariance.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Once we had the SIFT desriptors, I transformed the image and calculated SIFT vectors for the original and transformed images and matched them using bruteforce algorithm i.e 
+&lt;a href=&#34;&#34;&gt;Bhattacharya Distance&lt;/a&gt;
+
+ and visualised(as in figure above) the matches above a certain threshold to test the robustness of the SIFT algorithm.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Reddit Comment Classification [Kaggle]</title>
+      <link>/project/reddit_comment/</link>
+      <pubDate>Mon, 21 Oct 2019 14:11:20 -0400</pubDate>
+      <guid>/project/reddit_comment/</guid>
+      <description>&lt;p&gt;This was a 
+&lt;a href=&#34;https://www.kaggle.com/c/reddit-comment-classification-comp-551&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;competition hosted on Kaggle&lt;/a&gt;
+
+ and was a miniproject for the 
+&lt;a href=&#34;https://cs.mcgill.ca/~wlh/comp551/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;COMP 551: Applied Machine Learning&lt;/a&gt;
+
+ Course.&lt;/p&gt;
+&lt;p&gt;We analyze text from the website Reddit, and develop a multilabel
+classification model to predict which subreddit (group) a
+queried comment came from. Reddit is an online forum, where
+people discuss various topics from sports to cartoons, technology
+and video-games. The dataset is a list of comments from 20
+different subreddits (groups/topics). This problem can be formulated
+as a type of 
+&lt;a href=&#34;https://towardsdatascience.com/sentiment-analysis-concept-analysis-and-applications-6c94d6f58c17&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Sentiment analysis&lt;/a&gt;
+
+ problem, which is quite
+well-known in the Natural Language Processing (NLP) literature.
+Sentiment analysis is a computational approach toward
+identifying opinion, sentiment, and subjectivity in text.&lt;/p&gt;
+&lt;p&gt;For this dataset, we implemented a Bernoulli Naive Bayes
+classifier, trained and tested it against the dataset. We also analyzed
+various models for improving the classification accuracy,
+including Support Vector Machines, Logistic Regression,
+k-Nearest Neighbours, the Ensemble method of Stacking and
+a Deep Learning model 
+&lt;a href=&#34;https://arxiv.org/abs/1801.06146&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ULMFiT (J.Howard and S.Ruder,
+2018)&lt;/a&gt;
+
+. We also tried using the 
+&lt;a href=&#34;https://github.com/flairNLP/flair&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;FlairNLP library&lt;/a&gt;
+
+ concatenating several combinations of embeddings such as 
+&lt;a href=&#34;https://alanakbik.github.io/papers/coling2018.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;FlairEmbeddings&lt;/a&gt;
+
++
+&lt;a href=&#34;https://arxiv.org/abs/1810.04805&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;BERT&lt;/a&gt;
+
+ to get text features for classification&lt;/p&gt;
+&lt;p&gt;We compare the accuracy of these models for different Feature
+extraction methods, namely 
+&lt;a href=&#34;http://www.tfidf.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Term Frequency-Inverse document
+frequency (TF-IDF)&lt;/a&gt;
+
+, Binary and Non-Binary Count Vectorizer.
+We also analyze the performance gain/loss after applying
+Dimensionality reduction methods on the dataset. In particular,
+we explore the 
+&lt;a href=&#34;https://en.wikipedia.org/wiki/Principal_component_analysis#:~:text=Principal%20component%20analysis%20%28PCA%29%20is,components%20and%20ignoring%20the%20rest.&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Principle Component Analysis (PCA)&lt;/a&gt;
+
+ inspired
+method of 
+&lt;a href=&#34;https://www.sciencedirect.com/topics/computer-science/latent-semantic-analysis&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Latent Semantic Analysis (LSA)&lt;/a&gt;
+
+.&lt;/p&gt;
+&lt;p&gt;We observed that the best results were obtained by stacking various combinations
+of the models described above. For the final submission, we
+used an ensemble classifier with ’soft’ voting by Stacking SVM,
+Naive Bayes and Logistic Regression at their optimum parameter
+settings.which gave an accuracy of 57.97% on our validation
+data and 58.011% on kaggle public leaderboard. Adding ULMFit
+to the stack and using a logistic regression on top as meta
+classifier further bolstered the accuracy to 60.1%. We finished 
+&lt;a href=&#34;https://www.kaggle.com/c/reddit-comment-classification-comp-551/leaderboard&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;10th and 8th out of 105 teams(Group 60) on the public and the private leaderboards&lt;/a&gt;
+
+ of the competition respectively.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Generic Extraction Module (G.E.M)</title>
       <link>/project/gem/</link>
       <pubDate>Tue, 21 May 2019 09:20:41 -0400</pubDate>
       <guid>/project/gem/</guid>
       <description>&lt;p&gt;The project at Signzy involved training a generalizable model for information retrieval from OCR output of Indian ID cards. We used both character level embeddings and word level embeddings(
 &lt;a href=&#34;https://allennlp.org/elmo&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ELMO&lt;/a&gt;
-&lt;a href=&#34;https://allennlp.org/elmo&#34; target=&#34;_blank&#34;&gt;ELMO&lt;/a&gt;
+
 ) in a stacked manner for language modelling before passing the concatenated embeddings to a bidirectional Long Short Term Memory neural network with Conditional Random Field modelling on LSTM output (
 &lt;a href=&#34;https://arxiv.org/abs/1508.01991&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Huang et al.&lt;/a&gt;
-&lt;a href=&#34;https://arxiv.org/abs/1508.01991&#34; target=&#34;_blank&#34;&gt;Huang et al.&lt;/a&gt;
+
 ) for final classification.&lt;/p&gt;
 &lt;p&gt;The model was trained on a large corpus of text OCR outputs obtained from our own proprietary ID cards dataset for extracting non-trivial information such as Names, dates, numbers, addreses from any card. The training was done in a way to ensure the embeddings were also fine tuned. The 
 &lt;a href=&#34;https://github.com/flairNLP/flair&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;FlairNLP library&lt;/a&gt;
-&lt;a href=&#34;https://github.com/flairNLP/flair&#34; target=&#34;_blank&#34;&gt;FlairNLP library&lt;/a&gt;
+
  was used to create the preprocessing, text embedding, training and postprocessing pipeline and training was performed using pytorch framework. Multiple combinations of embeddings including FlairEmbeddings(
 &lt;a href=&#34;https://www.aclweb.org/anthology/C18-1139/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Contextualized string embeddings for sequence labelling&lt;/a&gt;
-&lt;a href=&#34;https://www.aclweb.org/anthology/C18-1139/&#34; target=&#34;_blank&#34;&gt;Contextualized string embeddings for sequence labelling&lt;/a&gt;
+
 ), BERT, CharacterEmbeddings, ELMO, XLNet were benchmarked before settling on the final pair based on accuracy, compute and efficiency considerations.&lt;/p&gt;
 &lt;p&gt;Not only did the model perform admirably well on unseen text from ID types part of training data irrespective of variations in OCR output and image layout, but it generalised well for out of sample ID types too when finetuned with just 1-5 samples of these cards.&lt;/p&gt;
 &lt;p&gt;The idea behind this was to build a generic, flexible information retrieval engine thats pretrained to extract important information from OCR output of all ID cards without specifically being trained on them or having seen them, without any rule based processing, that can be easily finetuned on a very small number of samples of any new card type for optimum performance. This was made into a rest API as a plug and play product for clients to finetune the model on their samples and then use it out of the box to extract information from IDs. The performance was measured using precision and recall figures.&lt;/p&gt;
@@ -328,13 +541,180 @@ aims to predict the missing h or t for a relation fact
 &lt;p&gt;We implemented one such pipeline using an ensemble of models that qualitatively analysed images and produced a quantitative measure for image quality that could then be used as a threshold for decision on whether they are sent for downstream processing or the user is notified to repeat the request with better quality images. This quantitative score ensures flexibility for different tasks and different people tailored to their needs.&lt;/p&gt;
 &lt;p&gt;The model detects the blur in an image(
 &lt;a href=&#34;&#34;&gt;BlurNet&lt;/a&gt;
-&lt;a href=&#34;&#34;&gt;BlurNet&lt;/a&gt;
+
 ), brightness of the image(a 
 &lt;a href=&#34;&#34;&gt;ResNet-18&lt;/a&gt;
-&lt;a href=&#34;&#34;&gt;ResNet-18&lt;/a&gt;
+
  model trained for binary classification i.e dark vs bright) and the text readability(based on performance of text detection and OCR algorithms along with other filtering and morphological operations on the image to estimate textual region) and a meta layer performed computation on their individual outputs to provide a final cumulative Image Quality Score.&lt;/p&gt;
 &lt;p&gt;The final meta learner was trained taking the outputs of individual models as input with the average image quality scores assigned to each image by annotators being the output score. The annotation was done by assigning each image to atleast five random users and asking them to score the image on the three parameters i.e Blur, Brightness and readability out of 10 solely on their personal discretion. These scores were then fit into a weighting formula to generate a cumulative score. This final score obtained from all the annotators for each image was averaged to output the final ground truth score for the image.&lt;/p&gt;
 &lt;p&gt;The clients get both the final score as well as outputs from each individual model along with a short description about the image quality based on the score for analysis.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Dory OCR</title>
+      <link>/project/dory-ocr/</link>
+      <pubDate>Fri, 05 Oct 2018 00:34:01 -0400</pubDate>
+      <guid>/project/dory-ocr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sign Language Classification [Bachelor Project]</title>
+      <link>/project/sign_language/</link>
+      <pubDate>Thu, 10 May 2018 14:12:20 -0400</pubDate>
+      <guid>/project/sign_language/</guid>
+      <description>&lt;p&gt;This was our Undergrad Final Project where we set out to implement a speech Sign Language intercoversion system. More specifically it was Hindi speech- Indian sign Language interconversion system. The speech to sign language subsystem was essentially a derivative of our 
+&lt;a href=&#34;../speech_recognition&#34;&gt;speech recognition project&lt;/a&gt;
+
+ with detected speech being mapped to corresponding sign language visuals in real time.
+Here I shall be discussing our Indian Sign Language detection subsystem. Initially we just used a dataset of 7000 2D images of Indian sign language for classification as a proof of concept, we used a modified VGGNet for classification with a 99% accuracy. But using 2D data was impracticable for building a real time and realistic sign language recognition system. To accommodate more complex backgrounds that we could come across in everyday situation instead of the simple backgrounds as in 2-D dataset and also to account for occlusion, various angles arising due to Indian Sign Language being two handed, we decided to use 
+&lt;a href=&#34;https://en.wikipedia.org/wiki/Kinect&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;kinect sensor&lt;/a&gt;
+
+ and hence RGB-D dataset to leverage the depth information rendered by Kinect.&lt;/p&gt;
+&lt;p&gt;We collected RGB-D data for 48 different Indian Signs. These include both RGB and Depth images of digits, alphabets and a few common words. The dataset comprises of around 36 images per word in our vocabulary, contributed by 18 different people. We trained a 
+&lt;a href=&#34;https://towardsdatascience.com/gaussian-mixture-models-explained-6986aaf5a95&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Multivariate Gaussian Mixture Model(GMM)&lt;/a&gt;
+
+ on the 
+&lt;a href=&#34;https://www.lifewire.com/what-is-hsv-in-design-1078068&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;HSV&lt;/a&gt;
+
+ pixel values of the data to segment skin region and intensify the skin pixel areas in the RGB-D images.
+
+&lt;link rel=&#34;stylesheet&#34; href=/css/hugo-easy-gallery.css /&gt;
+&lt;div class=&#34;box&#34; &gt;
+  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/media/sign2.jpg#center&#34; alt=&#34;Skin segmentation using Multivariate GMM&#34;/&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;../../media/sign2.jpg#center&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+      &lt;figcaption&gt;
+          &lt;p&gt;Skin segmentation using Multivariate GMM&lt;/p&gt;
+      &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+
+
+
+
+  
+
+
+&lt;script src=&#34;https://code.jquery.com/jquery-1.12.4.min.js&#34; integrity=&#34;sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=&#34; crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;script src=/js/load-photoswipe.js&gt;&lt;/script&gt;
+
+
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.css&#34; integrity=&#34;sha256-sCl5PUOGMLfFYctzDW3MtRib0ctyUvI9Qsmq2wXOeBY=&#34; crossorigin=&#34;anonymous&#34; /&gt;
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/default-skin/default-skin.min.css&#34; integrity=&#34;sha256-BFeI1V+Vh1Rk37wswuOYn5lsTcaU96hGaI7OUVCLjPc=&#34; crossorigin=&#34;anonymous&#34; /&gt;
+&lt;script src=&#34;https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.js&#34; integrity=&#34;sha256-UplRCs9v4KXVJvVY+p+RSo5Q4ilAUXh7kpjyIP5odyc=&#34; crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe-ui-default.min.js&#34; integrity=&#34;sha256-PWHOlUzc96pMc8ThwRIXPn8yH4NOLu42RQ0b9SpnpFk=&#34; crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+
+
+&lt;div class=&#34;pswp&#34; tabindex=&#34;-1&#34; role=&#34;dialog&#34; aria-hidden=&#34;true&#34;&gt;
+
+&lt;div class=&#34;pswp__bg&#34;&gt;&lt;/div&gt;
+
+&lt;div class=&#34;pswp__scroll-wrap&#34;&gt;
+    
+    &lt;div class=&#34;pswp__container&#34;&gt;
+      &lt;div class=&#34;pswp__item&#34;&gt;&lt;/div&gt;
+      &lt;div class=&#34;pswp__item&#34;&gt;&lt;/div&gt;
+      &lt;div class=&#34;pswp__item&#34;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    
+    &lt;div class=&#34;pswp__ui pswp__ui--hidden&#34;&gt;
+    &lt;div class=&#34;pswp__top-bar&#34;&gt;
+      
+      &lt;div class=&#34;pswp__counter&#34;&gt;&lt;/div&gt;
+      &lt;button class=&#34;pswp__button pswp__button--close&#34; title=&#34;Close (Esc)&#34;&gt;&lt;/button&gt;
+      &lt;button class=&#34;pswp__button pswp__button--share&#34; title=&#34;Share&#34;&gt;&lt;/button&gt;
+      &lt;button class=&#34;pswp__button pswp__button--fs&#34; title=&#34;Toggle fullscreen&#34;&gt;&lt;/button&gt;
+      &lt;button class=&#34;pswp__button pswp__button--zoom&#34; title=&#34;Zoom in/out&#34;&gt;&lt;/button&gt;
+      
+      
+      &lt;div class=&#34;pswp__preloader&#34;&gt;
+        &lt;div class=&#34;pswp__preloader__icn&#34;&gt;
+          &lt;div class=&#34;pswp__preloader__cut&#34;&gt;
+            &lt;div class=&#34;pswp__preloader__donut&#34;&gt;&lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;pswp__share-modal pswp__share-modal--hidden pswp__single-tap&#34;&gt;
+      &lt;div class=&#34;pswp__share-tooltip&#34;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;button class=&#34;pswp__button pswp__button--arrow--left&#34; title=&#34;Previous (arrow left)&#34;&gt;
+    &lt;/button&gt;
+    &lt;button class=&#34;pswp__button pswp__button--arrow--right&#34; title=&#34;Next (arrow right)&#34;&gt;
+    &lt;/button&gt;
+    &lt;div class=&#34;pswp__caption&#34;&gt;
+      &lt;div class=&#34;pswp__caption__center&#34;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;Since per class data was significantly small for training a robust model, we performed significant data segmentation(blurring,affine transforms,colour adjustments) to multiply the data before training. Once we had the data, we adopted two different paradigms. In the first method we stacked the RGB and Depth image vertically before passing them on to a ResNet-50 classifier for training. This method reached a validation accuracy of 71%.
+
+
+&lt;div class=&#34;box&#34; &gt;
+  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/media/sign3.jpg#center&#34; alt=&#34;Data sample along with Augmentation&#34;/&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;../../media/sign3.jpg#center&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+      &lt;figcaption&gt;
+          &lt;p&gt;Data sample along with Augmentation&lt;/p&gt;
+      &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;The second approach involved using a 
+&lt;a href=&#34;http://vis-www.cs.umass.edu/bcnn/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Bilinear CNN&lt;/a&gt;
+
+ system, with two parallel ResNet architectures for RGB and Depth images separately followed by bilinear pooling of features output by them before being passed on to subsequent Dense layers. This approach performed better with a validation accuracy of 79% although it was computationally more expensive. Finally we passed the output of the sign language detection system through 
+&lt;a href=&#34;https://cloud.google.com/text-to-speech&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Google&amp;rsquo;s text to speech(TTS)&lt;/a&gt;
+
+ generation API for getting the final speech output.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Cropnet</title>
+      <link>/project/cropnet/</link>
+      <pubDate>Thu, 12 Apr 2018 00:00:00 +0000</pubDate>
+      <guid>/project/cropnet/</guid>
+      <description>&lt;p&gt;As the name suggests, this project involved training a model to crop out documents from a background. Essentially this can be classified as a segmentation task that would need massive annotation of data with a mask on the foreground object which is to be used for supervised segmentation training.&lt;/p&gt;
+&lt;p&gt;We decided to cast this into a regression based problem where we annotated only the four corner points of the foreground object as our training labels and then used them to train a regression model with 8 continuous valued outputs({x,y} coordinates of all four corners). Once we had these points we implemented a perspective transform to warp the object into a rectangular space for the final cropped output.&lt;/p&gt;
+&lt;p&gt;For training we used custom aggregated and crowdsourced dataset of ID cards and other documents in various background settings. We implemented our own 
+&lt;a href=&#34;https://github.com/mnishant2/NMAnnotation-tool&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;annotation tool&lt;/a&gt;
+
+ for the above mentioned ground truth annotation. In order to ensure variance, we used both natural camera taken images as well as synthetically generated data by superimposing the already available cropped samples on random backgrounds at different positions, scales and orientation.&lt;/p&gt;
+&lt;p&gt;Not only this, we also implemented massive data augmentation in order to further multiply our training data that worked simultaneously on the image and the annotated keypoints. Some of the augmentation techniques used were blurring, rotation, scaling,grayscale, color adjustments, dropout, adding noise etc. We used the 
+&lt;a href=&#34;https://imgaug.readthedocs.io/en/latest/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;imgaug library&lt;/a&gt;
+
+ for the whole augmentation pipeline.&lt;/p&gt;
+&lt;p&gt;Annotation, synthetic data generation, and augmentation were all done in such a way as to ensure the sequence of the four corner points with respect to the object remained same in order to ensure spatial and rotational invariance during training and prediction. The upper left point of the foreground object was always the first label followed by others in a clockwise manner.&lt;/p&gt;
+&lt;p&gt;Once we had sufficient annotated and augmented data, we trained the regression models. We experimented and benchmarked a number of different algorithms and learning paradigms. We benchmarked 
+&lt;a href=&#34;https://arxiv.org/abs/1512.03385&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ResNet&lt;/a&gt;
+
+, 
+&lt;a href=&#34;https://arxiv.org/abs/1602.07360&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Squeezenet&lt;/a&gt;
+
+, 
+&lt;a href=&#34;https://arxiv.org/abs/1409.1556&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;VGGNet&lt;/a&gt;
+
+, 
+&lt;a href=&#34;https://arxiv.org/abs/1707.01083&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Shufflenet&lt;/a&gt;
+
+ in both transfer learning and from scratch settings for a large range of hyperparameter values and benchmarked their performances.&lt;/p&gt;
+&lt;p&gt;The outputs, as mentioned above were eight continuous labels, hence the final layer was always a linear activation layer. The loss functions used were variations of Mean Squared Error values. This whole concept was applied and tested on a number of applications such as cropping ID cards from background for further processing in an 
+&lt;a href=&#34;../Dory-OCR/&#34;&gt;Optical Character Recognition system&lt;/a&gt;
+
+, cropping 
+&lt;a href=&#34;&#34;&gt;Cheque MICR&lt;/a&gt;
+
+ stub for MICR extraction for digital processing, Passport MRZ code extraction, scanned document layout detection etc and they all fit in perfectly in the overall pipeline and gave robust performances.&lt;/p&gt;
 </description>
     </item>
     
@@ -346,18 +726,191 @@ aims to predict the missing h or t for a relation fact
       <description>&lt;p&gt;This work was selected for and presented at the final round of Smart India Hackathon 2017 by government of India.
 The project involved implementing a proof of concept system to detect anomalous activities from camera feed. For this purpose we used the 
 &lt;a href=&#34;https://www.csc.kth.se/cvap/actions/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Database for recognition of human actions&lt;/a&gt;
-&lt;a href=&#34;https://www.csc.kth.se/cvap/actions/&#34; target=&#34;_blank&#34;&gt;Database for recognition of human actions&lt;/a&gt;
+
  from the Computer Science department at KTH Royal institute of technology.&lt;/p&gt;
 &lt;p&gt;The database consists of seven types of human actions (walking, jogging, running, boxing, hand waving, sliding and hand clapping) performed several times by 25 subjects in four different scenarios: outdoors:s1, outdoors with scale variation:s2, outdoors with different clothes:s3 and indoors:s4. All sequences were taken over homogeneous backgrounds with a static camera with 25fps frame rate. The sequences were downsampled to the spatial resolution of 160x120 pixels and have a length of four seconds in average.&lt;/p&gt;
 &lt;p&gt;The SOP of the project was preprocessing and feature extraction from the sequences to be passed on for training. All the frames were smoothed with a gaussian filter. This was followed by contour detection. A novel approach of pooling extracted contours(green boxes in video) after 
 &lt;a href=&#34;https://docs.opencv.org/3.4/d1/dc5/tutorial_background_subtraction.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Mixture of Gaussian based Background subtraction&lt;/a&gt;
-&lt;a href=&#34;https://docs.opencv.org/3.4/d1/dc5/tutorial_background_subtraction.html&#34; target=&#34;_blank&#34;&gt;Mixture of Gaussian based Background subtraction&lt;/a&gt;
+
  to get an aggregate binary boundary image of the foreground(contour of the subjects)(blue bounding box in video) as features was implemented.&lt;/p&gt;
 &lt;p&gt;In order to account for the temporal aspect, these final contour images were aggregated in batches of five consecutive frames to be passed on to the Neural Network for training. Additional quantities such as centroid, median topmost, bottommost coordinates of the contours, and squared differences of consecutive left and right coordinates were also claculated for the batch of five frames and passed on to represent the speed and posture. All of these features were concatenated and 
 &lt;a href=&#34;https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.PCA.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Principal Component Analysis&lt;/a&gt;
-&lt;a href=&#34;https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.PCA.html&#34; target=&#34;_blank&#34;&gt;Principal Component Analysis&lt;/a&gt;
+
  was applied to them for reducing the dimensionality with n_components=100 that captured most of the variance in the feature space while minimizing the dimension and hence computation and storage requirements. The features were than stored using cPickle.&lt;/p&gt;
 &lt;p&gt;Both Fully connected neural network and CNN were used for training with comparable performance, with an accuracy of ~96% for classification of activities as anomaalous or normal. From the above mentioned actions, boxing and sliding were grouped as anomalous activities and the rest 5 as non anomalous.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>OCR to enrich ASR</title>
+      <link>/project/ocr_asr/</link>
+      <pubDate>Wed, 31 May 2017 09:20:00 -0400</pubDate>
+      <guid>/project/ocr_asr/</guid>
+      <description>&lt;p&gt;Automatic Speech Recognition systems, especially those leveraging probabilistic modeling such as 
+&lt;a href=&#34;https://en.wikipedia.org/wiki/Hidden_Markov_model&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hidden Markov Model&lt;/a&gt;
+
+ based ASR systems rely a lot on the associated data/lexicon for optimum performance.
+In this project done as part of my undergrad summer research Internship at 
+&lt;a href=&#34;https://www.irit.fr/en/home/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Institut de Recherche en Informatique de Toulouse (IRIT)&lt;/a&gt;
+
+, Universite Paul Sabatier, we intended to analyse the possible boost in ASR performance by incorporating output of Optical Character Recognition applied on associated visual components of the speech.&lt;/p&gt;
+&lt;p&gt;We set out to study the impact of populating the lexicon of speech processing system with OCR outputs obtained from their videos. To this end, we used the open source, readily available MOOC data for the experimentation. Performing Automatic Speech recognition on these lectures for transcription and indexing is a bit difficult because different videos have a specific set of words depending on the domain of the video called jargon,which are not present in general lexicons we use to train speech recognition models. But most of these videos also have text as part of slides or handwritten scribbles on screen which if used to populate the lexicon in realtime will benefit the speech recognition system.&lt;/p&gt;
+&lt;p&gt;We set out by creating a corpus of such videos along with their transcripts with timestamps and the slides used in pdf or other file formats. We used 
+&lt;a href=&#34;https://tika.apache.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;apache Tika&lt;/a&gt;
+
+ to extract text from these slides as part of ground truth. We also implemented a semi automatic GUI to annotate the slide transitions with respective timestamps in the video for accurate temporal alignement with ground truth for benchmarking OCR performance.&lt;/p&gt;
+&lt;p&gt;For Video OCR we used the 
+&lt;a href=&#34;https://www.semanticscholar.org/paper/From-Text-Detection-in-Videos-to-Person-Poignant-Besacier/f192f2461702c84c5ffb4253dc316b626f26b6df&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;LOOV(Poignant et al.)&lt;/a&gt;
+
+ tool that uses classical Computational techniques such as Sobel filtering, 
+&lt;a href=&#34;https://scikit-image.org/docs/dev/auto_examples/segmentation/plot_niblack_sauvola.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Sauvola Algorithm&lt;/a&gt;
+
+ followed by text tracking over consecutive frame to ensure text persistence for text detection and then 
+&lt;a href=&#34;https://github.com/tesseract-ocr/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;tesseract OCR engine&lt;/a&gt;
+
+ for text detection. The text detections are averaged over shifted regions and Viterbi Algorithm applied for modelling the best OCR output using 
+&lt;a href=&#34;http://www.speech.sri.com/projects/srilm/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SRILM library&lt;/a&gt;
+
+. We reimplemented parts of LOOV in python by taking developers version of PyLOOV which had functional issues and optimised it for our own use case.&lt;/p&gt;
+&lt;p&gt;We benchmarked the performance of our video OCR using ground truth annotations obtained from the slides using Recall and precision as metrics. Now we identified some domain specific words that were present in the OCR output but not in the transcript to get a general ballpark of possible improvement. We found out that there were words in range of 2 to 20%(avg ~10%) of the total words in the OCR which were absent in the transcripts on a per slide basis. The HMM based speech Recognition model was trained with the old and updated lexicons using 
+&lt;a href=&#34;https://kaldi-asr.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Kaldi toolkit&lt;/a&gt;
+
+ and expectedly we observed a significant improvement of an average of 5% in performance of the ASR for our dataset which were heavily domain oriented course lectures from Online course websites such as Coursera, edX.&lt;/p&gt;
+&lt;p&gt;Such a tool when integrated in ASR systems to update lexicon real time would help tremendously improve the ASR output.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Speaker Recognition</title>
+      <link>/project/speaker_recognition/</link>
+      <pubDate>Sun, 11 Dec 2016 09:22:49 -0400</pubDate>
+      <guid>/project/speaker_recognition/</guid>
+      <description>&lt;p&gt;At the Signal Processing lab, BIT Mesra, we worked on the automatic speaker recognition project to predict the speaker given a speech utterance. Speaker Recognition is one of the principle problems in Speech processing. The performance of speaker recognition systems can be improved by carefully choosing and calculating suitable features, which is an arduous task.&lt;/p&gt;
+&lt;p&gt;This project was done on a custom dataset containing hindi digit utterances by 50 speakers. The database consisted of 5000 utterances, 100 for each of the 50 different speakers, in both clean and noisy environment, with varying levels of noise from -5dB, 0dB, 5dB, 10dB, 20dB and 30dB.&lt;/p&gt;
+&lt;p&gt;The 
+&lt;a href=&#34;https://link.springer.com/content/pdf/bbm%3A978-3-319-49220-9%2F1.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MFCC (Mel Frequency Cepstral Coefficients)&lt;/a&gt;
+
+ of these utterances were used as features to train and evaluate the neural networks. We performed a comparative analysis of four different neural networks for this task viz. Single Hidden Layer Neural Network, Multi Layer Perceptron(Deep Neural Network), 
+&lt;a href=&#34;https://towardsdatascience.com/radial-basis-functions-neural-networks-all-we-need-to-know-9a88cc053448&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Radial Basis Function Neural Network(RBFNN)&lt;/a&gt;
+
+ and 
+&lt;a href=&#34;https://www.sciencedirect.com/science/article/abs/pii/089360809090049Q&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Probabilistic Neural Network(PNN)&lt;/a&gt;
+
+. MATLAB was used for the implementation and experiments.&lt;/p&gt;
+&lt;p&gt;Accuracy of all neural networks was expectedly very high (&amp;gt;90%) for clean data, large variations coming in with introduction and change in the level of noise. RBFNN has been shown to consistently perform well under all conditions. DNN was the other consistent performer and has the potential to outperform
+other techniques, if trained on more data.
+
+&lt;link rel=&#34;stylesheet&#34; href=/css/hugo-easy-gallery.css /&gt;
+&lt;div class=&#34;box&#34; &gt;
+  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/media/50spk.png#center&#34; alt=&#34;Accuracy Vs SNR (in dB) for 50 speakers&#34;/&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;../../media/50spk.png#center&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+      &lt;figcaption&gt;
+          &lt;p&gt;Accuracy Vs SNR (in dB) for 50 speakers&lt;/p&gt;
+      &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+
+
+
+
+  
+
+
+&lt;script src=&#34;https://code.jquery.com/jquery-1.12.4.min.js&#34; integrity=&#34;sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=&#34; crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;script src=/js/load-photoswipe.js&gt;&lt;/script&gt;
+
+
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.css&#34; integrity=&#34;sha256-sCl5PUOGMLfFYctzDW3MtRib0ctyUvI9Qsmq2wXOeBY=&#34; crossorigin=&#34;anonymous&#34; /&gt;
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/default-skin/default-skin.min.css&#34; integrity=&#34;sha256-BFeI1V+Vh1Rk37wswuOYn5lsTcaU96hGaI7OUVCLjPc=&#34; crossorigin=&#34;anonymous&#34; /&gt;
+&lt;script src=&#34;https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.js&#34; integrity=&#34;sha256-UplRCs9v4KXVJvVY+p+RSo5Q4ilAUXh7kpjyIP5odyc=&#34; crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe-ui-default.min.js&#34; integrity=&#34;sha256-PWHOlUzc96pMc8ThwRIXPn8yH4NOLu42RQ0b9SpnpFk=&#34; crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+
+
+&lt;div class=&#34;pswp&#34; tabindex=&#34;-1&#34; role=&#34;dialog&#34; aria-hidden=&#34;true&#34;&gt;
+
+&lt;div class=&#34;pswp__bg&#34;&gt;&lt;/div&gt;
+
+&lt;div class=&#34;pswp__scroll-wrap&#34;&gt;
+    
+    &lt;div class=&#34;pswp__container&#34;&gt;
+      &lt;div class=&#34;pswp__item&#34;&gt;&lt;/div&gt;
+      &lt;div class=&#34;pswp__item&#34;&gt;&lt;/div&gt;
+      &lt;div class=&#34;pswp__item&#34;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    
+    &lt;div class=&#34;pswp__ui pswp__ui--hidden&#34;&gt;
+    &lt;div class=&#34;pswp__top-bar&#34;&gt;
+      
+      &lt;div class=&#34;pswp__counter&#34;&gt;&lt;/div&gt;
+      &lt;button class=&#34;pswp__button pswp__button--close&#34; title=&#34;Close (Esc)&#34;&gt;&lt;/button&gt;
+      &lt;button class=&#34;pswp__button pswp__button--share&#34; title=&#34;Share&#34;&gt;&lt;/button&gt;
+      &lt;button class=&#34;pswp__button pswp__button--fs&#34; title=&#34;Toggle fullscreen&#34;&gt;&lt;/button&gt;
+      &lt;button class=&#34;pswp__button pswp__button--zoom&#34; title=&#34;Zoom in/out&#34;&gt;&lt;/button&gt;
+      
+      
+      &lt;div class=&#34;pswp__preloader&#34;&gt;
+        &lt;div class=&#34;pswp__preloader__icn&#34;&gt;
+          &lt;div class=&#34;pswp__preloader__cut&#34;&gt;
+            &lt;div class=&#34;pswp__preloader__donut&#34;&gt;&lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;pswp__share-modal pswp__share-modal--hidden pswp__single-tap&#34;&gt;
+      &lt;div class=&#34;pswp__share-tooltip&#34;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;button class=&#34;pswp__button pswp__button--arrow--left&#34; title=&#34;Previous (arrow left)&#34;&gt;
+    &lt;/button&gt;
+    &lt;button class=&#34;pswp__button pswp__button--arrow--right&#34; title=&#34;Next (arrow right)&#34;&gt;
+    &lt;/button&gt;
+    &lt;div class=&#34;pswp__caption&#34;&gt;
+      &lt;div class=&#34;pswp__caption__center&#34;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;The findings of this project were selected for publication in IEEE Explore and Scopus and presented in the proceedings of 
+&lt;a href=&#34;https://conferences.ieee.org/conferences_events/conferences/conferencedetails/45014&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;3rd IEEE International Conference on Electrical, Computer and Communication Technologies(ICECCT)&lt;/a&gt;
+
+, 2019 after peer review.&lt;/p&gt;
+&lt;p&gt;We also worked with the same dataset for analysis of neural networks performance in Speech Recognition task where we compared DNN,RBFNN, PNN, 
+&lt;a href=&#34;https://en.wikipedia.org/wiki/Self-organizing_map&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Self Organizing Maps(SOM,unsupervised)&lt;/a&gt;
+
+ for digit recognition, and Speaker Verification task where we compared 
+&lt;a href=&#34;https://link.springer.com/chapter/10.1007/978-3-540-30126-4_53&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Regularized RBFNN&lt;/a&gt;
+
+, 
+&lt;a href=&#34;https://ieeexplore.ieee.org/document/728118&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Normalized RBFNN&lt;/a&gt;
+
+, and Deep Neural Networks to verify the identity of a speaker given his new utterance by nearest neighbour prediction on extracted representations.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Multilingual Speech Recognition</title>
+      <link>/project/speech_recognition/</link>
+      <pubDate>Sun, 16 Oct 2016 00:59:54 -0400</pubDate>
+      <guid>/project/speech_recognition/</guid>
+      <description>&lt;p&gt;In this project we used the same custom database of Hindi Digit utterances by 50 different subjects 10 times each in various noise levels including ideal 0dB lab conditions as used in the 
+&lt;a href=&#34;../speaker_recognition/&#34;&gt;speaker recognition project&lt;/a&gt;
+
+. But here instead of using the data to train and analyse neural network performances for speaker recognition/verification, we trained a speech(here digit) recognition model. Unlike speaker based learning where we had 100 samples per class(50 speakers), here we have 500 samples per class(10 digits), hence intuitively and practically the performance of all the models was better than that in the case of Speaker Reognition.&lt;/p&gt;
+&lt;p&gt;We trained five different models viz. Single Hidden Layer Neural network, Deep Neural Network, 
+&lt;a href=&#34;https://towardsdatascience.com/radial-basis-functions-neural-networks-all-we-need-to-know-9a88cc053448&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Radial Basis Function Neural Network(RBFNN)&lt;/a&gt;
+
+, 
+&lt;a href=&#34;https://www.sciencedirect.com/science/article/abs/pii/089360809090049Q&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Probabilistic Neural Network(PNN)&lt;/a&gt;
+
+ and 
+&lt;a href=&#34;https://en.wikipedia.org/wiki/Self-organizing_map&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Self Organizing Maps(SOM,unsupervised)&lt;/a&gt;
+
+ for the same and compared their performances. We used the same MFCC features extracted from each utterance for the training. We introduced an unsupervised paradigm too in the form of Self Organizing Maps that are an unsupervised clustering algorithm for classification.&lt;/p&gt;
+&lt;p&gt;As an extension we also trained a python version of the same model along with the data cleaning and feature extraction pipeline for an opensource noisy english digit data set to test the generalization ability of our approach.&lt;/p&gt;
 </description>
     </item>
     

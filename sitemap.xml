@@ -3,38 +3,38 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/project/charir/</loc>
-    <lastmod>2020-08-21T09:28:31-04:00</lastmod>
+    <loc>/project/blurnet/</loc>
+    <lastmod>2020-09-06T14:12:10-04:00</lastmod>
   </url>
   
   <url>
     <loc>/</loc>
-    <lastmod>2020-08-21T09:28:31-04:00</lastmod>
+    <lastmod>2020-09-06T14:12:10-04:00</lastmod>
   </url>
   
   <url>
     <loc>/project/</loc>
+    <lastmod>2020-09-06T14:12:10-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/project/gan/</loc>
+    <lastmod>2020-09-06T14:11:56-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/project/image_stitching/</loc>
+    <lastmod>2020-09-06T14:11:05-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/project/charir/</loc>
     <lastmod>2020-08-21T09:28:31-04:00</lastmod>
   </url>
   
   <url>
     <loc>/project/march-madness/</loc>
     <lastmod>2020-08-21T09:24:13-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/project/speaker_recognition/</loc>
-    <lastmod>2020-08-21T09:22:49-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/project/cropnet/</loc>
-    <lastmod>2020-08-21T09:20:49-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/project/ocr_asr/</loc>
-    <lastmod>2020-08-21T09:20:00-04:00</lastmod>
   </url>
   
   <url>
@@ -85,21 +85,6 @@
   <url>
     <loc>/tag/vision/</loc>
     <lastmod>2020-08-21T09:18:07-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/ab-saravanan/</loc>
-    <lastmod>2020-08-18T21:54:02-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/category/deep-learning/</loc>
-    <lastmod>2020-08-18T21:54:02-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/project/dory-ocr/</loc>
-    <lastmod>2020-08-18T21:54:02-04:00</lastmod>
   </url>
   
   <url>
@@ -178,22 +163,12 @@
   </url>
   
   <url>
-    <loc>/tag/other/</loc>
-    <lastmod>2020-04-14T09:23:37-04:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/author/paniz-bertsch/</loc>
     <lastmod>2020-04-14T09:23:37-04:00</lastmod>
   </url>
   
   <url>
     <loc>/author/ashita-diwan/</loc>
-    <lastmod>2019-12-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/graph-represeantation-learning/</loc>
     <lastmod>2019-12-15T00:00:00+00:00</lastmod>
   </url>
   
@@ -223,8 +198,143 @@
   </url>
   
   <url>
+    <loc>/tag/cnn/</loc>
+    <lastmod>2019-11-14T14:11:29-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/course/</loc>
+    <lastmod>2019-11-14T14:11:29-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/category/course-projects/</loc>
+    <lastmod>2019-11-14T14:11:29-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/deep-learning/</loc>
+    <lastmod>2019-11-14T14:11:29-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/category/deep-learning/</loc>
+    <lastmod>2020-08-18T21:54:02-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/kaggle/</loc>
+    <lastmod>2019-11-14T14:11:29-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/mnist/</loc>
+    <lastmod>2019-11-14T14:11:29-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/project/modified_mnist/</loc>
+    <lastmod>2019-11-14T14:11:29-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/category/vision/</loc>
+    <lastmod>2019-11-14T14:11:29-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/category/classical-computer-vision/</loc>
+    <lastmod>2019-11-11T14:11:11-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/descriptors/</loc>
+    <lastmod>2019-11-11T14:11:11-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/laplacian/</loc>
+    <lastmod>2019-11-11T14:11:11-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/sift/</loc>
+    <lastmod>2019-11-11T14:11:11-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/category/sift/</loc>
+    <lastmod>2019-11-11T14:11:11-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/project/sift/</loc>
+    <lastmod>2019-11-11T14:11:11-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/aarash-feizi/</loc>
+    <lastmod>2019-10-21T14:11:20-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/category/ensemble-model/</loc>
+    <lastmod>2019-10-21T14:11:20-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/machine-learning/</loc>
+    <lastmod>2019-10-21T14:11:20-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/naive-bayes/</loc>
+    <lastmod>2019-10-21T14:11:20-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/pca/</loc>
+    <lastmod>2019-10-21T14:11:20-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/project/reddit_comment/</loc>
+    <lastmod>2019-10-21T14:11:20-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/sentiment-analysis/</loc>
+    <lastmod>2019-10-21T14:11:20-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/category/sentiment-analysis/</loc>
+    <lastmod>2019-10-21T14:11:20-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/stacking/</loc>
+    <lastmod>2019-10-21T14:11:20-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/svm/</loc>
+    <lastmod>2019-10-21T14:11:20-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/ulmfit/</loc>
+    <lastmod>2019-10-21T14:11:20-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/project/gem/</loc>
     <lastmod>2019-05-21T09:20:41-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/ab-saravanan/</loc>
+    <lastmod>2020-08-18T21:54:02-04:00</lastmod>
   </url>
   
   <url>
@@ -263,17 +373,92 @@
   </url>
   
   <url>
-    <loc>/category/vision/</loc>
-    <lastmod>2019-01-21T00:00:00+00:00</lastmod>
+    <loc>/project/dory-ocr/</loc>
+    <lastmod>2020-08-18T21:54:02-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/bilinear-cnn/</loc>
+    <lastmod>2018-05-10T14:12:20-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/category/depth/</loc>
+    <lastmod>2018-05-10T14:12:20-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/gmm/</loc>
+    <lastmod>2018-05-10T14:12:20-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/hsv/</loc>
+    <lastmod>2018-05-10T14:12:20-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/kinect/</loc>
+    <lastmod>2018-05-10T14:12:20-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/prasun-anand/</loc>
+    <lastmod>2018-05-10T14:12:20-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/rgb-d/</loc>
+    <lastmod>2018-05-10T14:12:20-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/category/segmentation/</loc>
+    <lastmod>2018-05-10T14:12:20-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/project/sign_language/</loc>
+    <lastmod>2018-05-10T14:12:20-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/category/sign-language-detection/</loc>
+    <lastmod>2018-05-10T14:12:20-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/zainab-feroz/</loc>
+    <lastmod>2018-05-10T14:12:20-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/augmentation/</loc>
+    <lastmod>2018-04-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/project/cropnet/</loc>
+    <lastmod>2018-04-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/regression/</loc>
+    <lastmod>2018-04-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/resnet/</loc>
+    <lastmod>2018-04-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/squeezenet/</loc>
+    <lastmod>2018-04-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/project/activity_recognition/</loc>
-    <lastmod>2017-10-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/deep-learning/</loc>
     <lastmod>2017-10-15T00:00:00+00:00</lastmod>
   </url>
   
@@ -293,11 +478,6 @@
   </url>
   
   <url>
-    <loc>/tag/pca/</loc>
-    <lastmod>2017-10-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/author/rohit-mohan/</loc>
     <lastmod>2017-10-15T00:00:00+00:00</lastmod>
   </url>
@@ -305,6 +485,121 @@
   <url>
     <loc>/tag/sih/</loc>
     <lastmod>2017-10-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/asr/</loc>
+    <lastmod>2017-05-31T09:20:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/benjamin-bigot/</loc>
+    <lastmod>2017-05-31T09:20:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/christine-senac/</loc>
+    <lastmod>2017-05-31T09:20:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/hmm/</loc>
+    <lastmod>2017-05-31T09:20:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/irit/</loc>
+    <lastmod>2017-05-31T09:20:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/loov/</loc>
+    <lastmod>2017-05-31T09:20:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/project/ocr_asr/</loc>
+    <lastmod>2017-05-31T09:20:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/category/optical-character-recognition/</loc>
+    <lastmod>2017-05-31T09:20:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/speech/</loc>
+    <lastmod>2017-05-31T09:20:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/category/speech-recognition/</loc>
+    <lastmod>2017-05-31T09:20:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/mfcc/</loc>
+    <lastmod>2016-12-11T09:22:49-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/category/neural-network/</loc>
+    <lastmod>2016-12-11T09:22:49-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/pnn/</loc>
+    <lastmod>2016-12-11T09:22:49-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/rbfnn/</loc>
+    <lastmod>2016-12-11T09:22:49-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/project/speaker_recognition/</loc>
+    <lastmod>2016-12-11T09:22:49-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/speaker-recognition/</loc>
+    <lastmod>2016-12-11T09:22:49-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/category/speaker-recognition/</loc>
+    <lastmod>2016-12-11T09:22:49-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/category/speaker-verification/</loc>
+    <lastmod>2016-12-11T09:22:49-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/category/speech-processing/</loc>
+    <lastmod>2016-12-11T09:22:49-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/digits/</loc>
+    <lastmod>2016-10-16T00:59:54-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/mlp/</loc>
+    <lastmod>2016-10-16T00:59:54-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/project/speech_recognition/</loc>
+    <lastmod>2016-10-16T00:59:54-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/som/</loc>
+    <lastmod>2016-10-16T00:59:54-04:00</lastmod>
   </url>
   
   <url>

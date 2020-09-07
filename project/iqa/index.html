@@ -53,6 +53,8 @@
   
     
     
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-1/css/all.min.css" integrity="sha256-4w9DunooKSr3MFXHXWyFER38WmPdm361bQS/2KUWZbU=" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
 
@@ -703,10 +705,10 @@
 <p>We implemented one such pipeline using an ensemble of models that qualitatively analysed images and produced a quantitative measure for image quality that could then be used as a threshold for decision on whether they are sent for downstream processing or the user is notified to repeat the request with better quality images. This quantitative score ensures flexibility for different tasks and different people tailored to their needs.</p>
 <p>The model detects the blur in an image(
 <a href="">BlurNet</a>
-<a href="">BlurNet</a>
+
 ), brightness of the image(a 
 <a href="">ResNet-18</a>
-<a href="">ResNet-18</a>
+
  model trained for binary classification i.e dark vs bright) and the text readability(based on performance of text detection and OCR algorithms along with other filtering and morphological operations on the image to estimate textual region) and a meta layer performed computation on their individual outputs to provide a final cumulative Image Quality Score.</p>
 <p>The final meta learner was trained taking the outputs of individual models as input with the average image quality scores assigned to each image by annotators being the output score. The annotation was done by assigning each image to atleast five random users and asking them to score the image on the three parameters i.e Blur, Brightness and readability out of 10 solely on their personal discretion. These scores were then fit into a weighting formula to generate a cumulative score. This final score obtained from all the annotators for each image was averaged to output the final ground truth score for the image.</p>
 <p>The clients get both the final score as well as outputs from each individual model along with a short description about the image quality based on the score for analysis.</p>
@@ -913,11 +915,15 @@
     <h3>Related</h3>
     <ul>
       
+      <li><a href="/project/ocr_asr/">OCR to enrich ASR</a></li>
+      
       <li><a href="/project/highlighter/">Highlighter(Auto field detection)</a></li>
       
-      <li><a href="/project/activity_recognition/">Activity Recognition</a></li>
+      <li><a href="/project/modified_mnist/">Modified MNIST [Kaggle]</a></li>
       
-      <li><a href="/project/dory-ocr/">Dory OCR</a></li>
+      <li><a href="/project/sift/">SIFT</a></li>
+      
+      <li><a href="/project/sign_language/">Sign Language Classification [Bachelor Project]</a></li>
       
     </ul>
   </div>

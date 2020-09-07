@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ASR | Nishant Mishra</title>
+    <link>/tag/asr/</link>
+      <atom:link href="/tag/asr/index.xml" rel="self" type="application/rss+xml" />
+    <description>ASR</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Wed, 31 May 2017 09:20:00 -0400</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>ASR</title>
+      <link>/tag/asr/</link>
+    </image>
+    
+    <item>
+      <title>OCR to enrich ASR</title>
+      <link>/project/ocr_asr/</link>
+      <pubDate>Wed, 31 May 2017 09:20:00 -0400</pubDate>
+      <guid>/project/ocr_asr/</guid>
+      <description>&lt;p&gt;Automatic Speech Recognition systems, especially those leveraging probabilistic modeling such as 
+&lt;a href=&#34;https://en.wikipedia.org/wiki/Hidden_Markov_model&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hidden Markov Model&lt;/a&gt;
+
+ based ASR systems rely a lot on the associated data/lexicon for optimum performance.
+In this project done as part of my undergrad summer research Internship at 
+&lt;a href=&#34;https://www.irit.fr/en/home/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Institut de Recherche en Informatique de Toulouse (IRIT)&lt;/a&gt;
+
+, Universite Paul Sabatier, we intended to analyse the possible boost in ASR performance by incorporating output of Optical Character Recognition applied on associated visual components of the speech.&lt;/p&gt;
+&lt;p&gt;We set out to study the impact of populating the lexicon of speech processing system with OCR outputs obtained from their videos. To this end, we used the open source, readily available MOOC data for the experimentation. Performing Automatic Speech recognition on these lectures for transcription and indexing is a bit difficult because different videos have a specific set of words depending on the domain of the video called jargon,which are not present in general lexicons we use to train speech recognition models. But most of these videos also have text as part of slides or handwritten scribbles on screen which if used to populate the lexicon in realtime will benefit the speech recognition system.&lt;/p&gt;
+&lt;p&gt;We set out by creating a corpus of such videos along with their transcripts with timestamps and the slides used in pdf or other file formats. We used 
+&lt;a href=&#34;https://tika.apache.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;apache Tika&lt;/a&gt;
+
+ to extract text from these slides as part of ground truth. We also implemented a semi automatic GUI to annotate the slide transitions with respective timestamps in the video for accurate temporal alignement with ground truth for benchmarking OCR performance.&lt;/p&gt;
+&lt;p&gt;For Video OCR we used the 
+&lt;a href=&#34;https://www.semanticscholar.org/paper/From-Text-Detection-in-Videos-to-Person-Poignant-Besacier/f192f2461702c84c5ffb4253dc316b626f26b6df&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;LOOV(Poignant et al.)&lt;/a&gt;
+
+ tool that uses classical Computational techniques such as Sobel filtering, 
+&lt;a href=&#34;https://scikit-image.org/docs/dev/auto_examples/segmentation/plot_niblack_sauvola.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Sauvola Algorithm&lt;/a&gt;
+
+ followed by text tracking over consecutive frame to ensure text persistence for text detection and then 
+&lt;a href=&#34;https://github.com/tesseract-ocr/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;tesseract OCR engine&lt;/a&gt;
+
+ for text detection. The text detections are averaged over shifted regions and Viterbi Algorithm applied for modelling the best OCR output using 
+&lt;a href=&#34;http://www.speech.sri.com/projects/srilm/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SRILM library&lt;/a&gt;
+
+. We reimplemented parts of LOOV in python by taking developers version of PyLOOV which had functional issues and optimised it for our own use case.&lt;/p&gt;
+&lt;p&gt;We benchmarked the performance of our video OCR using ground truth annotations obtained from the slides using Recall and precision as metrics. Now we identified some domain specific words that were present in the OCR output but not in the transcript to get a general ballpark of possible improvement. We found out that there were words in range of 2 to 20%(avg ~10%) of the total words in the OCR which were absent in the transcripts on a per slide basis. The HMM based speech Recognition model was trained with the old and updated lexicons using 
+&lt;a href=&#34;https://kaldi-asr.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Kaldi toolkit&lt;/a&gt;
+
+ and expectedly we observed a significant improvement of an average of 5% in performance of the ASR for our dataset which were heavily domain oriented course lectures from Online course websites such as Coursera, edX.&lt;/p&gt;
+&lt;p&gt;Such a tool when integrated in ASR systems to update lexicon real time would help tremendously improve the ASR output.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -19,7 +19,7 @@
       <guid>/project/online_learning/</guid>
       <description>&lt;p&gt;This project was undertaken as part of the  final project for 
 &lt;a href=&#34;https://cs.mcgill.ca/~wlh/comp766/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;COMP 766: Graph Representation Learning&lt;/a&gt;
-&lt;a href=&#34;https://cs.mcgill.ca/~wlh/comp766/&#34; target=&#34;_blank&#34;&gt;COMP 766: Graph Representation Learning&lt;/a&gt;
+
  course at McGill University.&lt;/p&gt;
 &lt;p&gt;For many computer science sub-fields, knowledge graphs (KG) remain a constant
 abstraction whose usefulness relies in their representation power. However, dynamic

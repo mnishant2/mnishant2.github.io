@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MNIST | Nishant Mishra</title>
+    <link>/tag/mnist/</link>
+      <atom:link href="/tag/mnist/index.xml" rel="self" type="application/rss+xml" />
+    <description>MNIST</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Thu, 14 Nov 2019 14:11:29 -0400</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>MNIST</title>
+      <link>/tag/mnist/</link>
+    </image>
+    
+    <item>
+      <title>Modified MNIST [Kaggle]</title>
+      <link>/project/modified_mnist/</link>
+      <pubDate>Thu, 14 Nov 2019 14:11:29 -0400</pubDate>
+      <guid>/project/modified_mnist/</guid>
+      <description>&lt;p&gt;This was a 
+&lt;a href=&#34;https://www.kaggle.com/c/modified-mnist&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;competition hosted on Kaggle&lt;/a&gt;
+
+ and was a miniproject for the 
+&lt;a href=&#34;https://cs.mcgill.ca/~wlh/comp551/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;COMP 551: Applied Machine Learning&lt;/a&gt;
+
+ Course.
+We analyze different Machine Learning models to process a modified version of the MNIST dataset and develop a supervised classification model that can predict the number with the largest numeric value that is present in an Image.&lt;/p&gt;
+&lt;p&gt;We analyze Images from a modified version of the 
+&lt;a href=&#34;http://yann.lecun.com/exdb/mnist/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MNIST dataset (Yann Le Cunn, 2001)&lt;/a&gt;
+
+. MNIST is a dataset that contains handwritten numeric digits from 0-9 and the goal is to classify which digit is present in an image. The given dataset contains 50,000 modified MNIST images.The images are grayscale images of size 128*128. Each image contains three MNIST style randomly sampled numbers on custom grayscale backgrounds each at various positions and orientations in the image. The task was to train a model in order to identify the number with the highest numerical value in the image.&lt;/p&gt;
+&lt;p&gt;We experimented numerous models with different configurations for this task. The models chosen were primarily pretrained complex neural network models, such as ResNets, VGGNets and 
+&lt;a href=&#34;&#34;&gt;EfficientNets&lt;/a&gt;
+
+. After fine-tuning the best performing models’ hyper-parameters, to further boost the classification accuracy, we used various data augmentation techniques, including Affine Transformation
+Mappings, Scale-Space blurring, Contrast changes and Perspective transforms. By doing so, we were able to gain a higher accuracy on the test set, as compared to before data augmentation.
+
+&lt;link rel=&#34;stylesheet&#34; href=/css/hugo-easy-gallery.css /&gt;
+&lt;div class=&#34;box&#34; &gt;
+  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/media/modified_mnist2.jpg#center&#34; /&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;../../media/modified_mnist2.jpg#center&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+
+
+
+
+  
+
+
+&lt;script src=&#34;https://code.jquery.com/jquery-1.12.4.min.js&#34; integrity=&#34;sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=&#34; crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;script src=/js/load-photoswipe.js&gt;&lt;/script&gt;
+
+
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.css&#34; integrity=&#34;sha256-sCl5PUOGMLfFYctzDW3MtRib0ctyUvI9Qsmq2wXOeBY=&#34; crossorigin=&#34;anonymous&#34; /&gt;
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/default-skin/default-skin.min.css&#34; integrity=&#34;sha256-BFeI1V+Vh1Rk37wswuOYn5lsTcaU96hGaI7OUVCLjPc=&#34; crossorigin=&#34;anonymous&#34; /&gt;
+&lt;script src=&#34;https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.js&#34; integrity=&#34;sha256-UplRCs9v4KXVJvVY+p+RSo5Q4ilAUXh7kpjyIP5odyc=&#34; crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe-ui-default.min.js&#34; integrity=&#34;sha256-PWHOlUzc96pMc8ThwRIXPn8yH4NOLu42RQ0b9SpnpFk=&#34; crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+
+
+&lt;div class=&#34;pswp&#34; tabindex=&#34;-1&#34; role=&#34;dialog&#34; aria-hidden=&#34;true&#34;&gt;
+
+&lt;div class=&#34;pswp__bg&#34;&gt;&lt;/div&gt;
+
+&lt;div class=&#34;pswp__scroll-wrap&#34;&gt;
+    
+    &lt;div class=&#34;pswp__container&#34;&gt;
+      &lt;div class=&#34;pswp__item&#34;&gt;&lt;/div&gt;
+      &lt;div class=&#34;pswp__item&#34;&gt;&lt;/div&gt;
+      &lt;div class=&#34;pswp__item&#34;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    
+    &lt;div class=&#34;pswp__ui pswp__ui--hidden&#34;&gt;
+    &lt;div class=&#34;pswp__top-bar&#34;&gt;
+      
+      &lt;div class=&#34;pswp__counter&#34;&gt;&lt;/div&gt;
+      &lt;button class=&#34;pswp__button pswp__button--close&#34; title=&#34;Close (Esc)&#34;&gt;&lt;/button&gt;
+      &lt;button class=&#34;pswp__button pswp__button--share&#34; title=&#34;Share&#34;&gt;&lt;/button&gt;
+      &lt;button class=&#34;pswp__button pswp__button--fs&#34; title=&#34;Toggle fullscreen&#34;&gt;&lt;/button&gt;
+      &lt;button class=&#34;pswp__button pswp__button--zoom&#34; title=&#34;Zoom in/out&#34;&gt;&lt;/button&gt;
+      
+      
+      &lt;div class=&#34;pswp__preloader&#34;&gt;
+        &lt;div class=&#34;pswp__preloader__icn&#34;&gt;
+          &lt;div class=&#34;pswp__preloader__cut&#34;&gt;
+            &lt;div class=&#34;pswp__preloader__donut&#34;&gt;&lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;pswp__share-modal pswp__share-modal--hidden pswp__single-tap&#34;&gt;
+      &lt;div class=&#34;pswp__share-tooltip&#34;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;button class=&#34;pswp__button pswp__button--arrow--left&#34; title=&#34;Previous (arrow left)&#34;&gt;
+    &lt;/button&gt;
+    &lt;button class=&#34;pswp__button pswp__button--arrow--right&#34; title=&#34;Next (arrow right)&#34;&gt;
+    &lt;/button&gt;
+    &lt;div class=&#34;pswp__caption&#34;&gt;
+      &lt;div class=&#34;pswp__caption__center&#34;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;The final fine-tuned model was able to achieve an accuracy of 99% on the validation data, and an accuracy of 99.166% on the test data in the public leaderboard of the competition. We finished 
+&lt;a href=&#34;https://www.kaggle.com/c/modified-mnist/leaderboard&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;2nd and 4th out of 105 teams(Group 30) on the public and the private leaderboards&lt;/a&gt;
+
+ of the competition respectively.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

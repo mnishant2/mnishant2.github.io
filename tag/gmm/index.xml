@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>GMM | Nishant Mishra</title>
+    <link>/tag/gmm/</link>
+      <atom:link href="/tag/gmm/index.xml" rel="self" type="application/rss+xml" />
+    <description>GMM</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Thu, 10 May 2018 14:12:20 -0400</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>GMM</title>
+      <link>/tag/gmm/</link>
+    </image>
+    
+    <item>
+      <title>Sign Language Classification [Bachelor Project]</title>
+      <link>/project/sign_language/</link>
+      <pubDate>Thu, 10 May 2018 14:12:20 -0400</pubDate>
+      <guid>/project/sign_language/</guid>
+      <description>&lt;p&gt;This was our Undergrad Final Project where we set out to implement a speech Sign Language intercoversion system. More specifically it was Hindi speech- Indian sign Language interconversion system. The speech to sign language subsystem was essentially a derivative of our 
+&lt;a href=&#34;../speech_recognition&#34;&gt;speech recognition project&lt;/a&gt;
+
+ with detected speech being mapped to corresponding sign language visuals in real time.
+Here I shall be discussing our Indian Sign Language detection subsystem. Initially we just used a dataset of 7000 2D images of Indian sign language for classification as a proof of concept, we used a modified VGGNet for classification with a 99% accuracy. But using 2D data was impracticable for building a real time and realistic sign language recognition system. To accommodate more complex backgrounds that we could come across in everyday situation instead of the simple backgrounds as in 2-D dataset and also to account for occlusion, various angles arising due to Indian Sign Language being two handed, we decided to use 
+&lt;a href=&#34;https://en.wikipedia.org/wiki/Kinect&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;kinect sensor&lt;/a&gt;
+
+ and hence RGB-D dataset to leverage the depth information rendered by Kinect.&lt;/p&gt;
+&lt;p&gt;We collected RGB-D data for 48 different Indian Signs. These include both RGB and Depth images of digits, alphabets and a few common words. The dataset comprises of around 36 images per word in our vocabulary, contributed by 18 different people. We trained a 
+&lt;a href=&#34;https://towardsdatascience.com/gaussian-mixture-models-explained-6986aaf5a95&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Multivariate Gaussian Mixture Model(GMM)&lt;/a&gt;
+
+ on the 
+&lt;a href=&#34;https://www.lifewire.com/what-is-hsv-in-design-1078068&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;HSV&lt;/a&gt;
+
+ pixel values of the data to segment skin region and intensify the skin pixel areas in the RGB-D images.
+
+&lt;link rel=&#34;stylesheet&#34; href=/css/hugo-easy-gallery.css /&gt;
+&lt;div class=&#34;box&#34; &gt;
+  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/media/sign2.jpg#center&#34; alt=&#34;Skin segmentation using Multivariate GMM&#34;/&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;../../media/sign2.jpg#center&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+      &lt;figcaption&gt;
+          &lt;p&gt;Skin segmentation using Multivariate GMM&lt;/p&gt;
+      &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+
+
+
+
+  
+
+
+&lt;script src=&#34;https://code.jquery.com/jquery-1.12.4.min.js&#34; integrity=&#34;sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=&#34; crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;script src=/js/load-photoswipe.js&gt;&lt;/script&gt;
+
+
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.css&#34; integrity=&#34;sha256-sCl5PUOGMLfFYctzDW3MtRib0ctyUvI9Qsmq2wXOeBY=&#34; crossorigin=&#34;anonymous&#34; /&gt;
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/default-skin/default-skin.min.css&#34; integrity=&#34;sha256-BFeI1V+Vh1Rk37wswuOYn5lsTcaU96hGaI7OUVCLjPc=&#34; crossorigin=&#34;anonymous&#34; /&gt;
+&lt;script src=&#34;https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.js&#34; integrity=&#34;sha256-UplRCs9v4KXVJvVY+p+RSo5Q4ilAUXh7kpjyIP5odyc=&#34; crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe-ui-default.min.js&#34; integrity=&#34;sha256-PWHOlUzc96pMc8ThwRIXPn8yH4NOLu42RQ0b9SpnpFk=&#34; crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+
+
+&lt;div class=&#34;pswp&#34; tabindex=&#34;-1&#34; role=&#34;dialog&#34; aria-hidden=&#34;true&#34;&gt;
+
+&lt;div class=&#34;pswp__bg&#34;&gt;&lt;/div&gt;
+
+&lt;div class=&#34;pswp__scroll-wrap&#34;&gt;
+    
+    &lt;div class=&#34;pswp__container&#34;&gt;
+      &lt;div class=&#34;pswp__item&#34;&gt;&lt;/div&gt;
+      &lt;div class=&#34;pswp__item&#34;&gt;&lt;/div&gt;
+      &lt;div class=&#34;pswp__item&#34;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    
+    &lt;div class=&#34;pswp__ui pswp__ui--hidden&#34;&gt;
+    &lt;div class=&#34;pswp__top-bar&#34;&gt;
+      
+      &lt;div class=&#34;pswp__counter&#34;&gt;&lt;/div&gt;
+      &lt;button class=&#34;pswp__button pswp__button--close&#34; title=&#34;Close (Esc)&#34;&gt;&lt;/button&gt;
+      &lt;button class=&#34;pswp__button pswp__button--share&#34; title=&#34;Share&#34;&gt;&lt;/button&gt;
+      &lt;button class=&#34;pswp__button pswp__button--fs&#34; title=&#34;Toggle fullscreen&#34;&gt;&lt;/button&gt;
+      &lt;button class=&#34;pswp__button pswp__button--zoom&#34; title=&#34;Zoom in/out&#34;&gt;&lt;/button&gt;
+      
+      
+      &lt;div class=&#34;pswp__preloader&#34;&gt;
+        &lt;div class=&#34;pswp__preloader__icn&#34;&gt;
+          &lt;div class=&#34;pswp__preloader__cut&#34;&gt;
+            &lt;div class=&#34;pswp__preloader__donut&#34;&gt;&lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;pswp__share-modal pswp__share-modal--hidden pswp__single-tap&#34;&gt;
+      &lt;div class=&#34;pswp__share-tooltip&#34;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;button class=&#34;pswp__button pswp__button--arrow--left&#34; title=&#34;Previous (arrow left)&#34;&gt;
+    &lt;/button&gt;
+    &lt;button class=&#34;pswp__button pswp__button--arrow--right&#34; title=&#34;Next (arrow right)&#34;&gt;
+    &lt;/button&gt;
+    &lt;div class=&#34;pswp__caption&#34;&gt;
+      &lt;div class=&#34;pswp__caption__center&#34;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;Since per class data was significantly small for training a robust model, we performed significant data segmentation(blurring,affine transforms,colour adjustments) to multiply the data before training. Once we had the data, we adopted two different paradigms. In the first method we stacked the RGB and Depth image vertically before passing them on to a ResNet-50 classifier for training. This method reached a validation accuracy of 71%.
+
+
+&lt;div class=&#34;box&#34; &gt;
+  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/media/sign3.jpg#center&#34; alt=&#34;Data sample along with Augmentation&#34;/&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;../../media/sign3.jpg#center&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+      &lt;figcaption&gt;
+          &lt;p&gt;Data sample along with Augmentation&lt;/p&gt;
+      &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;The second approach involved using a 
+&lt;a href=&#34;http://vis-www.cs.umass.edu/bcnn/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Bilinear CNN&lt;/a&gt;
+
+ system, with two parallel ResNet architectures for RGB and Depth images separately followed by bilinear pooling of features output by them before being passed on to subsequent Dense layers. This approach performed better with a validation accuracy of 79% although it was computationally more expensive. Finally we passed the output of the sign language detection system through 
+&lt;a href=&#34;https://cloud.google.com/text-to-speech&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Google&amp;rsquo;s text to speech(TTS)&lt;/a&gt;
+
+ generation API for getting the final speech output.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>digits | Nishant Mishra</title>
+    <link>/tag/digits/</link>
+      <atom:link href="/tag/digits/index.xml" rel="self" type="application/rss+xml" />
+    <description>digits</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Sun, 16 Oct 2016 00:59:54 -0400</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>digits</title>
+      <link>/tag/digits/</link>
+    </image>
+    
+    <item>
+      <title>Multilingual Speech Recognition</title>
+      <link>/project/speech_recognition/</link>
+      <pubDate>Sun, 16 Oct 2016 00:59:54 -0400</pubDate>
+      <guid>/project/speech_recognition/</guid>
+      <description>&lt;p&gt;In this project we used the same custom database of Hindi Digit utterances by 50 different subjects 10 times each in various noise levels including ideal 0dB lab conditions as used in the 
+&lt;a href=&#34;../speaker_recognition/&#34;&gt;speaker recognition project&lt;/a&gt;
+
+. But here instead of using the data to train and analyse neural network performances for speaker recognition/verification, we trained a speech(here digit) recognition model. Unlike speaker based learning where we had 100 samples per class(50 speakers), here we have 500 samples per class(10 digits), hence intuitively and practically the performance of all the models was better than that in the case of Speaker Reognition.&lt;/p&gt;
+&lt;p&gt;We trained five different models viz. Single Hidden Layer Neural network, Deep Neural Network, 
+&lt;a href=&#34;https://towardsdatascience.com/radial-basis-functions-neural-networks-all-we-need-to-know-9a88cc053448&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Radial Basis Function Neural Network(RBFNN)&lt;/a&gt;
+
+, 
+&lt;a href=&#34;https://www.sciencedirect.com/science/article/abs/pii/089360809090049Q&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Probabilistic Neural Network(PNN)&lt;/a&gt;
+
+ and 
+&lt;a href=&#34;https://en.wikipedia.org/wiki/Self-organizing_map&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Self Organizing Maps(SOM,unsupervised)&lt;/a&gt;
+
+ for the same and compared their performances. We used the same MFCC features extracted from each utterance for the training. We introduced an unsupervised paradigm too in the form of Self Organizing Maps that are an unsupervised clustering algorithm for classification.&lt;/p&gt;
+&lt;p&gt;As an extension we also trained a python version of the same model along with the data cleaning and feature extraction pipeline for an opensource noisy english digit data set to test the generalization ability of our approach.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>machine learning | Nishant Mishra</title>
+    <link>/tag/machine-learning/</link>
+      <atom:link href="/tag/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <description>machine learning</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Mon, 21 Oct 2019 14:11:20 -0400</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>machine learning</title>
+      <link>/tag/machine-learning/</link>
+    </image>
+    
+    <item>
+      <title>Reddit Comment Classification [Kaggle]</title>
+      <link>/project/reddit_comment/</link>
+      <pubDate>Mon, 21 Oct 2019 14:11:20 -0400</pubDate>
+      <guid>/project/reddit_comment/</guid>
+      <description>&lt;p&gt;This was a 
+&lt;a href=&#34;https://www.kaggle.com/c/reddit-comment-classification-comp-551&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;competition hosted on Kaggle&lt;/a&gt;
+
+ and was a miniproject for the 
+&lt;a href=&#34;https://cs.mcgill.ca/~wlh/comp551/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;COMP 551: Applied Machine Learning&lt;/a&gt;
+
+ Course.&lt;/p&gt;
+&lt;p&gt;We analyze text from the website Reddit, and develop a multilabel
+classification model to predict which subreddit (group) a
+queried comment came from. Reddit is an online forum, where
+people discuss various topics from sports to cartoons, technology
+and video-games. The dataset is a list of comments from 20
+different subreddits (groups/topics). This problem can be formulated
+as a type of 
+&lt;a href=&#34;https://towardsdatascience.com/sentiment-analysis-concept-analysis-and-applications-6c94d6f58c17&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Sentiment analysis&lt;/a&gt;
+
+ problem, which is quite
+well-known in the Natural Language Processing (NLP) literature.
+Sentiment analysis is a computational approach toward
+identifying opinion, sentiment, and subjectivity in text.&lt;/p&gt;
+&lt;p&gt;For this dataset, we implemented a Bernoulli Naive Bayes
+classifier, trained and tested it against the dataset. We also analyzed
+various models for improving the classification accuracy,
+including Support Vector Machines, Logistic Regression,
+k-Nearest Neighbours, the Ensemble method of Stacking and
+a Deep Learning model 
+&lt;a href=&#34;https://arxiv.org/abs/1801.06146&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ULMFiT (J.Howard and S.Ruder,
+2018)&lt;/a&gt;
+
+. We also tried using the 
+&lt;a href=&#34;https://github.com/flairNLP/flair&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;FlairNLP library&lt;/a&gt;
+
+ concatenating several combinations of embeddings such as 
+&lt;a href=&#34;https://alanakbik.github.io/papers/coling2018.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;FlairEmbeddings&lt;/a&gt;
+
++
+&lt;a href=&#34;https://arxiv.org/abs/1810.04805&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;BERT&lt;/a&gt;
+
+ to get text features for classification&lt;/p&gt;
+&lt;p&gt;We compare the accuracy of these models for different Feature
+extraction methods, namely 
+&lt;a href=&#34;http://www.tfidf.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Term Frequency-Inverse document
+frequency (TF-IDF)&lt;/a&gt;
+
+, Binary and Non-Binary Count Vectorizer.
+We also analyze the performance gain/loss after applying
+Dimensionality reduction methods on the dataset. In particular,
+we explore the 
+&lt;a href=&#34;https://en.wikipedia.org/wiki/Principal_component_analysis#:~:text=Principal%20component%20analysis%20%28PCA%29%20is,components%20and%20ignoring%20the%20rest.&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Principle Component Analysis (PCA)&lt;/a&gt;
+
+ inspired
+method of 
+&lt;a href=&#34;https://www.sciencedirect.com/topics/computer-science/latent-semantic-analysis&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Latent Semantic Analysis (LSA)&lt;/a&gt;
+
+.&lt;/p&gt;
+&lt;p&gt;We observed that the best results were obtained by stacking various combinations
+of the models described above. For the final submission, we
+used an ensemble classifier with ’soft’ voting by Stacking SVM,
+Naive Bayes and Logistic Regression at their optimum parameter
+settings.which gave an accuracy of 57.97% on our validation
+data and 58.011% on kaggle public leaderboard. Adding ULMFit
+to the stack and using a logistic regression on top as meta
+classifier further bolstered the accuracy to 60.1%. We finished 
+&lt;a href=&#34;https://www.kaggle.com/c/reddit-comment-classification-comp-551/leaderboard&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;10th and 8th out of 105 teams(Group 60) on the public and the private leaderboards&lt;/a&gt;
+
+ of the competition respectively.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
