@@ -249,7 +249,7 @@
   
   <meta property="og:site_name" content="Nishant Mishra">
   <meta property="og:url" content="/project/iqa/">
-  <meta property="og:title" content="IQA | Nishant Mishra">
+  <meta property="og:title" content="Image Quality Assessment | Nishant Mishra">
   <meta property="og:description" content="An ensemble model to quantify image quality to filter poor quality images at the client end to prevent redundant processing"><meta property="og:image" content="/project/iqa/featured.jpg">
   <meta property="twitter:image" content="/project/iqa/featured.jpg"><meta property="og:locale" content="en-us">
   
@@ -280,7 +280,7 @@
     "@type": "WebPage",
     "@id": "/project/iqa/"
   },
-  "headline": "IQA",
+  "headline": "Image Quality Assessment",
   
   "image": [
     "/project/iqa/featured.jpg"
@@ -320,7 +320,7 @@
 
 
 
-  <title>IQA | Nishant Mishra</title>
+  <title>Image Quality Assessment | Nishant Mishra</title>
 
 </head>
 <body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
@@ -618,7 +618,7 @@
 
 
 <div class="article-container pt-3">
-  <h1>IQA</h1>
+  <h1>Image Quality Assessment</h1>
 
   
 
@@ -704,10 +704,10 @@
 <p>This additional filter helps by ensuring only optimal quality images are passed on and poor quality images are screened at the client/user stage itself saving the users time and the server unnecessary processing, ensuring higher throughput and efficiency.</p>
 <p>We implemented one such pipeline using an ensemble of models that qualitatively analysed images and produced a quantitative measure for image quality that could then be used as a threshold for decision on whether they are sent for downstream processing or the user is notified to repeat the request with better quality images. This quantitative score ensures flexibility for different tasks and different people tailored to their needs.</p>
 <p>The model detects the blur in an image(
-<a href="">BlurNet</a>
+<a href="../blurnet">BlurNet</a>
 
 ), brightness of the image(a 
-<a href="">ResNet-18</a>
+<a href="https://www.researchgate.net/figure/ResNet-18-Architecture_tbl1_322476121" target="_blank" rel="noopener">ResNet-18</a>
 
  model trained for binary classification i.e dark vs bright) and the text readability(based on performance of text detection and OCR algorithms along with other filtering and morphological operations on the image to estimate textual region) and a meta layer performed computation on their individual outputs to provide a final cumulative Image Quality Score.</p>
 <p>The final meta learner was trained taking the outputs of individual models as input with the average image quality scores assigned to each image by annotators being the output score. The annotation was done by assigning each image to atleast five random users and asking them to score the image on the three parameters i.e Blur, Brightness and readability out of 10 solely on their personal discretion. These scores were then fit into a weighting formula to generate a cumulative score. This final score obtained from all the annotators for each image was averaged to output the final ground truth score for the image.</p>
@@ -751,7 +751,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=/project/iqa/&amp;text=IQA" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=/project/iqa/&amp;text=Image%20Quality%20Assessment" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -764,7 +764,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=/project/iqa/&amp;t=IQA" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=/project/iqa/&amp;t=Image%20Quality%20Assessment" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -777,7 +777,7 @@
       
       
       <li>
-        <a href="mailto:?subject=IQA&amp;body=/project/iqa/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=Image%20Quality%20Assessment&amp;body=/project/iqa/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -790,7 +790,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=/project/iqa/&amp;title=IQA" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=/project/iqa/&amp;title=Image%20Quality%20Assessment" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -803,7 +803,7 @@
       
       
       <li>
-        <a href="whatsapp://send?text=IQA%20/project/iqa/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="whatsapp://send?text=Image%20Quality%20Assessment%20/project/iqa/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -816,7 +816,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=/project/iqa/&amp;title=IQA" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=/project/iqa/&amp;title=Image%20Quality%20Assessment" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -919,11 +919,11 @@
       
       <li><a href="/project/highlighter/">Highlighter(Auto field detection)</a></li>
       
+      <li><a href="/project/gan/">Generative Adversarial Networks: Reproducibility Study</a></li>
+      
+      <li><a href="/project/image_stitching/">Image Stitching (Panorama)</a></li>
+      
       <li><a href="/project/modified_mnist/">Modified MNIST [Kaggle]</a></li>
-      
-      <li><a href="/project/sift/">SIFT</a></li>
-      
-      <li><a href="/project/sign_language/">Sign Language Classification [Bachelor Project]</a></li>
       
     </ul>
   </div>

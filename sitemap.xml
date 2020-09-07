@@ -3,41 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/project/blurnet/</loc>
-    <lastmod>2020-09-06T14:12:10-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/</loc>
-    <lastmod>2020-09-06T14:12:10-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/project/</loc>
-    <lastmod>2020-09-06T14:12:10-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/project/gan/</loc>
-    <lastmod>2020-09-06T14:11:56-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/project/image_stitching/</loc>
-    <lastmod>2020-09-06T14:11:05-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/project/charir/</loc>
-    <lastmod>2020-08-21T09:28:31-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/project/march-madness/</loc>
-    <lastmod>2020-08-21T09:24:13-04:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/authors/</loc>
     <lastmod>2020-08-21T09:18:07-04:00</lastmod>
   </url>
@@ -68,7 +33,17 @@
   </url>
   
   <url>
+    <loc>/</loc>
+    <lastmod>2020-08-21T09:18:07-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/tag/ocr/</loc>
+    <lastmod>2020-08-21T09:18:07-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/project/</loc>
     <lastmod>2020-08-21T09:18:07-04:00</lastmod>
   </url>
   
@@ -168,6 +143,56 @@
   </url>
   
   <url>
+    <loc>/tag/cgan/</loc>
+    <lastmod>2019-12-15T14:11:56-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/course/</loc>
+    <lastmod>2019-12-15T14:11:56-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/dcgan/</loc>
+    <lastmod>2019-12-15T14:11:56-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/deep-learning/</loc>
+    <lastmod>2019-12-15T14:11:56-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/category/deep-learning/</loc>
+    <lastmod>2020-08-18T21:54:02-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/game-theory/</loc>
+    <lastmod>2019-12-15T14:11:56-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/category/game-theory/</loc>
+    <lastmod>2019-12-15T14:11:56-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/project/gan/</loc>
+    <lastmod>2019-12-15T14:11:56-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/category/generative-modelling/</loc>
+    <lastmod>2019-12-15T14:11:56-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/category/vision/</loc>
+    <lastmod>2019-12-15T14:11:56-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/author/ashita-diwan/</loc>
     <lastmod>2019-12-15T00:00:00+00:00</lastmod>
   </url>
@@ -198,28 +223,63 @@
   </url>
   
   <url>
-    <loc>/tag/cnn/</loc>
-    <lastmod>2019-11-14T14:11:29-04:00</lastmod>
+    <loc>/category/classical-computer-vision/</loc>
+    <lastmod>2019-12-03T14:11:05-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/tag/course/</loc>
+    <loc>/tag/descriptors/</loc>
+    <lastmod>2019-12-03T14:11:05-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/category/image-registration/</loc>
+    <lastmod>2019-12-03T14:11:05-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/project/image_stitching/</loc>
+    <lastmod>2019-12-03T14:11:05-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/least-squares/</loc>
+    <lastmod>2019-12-03T14:11:05-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/ransac/</loc>
+    <lastmod>2019-12-03T14:11:05-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/sift/</loc>
+    <lastmod>2019-12-03T14:11:05-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/category/sift/</loc>
+    <lastmod>2019-12-03T14:11:05-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/stitching/</loc>
+    <lastmod>2019-12-03T14:11:05-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/svd/</loc>
+    <lastmod>2019-12-03T14:11:05-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/cnn/</loc>
     <lastmod>2019-11-14T14:11:29-04:00</lastmod>
   </url>
   
   <url>
     <loc>/category/course-projects/</loc>
     <lastmod>2019-11-14T14:11:29-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/deep-learning/</loc>
-    <lastmod>2019-11-14T14:11:29-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/category/deep-learning/</loc>
-    <lastmod>2020-08-18T21:54:02-04:00</lastmod>
   </url>
   
   <url>
@@ -238,32 +298,7 @@
   </url>
   
   <url>
-    <loc>/category/vision/</loc>
-    <lastmod>2019-11-14T14:11:29-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/category/classical-computer-vision/</loc>
-    <lastmod>2019-11-11T14:11:11-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/descriptors/</loc>
-    <lastmod>2019-11-11T14:11:11-04:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/tag/laplacian/</loc>
-    <lastmod>2019-11-11T14:11:11-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/sift/</loc>
-    <lastmod>2019-11-11T14:11:11-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/category/sift/</loc>
     <lastmod>2019-11-11T14:11:11-04:00</lastmod>
   </url>
   
@@ -455,6 +490,31 @@
   <url>
     <loc>/tag/squeezenet/</loc>
     <lastmod>2018-04-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/category/data-science/</loc>
+    <lastmod>2017-12-07T09:24:13-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/data-science/</loc>
+    <lastmod>2017-12-07T09:24:13-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/exploratory-data-analysis/</loc>
+    <lastmod>2017-12-07T09:24:13-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/project/march-madness/</loc>
+    <lastmod>2017-12-07T09:24:13-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/category/statistical-machine-learning/</loc>
+    <lastmod>2017-12-07T09:24:13-04:00</lastmod>
   </url>
   
   <url>

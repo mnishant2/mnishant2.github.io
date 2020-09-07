@@ -5,52 +5,12 @@
     <link>/project/</link>
       <atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Sun, 06 Sep 2020 14:12:10 -0400</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Fri, 21 Aug 2020 09:18:07 -0400</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Projects</title>
       <link>/project/</link>
     </image>
-    
-    <item>
-      <title>Blurnet</title>
-      <link>/project/blurnet/</link>
-      <pubDate>Sun, 06 Sep 2020 14:12:10 -0400</pubDate>
-      <guid>/project/blurnet/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>GAN</title>
-      <link>/project/gan/</link>
-      <pubDate>Sun, 06 Sep 2020 14:11:56 -0400</pubDate>
-      <guid>/project/gan/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Image_stitching</title>
-      <link>/project/image_stitching/</link>
-      <pubDate>Sun, 06 Sep 2020 14:11:05 -0400</pubDate>
-      <guid>/project/image_stitching/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>CharIR</title>
-      <link>/project/charir/</link>
-      <pubDate>Fri, 21 Aug 2020 09:28:31 -0400</pubDate>
-      <guid>/project/charir/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>March Madness</title>
-      <link>/project/march-madness/</link>
-      <pubDate>Fri, 21 Aug 2020 09:24:13 -0400</pubDate>
-      <guid>/project/march-madness/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>Highlighter(Auto field detection)</title>
@@ -220,6 +180,62 @@ entities. These two predictions are jointly iterated. This can be viewed as lear
     </item>
     
     <item>
+      <title>Generative Adversarial Networks: Reproducibility Study</title>
+      <link>/project/gan/</link>
+      <pubDate>Sun, 15 Dec 2019 14:11:56 -0400</pubDate>
+      <guid>/project/gan/</guid>
+      <description>&lt;p&gt;In this project, the final project for 
+&lt;a href=&#34;https://cs.mcgill.ca/~wlh/comp551/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;COMP551: Applied Machine Learning Course&lt;/a&gt;
+
+ we study the 2014 published paper 
+&lt;a href=&#34;https://papers.nips.cc/paper/5423-generative-adversarial-nets.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Generative Adversarial Networks&lt;/a&gt;
+
+. We have tried to reproduce a subset of the results obtained in the paper and performed ablation studies to understand the model&amp;rsquo;s robustness and evaluate the importance of the various model hyper-parameters. We also extended the model to include newer features in order to improve the model&amp;rsquo;s performance on the featured datasets, by making changes to the model&amp;rsquo;s internal structure, inspired by more recent works in the field.&lt;/p&gt;
+&lt;p&gt;Generative Adversarial Networks (GANs) were first described in 
+&lt;a href=&#34;https://papers.nips.cc/paper/5423-generative-adversarial-nets.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;this paper&lt;/a&gt;
+
+ and are based on the 
+&lt;a href=&#34;https://www.investopedia.com/terms/z/zero-sumgame.asp&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;zero-sum non-cooperative game&lt;/a&gt;
+
+ between a Discriminator (D) and a Generator(G), analysed thoroughly in the field of 
+&lt;a href=&#34;https://en.wikipedia.org/wiki/Non-cooperative_game_theory&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Game Theory&lt;/a&gt;
+
+. The framework where both D and G networks are multilayer perceptrons, is referred to as Adversarial Networks.&lt;/p&gt;
+&lt;p&gt;The provided code was implemented using the now obsolete 
+&lt;a href=&#34;http://deeplearning.net/software/theano/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Theano framework&lt;/a&gt;
+
+ and using python2, hence it was really difficult to reconfigure and get it setup on our system. Nevertheless we managed to hack the code and get it to execute for the task of reproducing the results on 
+&lt;a href=&#34;http://yann.lecun.com/exdb/mnist/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MNIST dataset&lt;/a&gt;
+
+ but proceeded to use the much more interpretable and relevant pytorch implementation for ablation studies and extension of the model. The original paper trains the presented GAN network on the MNIST, 
+&lt;a href=&#34;https://www.cs.toronto.edu/~kriz/cifar.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CIFAR-10&lt;/a&gt;
+
+ and TFD images. However, the Toronto Faces Database (TFD) is not accessible without permission, and the provided code does not include scripts for it. Hence, we do not reproduce their results on the TFD database.&lt;/p&gt;
+&lt;p&gt;GANs have been known to be unstable to train, often resulting in generators that produce nonsensical outputs. We decided to put this notion to test by tuning some of the hyperparameters involved in training the models. As part of the ablation studies, we experimented with different values for&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Learning Rates: We tuned the learning rates of both Generator and Discriminator models.&lt;/li&gt;
+&lt;li&gt;Loss Functions: We decided to experiment with the L2 norm or 
+&lt;a href=&#34;https://www.probabilitycourse.com/chapter9/9_1_5_mean_squared_error_MSE.php&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Mean Squared error&lt;/a&gt;
+
+ loss function.&lt;/li&gt;
+&lt;li&gt;D_steps: Number of steps to apply for the Discriminator, i.e the number of times the Discriminator is trained before updating the Generators. We changed it from 1 to 2 as part of our experiment.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;As part of extensions of GAN we implemented two variants of GAN&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://arxiv.org/abs/1511.06434&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Deep Convolutional Generative Adversarial Networks&lt;/a&gt;
+
+ or DCGAN are a variation of GAN
+where the vanilla GAN is upscaled using CNNs.&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://arxiv.org/abs/1411.1784&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Conditional Generative Adversarial Networks&lt;/a&gt;
+
+ or cGAN which allows us to direct the generation process of the model by conditioning it on certain features, here, the class labels.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Incremental Knowledge Graphs</title>
       <link>/project/transe/</link>
       <pubDate>Sun, 15 Dec 2019 00:00:00 +0000</pubDate>
@@ -282,6 +298,145 @@ FB15K dataset, this dataset also contains new entities
 which was required for our setup. We evaluate the models for link prediction, which
 aims to predict the missing h or t for a relation fact
 (h, r, t).&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Image Stitching (Panorama)</title>
+      <link>/project/image_stitching/</link>
+      <pubDate>Tue, 03 Dec 2019 14:11:05 -0400</pubDate>
+      <guid>/project/image_stitching/</guid>
+      <description>&lt;p&gt;This was the final assignment of 
+&lt;a href=&#34;https://www.mcgill.ca/study/2018-2019/courses/comp-558&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;COMP558:Fundamentals of Computer Vision&lt;/a&gt;
+
+ course, where we had to implement an image stitching(Panorama) algorithm from scratch. We were given a set of images taken by rotating the camera vertically and horizontally and the goal was to stitch them together to form a panorama exactly like how mobile devices do.&lt;/p&gt;
+&lt;p&gt;We used the SIFT algorithm implemented as part of 
+&lt;a href=&#34;../sift&#34;&gt;this project&lt;/a&gt;
+
+ with certain modifications(second order keypoint extraction) for feature extraction. Features along edges are eliminated using eigenvalues of the hessian matrix, and weak features along edges will have low 
+&lt;a href=&#34;https://www.mathsisfun.com/algebra/eigenvalue.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;eigenvalues&lt;/a&gt;
+
+ along the edge and are therefore
+suppressed. The low contrast features are eliminated in this implementation using second order Taylor
+series based thresholding. Instead of 36 dimension feature histograms, now we had 128 dimensional feature vectors which are intuitively better descriptors.&lt;/p&gt;
+&lt;p&gt;For the extracted features, two different matching strategies viz 
+&lt;a href=&#34;https://www.mathworks.com/help/vision/ref/matchfeatures.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;matchFeatures(MATLAB function)&lt;/a&gt;
+
+ and our own implementation of 
+&lt;a href=&#34;https://www.sciencedirect.com/topics/engineering/bhattacharyya-distance&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Bhattacharyya Distance&lt;/a&gt;
+
+ that requires normalized histograms were compared. We decided to proceed with featureMatch for the relative simplicity, even though Bhattacharyya measure was more robust and rich.&lt;/p&gt;
+&lt;p&gt;Using the feature matches we implemented a least squares based 
+&lt;a href=&#34;http://homepages.inf.ed.ac.uk/rbf/CVonline/LOCAL_COPIES/FISHER/RANSAC/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Random Sample Consensus(RANSAC) algorithm&lt;/a&gt;
+
+ to find a homography H between corresponding images that puts matched points in exact correspondence. This step is called 
+&lt;a href=&#34;https://www.mathworks.com/discovery/image-registration.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Image Registration&lt;/a&gt;
+
+. The homography was found by solving the equation of the form Ax+B given below, using 
+&lt;a href=&#34;https://web.mit.edu/be.400/www/SVD/Singular_Value_Decomposition.htm&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Singular Value Decomposition&lt;/a&gt;
+
+.
+
+&lt;link rel=&#34;stylesheet&#34; href=/css/hugo-easy-gallery.css /&gt;
+&lt;div class=&#34;box&#34; &gt;
+  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/media/homography.jpg#center&#34; alt=&#34;Least Squares Estimation equation for finding Homography&#34;/&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;../../media/homography.jpg#center&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+      &lt;figcaption&gt;
+          &lt;p&gt;Least Squares Estimation equation for finding Homography&lt;/p&gt;
+      &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+
+
+
+
+  
+
+
+&lt;script src=&#34;https://code.jquery.com/jquery-1.12.4.min.js&#34; integrity=&#34;sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=&#34; crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;script src=/js/load-photoswipe.js&gt;&lt;/script&gt;
+
+
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.css&#34; integrity=&#34;sha256-sCl5PUOGMLfFYctzDW3MtRib0ctyUvI9Qsmq2wXOeBY=&#34; crossorigin=&#34;anonymous&#34; /&gt;
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/default-skin/default-skin.min.css&#34; integrity=&#34;sha256-BFeI1V+Vh1Rk37wswuOYn5lsTcaU96hGaI7OUVCLjPc=&#34; crossorigin=&#34;anonymous&#34; /&gt;
+&lt;script src=&#34;https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.js&#34; integrity=&#34;sha256-UplRCs9v4KXVJvVY+p+RSo5Q4ilAUXh7kpjyIP5odyc=&#34; crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe-ui-default.min.js&#34; integrity=&#34;sha256-PWHOlUzc96pMc8ThwRIXPn8yH4NOLu42RQ0b9SpnpFk=&#34; crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+
+
+&lt;div class=&#34;pswp&#34; tabindex=&#34;-1&#34; role=&#34;dialog&#34; aria-hidden=&#34;true&#34;&gt;
+
+&lt;div class=&#34;pswp__bg&#34;&gt;&lt;/div&gt;
+
+&lt;div class=&#34;pswp__scroll-wrap&#34;&gt;
+    
+    &lt;div class=&#34;pswp__container&#34;&gt;
+      &lt;div class=&#34;pswp__item&#34;&gt;&lt;/div&gt;
+      &lt;div class=&#34;pswp__item&#34;&gt;&lt;/div&gt;
+      &lt;div class=&#34;pswp__item&#34;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    
+    &lt;div class=&#34;pswp__ui pswp__ui--hidden&#34;&gt;
+    &lt;div class=&#34;pswp__top-bar&#34;&gt;
+      
+      &lt;div class=&#34;pswp__counter&#34;&gt;&lt;/div&gt;
+      &lt;button class=&#34;pswp__button pswp__button--close&#34; title=&#34;Close (Esc)&#34;&gt;&lt;/button&gt;
+      &lt;button class=&#34;pswp__button pswp__button--share&#34; title=&#34;Share&#34;&gt;&lt;/button&gt;
+      &lt;button class=&#34;pswp__button pswp__button--fs&#34; title=&#34;Toggle fullscreen&#34;&gt;&lt;/button&gt;
+      &lt;button class=&#34;pswp__button pswp__button--zoom&#34; title=&#34;Zoom in/out&#34;&gt;&lt;/button&gt;
+      
+      
+      &lt;div class=&#34;pswp__preloader&#34;&gt;
+        &lt;div class=&#34;pswp__preloader__icn&#34;&gt;
+          &lt;div class=&#34;pswp__preloader__cut&#34;&gt;
+            &lt;div class=&#34;pswp__preloader__donut&#34;&gt;&lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;pswp__share-modal pswp__share-modal--hidden pswp__single-tap&#34;&gt;
+      &lt;div class=&#34;pswp__share-tooltip&#34;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;button class=&#34;pswp__button pswp__button--arrow--left&#34; title=&#34;Previous (arrow left)&#34;&gt;
+    &lt;/button&gt;
+    &lt;button class=&#34;pswp__button pswp__button--arrow--right&#34; title=&#34;Next (arrow right)&#34;&gt;
+    &lt;/button&gt;
+    &lt;div class=&#34;pswp__caption&#34;&gt;
+      &lt;div class=&#34;pswp__caption__center&#34;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+For solving this equation we just need 4 matches, so in our RANSAC algorithm we select 4 random points at each iteration to find homography and then using the Homography Matrix, we find a consensus set, i.e the matches in two images that agree to the homography calculated by using 
+&lt;a href=&#34;https://mathworld.wolfram.com/Distance.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Euclidean Distance&lt;/a&gt;
+
+. We calculate the distance between transformed points for each match(using H) and corresponding actual matches and threshold them at 0.5 to filter inliers.&lt;/p&gt;
+&lt;p&gt;Following the sequential image registration we use the matched
+features from consecutive images to learn geometric transformations between them in order to
+project them into a panoramic image. This process is called 
+&lt;a href=&#34;https://www.mathworks.com/help/vision/examples/feature-based-panoramic-image-stitching.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Image Stitching&lt;/a&gt;
+
+. In order to perform
+image stitching, an empty panorama is created, then the images are aligned and blended based
+on the learned homography after which they are warped on to the panorama canvas.
+
+
+&lt;div class=&#34;box&#34; &gt;
+  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/media/stitch3.jpg#center&#34; alt=&#34;Result of our Image stitching algorithm on Real images taken from my OnePlus phone&#34;/&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;../../media/stitch3.jpg#center&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+      &lt;figcaption&gt;
+          &lt;p&gt;Result of our Image stitching algorithm on Real images taken from my OnePlus phone&lt;/p&gt;
+      &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+&lt;/p&gt;
 </description>
     </item>
     
@@ -392,17 +547,17 @@ Mappings, Scale-Space blurring, Contrast changes and Perspective transforms. By 
       <pubDate>Mon, 11 Nov 2019 14:11:11 -0400</pubDate>
       <guid>/project/sift/</guid>
       <description>&lt;p&gt;In this project, which was essentially an assignment in 
-&lt;a href=&#34;&#34;&gt;COMP558:Fundamentals of Computer Vision&lt;/a&gt;
+&lt;a href=&#34;https://www.mcgill.ca/study/2018-2019/courses/comp-558&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;COMP558:Fundamentals of Computer Vision&lt;/a&gt;
 
  course, I implemented the 
-&lt;a href=&#34;&#34;&gt;Scale Invariant Feature Transform(SIFT)&lt;/a&gt;
+&lt;a href=&#34;http://www.scholarpedia.org/article/Scale_Invariant_Feature_Transform&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Scale Invariant Feature Transform(SIFT)&lt;/a&gt;
 
  algorithm from scratch. SIFT is a traditional computer vision feature extraction technique. SIFT features are scale, space and rotationally invariant.&lt;/p&gt;
 &lt;p&gt;SIFT is a highly involved algorithm and thus implementing it from scratch is an arduous tasks. At an abstract level the SIFT algorithm can be described in five steps&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;Find Scale Space Extrema&lt;/strong&gt;: We construct the 
-&lt;a href=&#34;&#34;&gt;Laplacian(Difference of Gaussian) pyramid&lt;/a&gt;
+&lt;a href=&#34;https://www.sciencedirect.com/topics/engineering/laplacian-pyramid&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Laplacian(Difference of Gaussian) pyramid&lt;/a&gt;
 
  for the given image and using this pyramid, we
 found local extremas in each level of the laplacian pyramid by taking a local area and
@@ -412,22 +567,25 @@ neighbourhood sizes(3&lt;em&gt;3,5&lt;/em&gt;5) were tried.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;Keypoint Localization&lt;/strong&gt;: A large number of keypoints are generated by the first step which might not be useful. Corner cases and low contrast keypoints are discarded. Also a threshold was specified in order to select only strong extremas. A 
-&lt;a href=&#34;&#34;&gt;taylor series expansion&lt;/a&gt;
+&lt;a href=&#34;https://mathworld.wolfram.com/TaylorSeries.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;taylor series expansion&lt;/a&gt;
 
  of scale space is done to get a more accurate value of extrema and those falling below the threshold were discarded.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;Gradient Calculation&lt;/strong&gt;: For each keypoint detected, a square neigborhood(17x17 in our case) was taken around them at their respective scales. Intensity gradients and orientation were calculated for the given neighborhood. A 
-&lt;a href=&#34;&#34;&gt;gaussian mask&lt;/a&gt;
+&lt;a href=&#34;https://homepages.inf.ed.ac.uk/rbf/HIPR2/gsmooth.htm&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;gaussian mask&lt;/a&gt;
 
  of the same size as our neighborhood was used as a weighting mask over gradient magnitude matrix.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;SIFT Feature Descriptors&lt;/strong&gt;: SIFT feature descriptors are created by taking histograms of gradients orientations for each keypoint neighborhoods. Orientations are divided into bins of various ranges(36 bins of 10 deg in our case), and for each gradient falling in a bin the gradient magnitude value is added to that particular bin. Once we have the histogram we find the orientation with the highest weighted value. Its the principle orientation and the desriptors(orientation vectors) are shifted counterclockwise such that principle orientation becomes the first bin. This lends SIFT features their rotational invariance.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;SIFT Feature Descriptors&lt;/strong&gt;: SIFT feature descriptors are created by taking 
+&lt;a href=&#34;https://www.analyticsvidhya.com/blog/2019/09/feature-engineering-images-introduction-hog-feature-descriptor/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;histograms of gradients orientations&lt;/a&gt;
+
+ for each keypoint neighborhoods. Orientations are divided into bins of various ranges(36 bins of 10 deg in our case), and for each gradient falling in a bin the gradient magnitude value is added to that particular bin. Once we have the histogram we find the orientation with the highest weighted value. Its the principle orientation and the desriptors(orientation vectors) are shifted counterclockwise such that principle orientation becomes the first bin. This lends SIFT features their rotational invariance.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Once we had the SIFT desriptors, I transformed the image and calculated SIFT vectors for the original and transformed images and matched them using bruteforce algorithm i.e 
-&lt;a href=&#34;&#34;&gt;Bhattacharya Distance&lt;/a&gt;
+&lt;a href=&#34;https://www.sciencedirect.com/topics/engineering/bhattacharyya-distance&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Bhattacharyya Distance&lt;/a&gt;
 
  and visualised(as in figure above) the matches above a certain threshold to test the robustness of the SIFT algorithm.&lt;/p&gt;
 </description>
@@ -532,7 +690,7 @@ classifier further bolstered the accuracy to 60.1%. We finished
     </item>
     
     <item>
-      <title>IQA</title>
+      <title>Image Quality Assessment</title>
       <link>/project/iqa/</link>
       <pubDate>Mon, 21 Jan 2019 00:00:00 +0000</pubDate>
       <guid>/project/iqa/</guid>
@@ -540,10 +698,10 @@ classifier further bolstered the accuracy to 60.1%. We finished
 &lt;p&gt;This additional filter helps by ensuring only optimal quality images are passed on and poor quality images are screened at the client/user stage itself saving the users time and the server unnecessary processing, ensuring higher throughput and efficiency.&lt;/p&gt;
 &lt;p&gt;We implemented one such pipeline using an ensemble of models that qualitatively analysed images and produced a quantitative measure for image quality that could then be used as a threshold for decision on whether they are sent for downstream processing or the user is notified to repeat the request with better quality images. This quantitative score ensures flexibility for different tasks and different people tailored to their needs.&lt;/p&gt;
 &lt;p&gt;The model detects the blur in an image(
-&lt;a href=&#34;&#34;&gt;BlurNet&lt;/a&gt;
+&lt;a href=&#34;../blurnet&#34;&gt;BlurNet&lt;/a&gt;
 
 ), brightness of the image(a 
-&lt;a href=&#34;&#34;&gt;ResNet-18&lt;/a&gt;
+&lt;a href=&#34;https://www.researchgate.net/figure/ResNet-18-Architecture_tbl1_322476121&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ResNet-18&lt;/a&gt;
 
  model trained for binary classification i.e dark vs bright) and the text readability(based on performance of text detection and OCR algorithms along with other filtering and morphological operations on the image to estimate textual region) and a meta layer performed computation on their individual outputs to provide a final cumulative Image Quality Score.&lt;/p&gt;
 &lt;p&gt;The final meta learner was trained taking the outputs of individual models as input with the average image quality scores assigned to each image by annotators being the output score. The annotation was done by assigning each image to atleast five random users and asking them to score the image on the three parameters i.e Blur, Brightness and readability out of 10 solely on their personal discretion. These scores were then fit into a weighting formula to generate a cumulative score. This final score obtained from all the annotators for each image was averaged to output the final ground truth score for the image.&lt;/p&gt;
@@ -715,6 +873,20 @@ Here I shall be discussing our Indian Sign Language detection subsystem. Initial
 &lt;a href=&#34;&#34;&gt;Cheque MICR&lt;/a&gt;
 
  stub for MICR extraction for digital processing, Passport MRZ code extraction, scanned document layout detection etc and they all fit in perfectly in the overall pipeline and gave robust performances.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>March Madness [Kaggle]</title>
+      <link>/project/march-madness/</link>
+      <pubDate>Thu, 07 Dec 2017 09:24:13 -0400</pubDate>
+      <guid>/project/march-madness/</guid>
+      <description>&lt;p&gt;The 
+&lt;a href=&#34;&#34;&gt;NCAA Division I Men&amp;rsquo;s and Womens Basketball Tournament&lt;/a&gt;
+
+, also known and branded as NCAA March Madness, is a single-elimination tournament played each spring in the United States, currently featuring 68 college basketball teams from the Division I level of the National Collegiate Athletic Association (NCAA), to determine the national championship. Every year Kaggle holds a March Madness data Science competition for ML practitioners to use historical tournament data to build models for forecasting outcomes of all possible matchups of the tournament.&lt;/p&gt;
+&lt;p&gt;In this project I decided to apply Machine Learning to the March Madness data for predicting the outcomes. The project is a highly involved one with extensive data related to every team, their players. The data includes tournament head-to-head, past records, form, player statistics, recent performances and results from previous tournament among others. I worked on extensive exploratory data analysis to both visualize the data as well as identify the most pertinent, discriminative stats.&lt;/p&gt;
+&lt;p&gt;The data analysis and visualization was followed by condensing different correlated data to form more complex yet non redundant stats. I implmented new intuitive yet qualitative feaatures such as current form, crowd support etc as quantitative measures using provided features. I also used sports websites like ESPN and NCAA official website to extract further data, from back in the past. after the EDA and feature engineering I experimented and benchmarked a number of Statistical Machine Learning as well as Deep Learning algorithms for the task of forecasting match and tournament results using the features with varying performances. All the code, steps and results have been lucidly explained in the associated jupyter notebooks for reference.&lt;/p&gt;
 </description>
     </item>
     

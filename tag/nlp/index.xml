@@ -176,5 +176,19 @@ classifier further bolstered the accuracy to 60.1%. We finished
 </description>
     </item>
     
+    <item>
+      <title>March Madness [Kaggle]</title>
+      <link>/project/march-madness/</link>
+      <pubDate>Thu, 07 Dec 2017 09:24:13 -0400</pubDate>
+      <guid>/project/march-madness/</guid>
+      <description>&lt;p&gt;The 
+&lt;a href=&#34;&#34;&gt;NCAA Division I Men&amp;rsquo;s and Womens Basketball Tournament&lt;/a&gt;
+
+, also known and branded as NCAA March Madness, is a single-elimination tournament played each spring in the United States, currently featuring 68 college basketball teams from the Division I level of the National Collegiate Athletic Association (NCAA), to determine the national championship. Every year Kaggle holds a March Madness data Science competition for ML practitioners to use historical tournament data to build models for forecasting outcomes of all possible matchups of the tournament.&lt;/p&gt;
+&lt;p&gt;In this project I decided to apply Machine Learning to the March Madness data for predicting the outcomes. The project is a highly involved one with extensive data related to every team, their players. The data includes tournament head-to-head, past records, form, player statistics, recent performances and results from previous tournament among others. I worked on extensive exploratory data analysis to both visualize the data as well as identify the most pertinent, discriminative stats.&lt;/p&gt;
+&lt;p&gt;The data analysis and visualization was followed by condensing different correlated data to form more complex yet non redundant stats. I implmented new intuitive yet qualitative feaatures such as current form, crowd support etc as quantitative measures using provided features. I also used sports websites like ESPN and NCAA official website to extract further data, from back in the past. after the EDA and feature engineering I experimented and benchmarked a number of Statistical Machine Learning as well as Deep Learning algorithms for the task of forecasting match and tournament results using the features with varying performances. All the code, steps and results have been lucidly explained in the associated jupyter notebooks for reference.&lt;/p&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>

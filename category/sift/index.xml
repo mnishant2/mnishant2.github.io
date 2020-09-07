@@ -5,7 +5,7 @@
     <link>/category/sift/</link>
       <atom:link href="/category/sift/index.xml" rel="self" type="application/rss+xml" />
     <description>SIFT</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Mon, 11 Nov 2019 14:11:11 -0400</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Tue, 03 Dec 2019 14:11:05 -0400</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>SIFT</title>
@@ -13,22 +13,161 @@
     </image>
     
     <item>
+      <title>Image Stitching (Panorama)</title>
+      <link>/project/image_stitching/</link>
+      <pubDate>Tue, 03 Dec 2019 14:11:05 -0400</pubDate>
+      <guid>/project/image_stitching/</guid>
+      <description>&lt;p&gt;This was the final assignment of 
+&lt;a href=&#34;https://www.mcgill.ca/study/2018-2019/courses/comp-558&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;COMP558:Fundamentals of Computer Vision&lt;/a&gt;
+
+ course, where we had to implement an image stitching(Panorama) algorithm from scratch. We were given a set of images taken by rotating the camera vertically and horizontally and the goal was to stitch them together to form a panorama exactly like how mobile devices do.&lt;/p&gt;
+&lt;p&gt;We used the SIFT algorithm implemented as part of 
+&lt;a href=&#34;../sift&#34;&gt;this project&lt;/a&gt;
+
+ with certain modifications(second order keypoint extraction) for feature extraction. Features along edges are eliminated using eigenvalues of the hessian matrix, and weak features along edges will have low 
+&lt;a href=&#34;https://www.mathsisfun.com/algebra/eigenvalue.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;eigenvalues&lt;/a&gt;
+
+ along the edge and are therefore
+suppressed. The low contrast features are eliminated in this implementation using second order Taylor
+series based thresholding. Instead of 36 dimension feature histograms, now we had 128 dimensional feature vectors which are intuitively better descriptors.&lt;/p&gt;
+&lt;p&gt;For the extracted features, two different matching strategies viz 
+&lt;a href=&#34;https://www.mathworks.com/help/vision/ref/matchfeatures.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;matchFeatures(MATLAB function)&lt;/a&gt;
+
+ and our own implementation of 
+&lt;a href=&#34;https://www.sciencedirect.com/topics/engineering/bhattacharyya-distance&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Bhattacharyya Distance&lt;/a&gt;
+
+ that requires normalized histograms were compared. We decided to proceed with featureMatch for the relative simplicity, even though Bhattacharyya measure was more robust and rich.&lt;/p&gt;
+&lt;p&gt;Using the feature matches we implemented a least squares based 
+&lt;a href=&#34;http://homepages.inf.ed.ac.uk/rbf/CVonline/LOCAL_COPIES/FISHER/RANSAC/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Random Sample Consensus(RANSAC) algorithm&lt;/a&gt;
+
+ to find a homography H between corresponding images that puts matched points in exact correspondence. This step is called 
+&lt;a href=&#34;https://www.mathworks.com/discovery/image-registration.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Image Registration&lt;/a&gt;
+
+. The homography was found by solving the equation of the form Ax+B given below, using 
+&lt;a href=&#34;https://web.mit.edu/be.400/www/SVD/Singular_Value_Decomposition.htm&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Singular Value Decomposition&lt;/a&gt;
+
+.
+
+&lt;link rel=&#34;stylesheet&#34; href=/css/hugo-easy-gallery.css /&gt;
+&lt;div class=&#34;box&#34; &gt;
+  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/media/homography.jpg#center&#34; alt=&#34;Least Squares Estimation equation for finding Homography&#34;/&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;../../media/homography.jpg#center&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+      &lt;figcaption&gt;
+          &lt;p&gt;Least Squares Estimation equation for finding Homography&lt;/p&gt;
+      &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+
+
+
+
+
+  
+
+
+&lt;script src=&#34;https://code.jquery.com/jquery-1.12.4.min.js&#34; integrity=&#34;sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=&#34; crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;script src=/js/load-photoswipe.js&gt;&lt;/script&gt;
+
+
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.css&#34; integrity=&#34;sha256-sCl5PUOGMLfFYctzDW3MtRib0ctyUvI9Qsmq2wXOeBY=&#34; crossorigin=&#34;anonymous&#34; /&gt;
+&lt;link rel=&#34;stylesheet&#34; href=&#34;https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/default-skin/default-skin.min.css&#34; integrity=&#34;sha256-BFeI1V+Vh1Rk37wswuOYn5lsTcaU96hGaI7OUVCLjPc=&#34; crossorigin=&#34;anonymous&#34; /&gt;
+&lt;script src=&#34;https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.js&#34; integrity=&#34;sha256-UplRCs9v4KXVJvVY+p+RSo5Q4ilAUXh7kpjyIP5odyc=&#34; crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe-ui-default.min.js&#34; integrity=&#34;sha256-PWHOlUzc96pMc8ThwRIXPn8yH4NOLu42RQ0b9SpnpFk=&#34; crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
+
+
+&lt;div class=&#34;pswp&#34; tabindex=&#34;-1&#34; role=&#34;dialog&#34; aria-hidden=&#34;true&#34;&gt;
+
+&lt;div class=&#34;pswp__bg&#34;&gt;&lt;/div&gt;
+
+&lt;div class=&#34;pswp__scroll-wrap&#34;&gt;
+    
+    &lt;div class=&#34;pswp__container&#34;&gt;
+      &lt;div class=&#34;pswp__item&#34;&gt;&lt;/div&gt;
+      &lt;div class=&#34;pswp__item&#34;&gt;&lt;/div&gt;
+      &lt;div class=&#34;pswp__item&#34;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    
+    &lt;div class=&#34;pswp__ui pswp__ui--hidden&#34;&gt;
+    &lt;div class=&#34;pswp__top-bar&#34;&gt;
+      
+      &lt;div class=&#34;pswp__counter&#34;&gt;&lt;/div&gt;
+      &lt;button class=&#34;pswp__button pswp__button--close&#34; title=&#34;Close (Esc)&#34;&gt;&lt;/button&gt;
+      &lt;button class=&#34;pswp__button pswp__button--share&#34; title=&#34;Share&#34;&gt;&lt;/button&gt;
+      &lt;button class=&#34;pswp__button pswp__button--fs&#34; title=&#34;Toggle fullscreen&#34;&gt;&lt;/button&gt;
+      &lt;button class=&#34;pswp__button pswp__button--zoom&#34; title=&#34;Zoom in/out&#34;&gt;&lt;/button&gt;
+      
+      
+      &lt;div class=&#34;pswp__preloader&#34;&gt;
+        &lt;div class=&#34;pswp__preloader__icn&#34;&gt;
+          &lt;div class=&#34;pswp__preloader__cut&#34;&gt;
+            &lt;div class=&#34;pswp__preloader__donut&#34;&gt;&lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;pswp__share-modal pswp__share-modal--hidden pswp__single-tap&#34;&gt;
+      &lt;div class=&#34;pswp__share-tooltip&#34;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;button class=&#34;pswp__button pswp__button--arrow--left&#34; title=&#34;Previous (arrow left)&#34;&gt;
+    &lt;/button&gt;
+    &lt;button class=&#34;pswp__button pswp__button--arrow--right&#34; title=&#34;Next (arrow right)&#34;&gt;
+    &lt;/button&gt;
+    &lt;div class=&#34;pswp__caption&#34;&gt;
+      &lt;div class=&#34;pswp__caption__center&#34;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+For solving this equation we just need 4 matches, so in our RANSAC algorithm we select 4 random points at each iteration to find homography and then using the Homography Matrix, we find a consensus set, i.e the matches in two images that agree to the homography calculated by using 
+&lt;a href=&#34;https://mathworld.wolfram.com/Distance.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Euclidean Distance&lt;/a&gt;
+
+. We calculate the distance between transformed points for each match(using H) and corresponding actual matches and threshold them at 0.5 to filter inliers.&lt;/p&gt;
+&lt;p&gt;Following the sequential image registration we use the matched
+features from consecutive images to learn geometric transformations between them in order to
+project them into a panoramic image. This process is called 
+&lt;a href=&#34;https://www.mathworks.com/help/vision/examples/feature-based-panoramic-image-stitching.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Image Stitching&lt;/a&gt;
+
+. In order to perform
+image stitching, an empty panorama is created, then the images are aligned and blended based
+on the learned homography after which they are warped on to the panorama canvas.
+
+
+&lt;div class=&#34;box&#34; &gt;
+  &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
+    &lt;div class=&#34;img&#34;&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/media/stitch3.jpg#center&#34; alt=&#34;Result of our Image stitching algorithm on Real images taken from my OnePlus phone&#34;/&gt;
+    &lt;/div&gt;
+    &lt;a href=&#34;../../media/stitch3.jpg#center&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
+      &lt;figcaption&gt;
+          &lt;p&gt;Result of our Image stitching algorithm on Real images taken from my OnePlus phone&lt;/p&gt;
+      &lt;/figcaption&gt;
+  &lt;/figure&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>SIFT</title>
       <link>/project/sift/</link>
       <pubDate>Mon, 11 Nov 2019 14:11:11 -0400</pubDate>
       <guid>/project/sift/</guid>
       <description>&lt;p&gt;In this project, which was essentially an assignment in 
-&lt;a href=&#34;&#34;&gt;COMP558:Fundamentals of Computer Vision&lt;/a&gt;
+&lt;a href=&#34;https://www.mcgill.ca/study/2018-2019/courses/comp-558&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;COMP558:Fundamentals of Computer Vision&lt;/a&gt;
 
  course, I implemented the 
-&lt;a href=&#34;&#34;&gt;Scale Invariant Feature Transform(SIFT)&lt;/a&gt;
+&lt;a href=&#34;http://www.scholarpedia.org/article/Scale_Invariant_Feature_Transform&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Scale Invariant Feature Transform(SIFT)&lt;/a&gt;
 
  algorithm from scratch. SIFT is a traditional computer vision feature extraction technique. SIFT features are scale, space and rotationally invariant.&lt;/p&gt;
 &lt;p&gt;SIFT is a highly involved algorithm and thus implementing it from scratch is an arduous tasks. At an abstract level the SIFT algorithm can be described in five steps&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;Find Scale Space Extrema&lt;/strong&gt;: We construct the 
-&lt;a href=&#34;&#34;&gt;Laplacian(Difference of Gaussian) pyramid&lt;/a&gt;
+&lt;a href=&#34;https://www.sciencedirect.com/topics/engineering/laplacian-pyramid&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Laplacian(Difference of Gaussian) pyramid&lt;/a&gt;
 
  for the given image and using this pyramid, we
 found local extremas in each level of the laplacian pyramid by taking a local area and
@@ -38,22 +177,25 @@ neighbourhood sizes(3&lt;em&gt;3,5&lt;/em&gt;5) were tried.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;Keypoint Localization&lt;/strong&gt;: A large number of keypoints are generated by the first step which might not be useful. Corner cases and low contrast keypoints are discarded. Also a threshold was specified in order to select only strong extremas. A 
-&lt;a href=&#34;&#34;&gt;taylor series expansion&lt;/a&gt;
+&lt;a href=&#34;https://mathworld.wolfram.com/TaylorSeries.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;taylor series expansion&lt;/a&gt;
 
  of scale space is done to get a more accurate value of extrema and those falling below the threshold were discarded.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;Gradient Calculation&lt;/strong&gt;: For each keypoint detected, a square neigborhood(17x17 in our case) was taken around them at their respective scales. Intensity gradients and orientation were calculated for the given neighborhood. A 
-&lt;a href=&#34;&#34;&gt;gaussian mask&lt;/a&gt;
+&lt;a href=&#34;https://homepages.inf.ed.ac.uk/rbf/HIPR2/gsmooth.htm&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;gaussian mask&lt;/a&gt;
 
  of the same size as our neighborhood was used as a weighting mask over gradient magnitude matrix.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;SIFT Feature Descriptors&lt;/strong&gt;: SIFT feature descriptors are created by taking histograms of gradients orientations for each keypoint neighborhoods. Orientations are divided into bins of various ranges(36 bins of 10 deg in our case), and for each gradient falling in a bin the gradient magnitude value is added to that particular bin. Once we have the histogram we find the orientation with the highest weighted value. Its the principle orientation and the desriptors(orientation vectors) are shifted counterclockwise such that principle orientation becomes the first bin. This lends SIFT features their rotational invariance.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;SIFT Feature Descriptors&lt;/strong&gt;: SIFT feature descriptors are created by taking 
+&lt;a href=&#34;https://www.analyticsvidhya.com/blog/2019/09/feature-engineering-images-introduction-hog-feature-descriptor/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;histograms of gradients orientations&lt;/a&gt;
+
+ for each keypoint neighborhoods. Orientations are divided into bins of various ranges(36 bins of 10 deg in our case), and for each gradient falling in a bin the gradient magnitude value is added to that particular bin. Once we have the histogram we find the orientation with the highest weighted value. Its the principle orientation and the desriptors(orientation vectors) are shifted counterclockwise such that principle orientation becomes the first bin. This lends SIFT features their rotational invariance.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Once we had the SIFT desriptors, I transformed the image and calculated SIFT vectors for the original and transformed images and matched them using bruteforce algorithm i.e 
-&lt;a href=&#34;&#34;&gt;Bhattacharya Distance&lt;/a&gt;
+&lt;a href=&#34;https://www.sciencedirect.com/topics/engineering/bhattacharyya-distance&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Bhattacharyya Distance&lt;/a&gt;
 
  and visualised(as in figure above) the matches above a certain threshold to test the robustness of the SIFT algorithm.&lt;/p&gt;
 </description>

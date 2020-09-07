@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>game theory | Nishant Mishra</title>
+    <link>/tag/game-theory/</link>
+      <atom:link href="/tag/game-theory/index.xml" rel="self" type="application/rss+xml" />
+    <description>game theory</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Sun, 15 Dec 2019 14:11:56 -0400</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>game theory</title>
+      <link>/tag/game-theory/</link>
+    </image>
+    
+    <item>
+      <title>Generative Adversarial Networks: Reproducibility Study</title>
+      <link>/project/gan/</link>
+      <pubDate>Sun, 15 Dec 2019 14:11:56 -0400</pubDate>
+      <guid>/project/gan/</guid>
+      <description>&lt;p&gt;In this project, the final project for 
+&lt;a href=&#34;https://cs.mcgill.ca/~wlh/comp551/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;COMP551: Applied Machine Learning Course&lt;/a&gt;
+
+ we study the 2014 published paper 
+&lt;a href=&#34;https://papers.nips.cc/paper/5423-generative-adversarial-nets.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Generative Adversarial Networks&lt;/a&gt;
+
+. We have tried to reproduce a subset of the results obtained in the paper and performed ablation studies to understand the model&amp;rsquo;s robustness and evaluate the importance of the various model hyper-parameters. We also extended the model to include newer features in order to improve the model&amp;rsquo;s performance on the featured datasets, by making changes to the model&amp;rsquo;s internal structure, inspired by more recent works in the field.&lt;/p&gt;
+&lt;p&gt;Generative Adversarial Networks (GANs) were first described in 
+&lt;a href=&#34;https://papers.nips.cc/paper/5423-generative-adversarial-nets.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;this paper&lt;/a&gt;
+
+ and are based on the 
+&lt;a href=&#34;https://www.investopedia.com/terms/z/zero-sumgame.asp&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;zero-sum non-cooperative game&lt;/a&gt;
+
+ between a Discriminator (D) and a Generator(G), analysed thoroughly in the field of 
+&lt;a href=&#34;https://en.wikipedia.org/wiki/Non-cooperative_game_theory&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Game Theory&lt;/a&gt;
+
+. The framework where both D and G networks are multilayer perceptrons, is referred to as Adversarial Networks.&lt;/p&gt;
+&lt;p&gt;The provided code was implemented using the now obsolete 
+&lt;a href=&#34;http://deeplearning.net/software/theano/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Theano framework&lt;/a&gt;
+
+ and using python2, hence it was really difficult to reconfigure and get it setup on our system. Nevertheless we managed to hack the code and get it to execute for the task of reproducing the results on 
+&lt;a href=&#34;http://yann.lecun.com/exdb/mnist/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MNIST dataset&lt;/a&gt;
+
+ but proceeded to use the much more interpretable and relevant pytorch implementation for ablation studies and extension of the model. The original paper trains the presented GAN network on the MNIST, 
+&lt;a href=&#34;https://www.cs.toronto.edu/~kriz/cifar.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CIFAR-10&lt;/a&gt;
+
+ and TFD images. However, the Toronto Faces Database (TFD) is not accessible without permission, and the provided code does not include scripts for it. Hence, we do not reproduce their results on the TFD database.&lt;/p&gt;
+&lt;p&gt;GANs have been known to be unstable to train, often resulting in generators that produce nonsensical outputs. We decided to put this notion to test by tuning some of the hyperparameters involved in training the models. As part of the ablation studies, we experimented with different values for&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Learning Rates: We tuned the learning rates of both Generator and Discriminator models.&lt;/li&gt;
+&lt;li&gt;Loss Functions: We decided to experiment with the L2 norm or 
+&lt;a href=&#34;https://www.probabilitycourse.com/chapter9/9_1_5_mean_squared_error_MSE.php&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Mean Squared error&lt;/a&gt;
+
+ loss function.&lt;/li&gt;
+&lt;li&gt;D_steps: Number of steps to apply for the Discriminator, i.e the number of times the Discriminator is trained before updating the Generators. We changed it from 1 to 2 as part of our experiment.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;As part of extensions of GAN we implemented two variants of GAN&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://arxiv.org/abs/1511.06434&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Deep Convolutional Generative Adversarial Networks&lt;/a&gt;
+
+ or DCGAN are a variation of GAN
+where the vanilla GAN is upscaled using CNNs.&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://arxiv.org/abs/1411.1784&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Conditional Generative Adversarial Networks&lt;/a&gt;
+
+ or cGAN which allows us to direct the generation process of the model by conditioning it on certain features, here, the class labels.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
