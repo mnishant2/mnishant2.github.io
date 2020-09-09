@@ -66,6 +66,7 @@ figure {
     right: 5px;
     top: 5px;
     bottom: 5px;
+    z-index: 1000;
 }
 .gallery.hover-effect-grow figure:hover {
     transform: scale(1.05);
@@ -93,6 +94,7 @@ img / a styles
     background-size: cover;
     background-position: 50% 50%;
     background-repeat: no-repeat;
+    z-index: 1000;
 }
 .gallery.hover-effect-zoom figure:hover .img {
     transform: scale(1.05);
@@ -106,6 +108,7 @@ figure a {
     right: 0;
     top: 0;
     bottom: 0;
+    z-index: 1000;
 }
 
 /*

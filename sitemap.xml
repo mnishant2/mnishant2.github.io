@@ -4,7 +4,7 @@
   
   <url>
     <loc>/authors/</loc>
-    <lastmod>2020-08-21T09:18:07-04:00</lastmod>
+    <lastmod>2020-09-08T21:46:41-04:00</lastmod>
   </url>
   
   <url>
@@ -29,12 +29,12 @@
   
   <url>
     <loc>/author/nishant-mishra/</loc>
-    <lastmod>2020-08-21T09:18:07-04:00</lastmod>
+    <lastmod>2020-09-08T21:46:41-04:00</lastmod>
   </url>
   
   <url>
     <loc>/</loc>
-    <lastmod>2020-08-21T09:18:07-04:00</lastmod>
+    <lastmod>2020-09-08T21:46:41-04:00</lastmod>
   </url>
   
   <url>
@@ -49,7 +49,7 @@
   
   <url>
     <loc>/tags/</loc>
-    <lastmod>2020-08-21T09:18:07-04:00</lastmod>
+    <lastmod>2020-09-08T21:46:41-04:00</lastmod>
   </url>
   
   <url>
@@ -70,6 +70,41 @@
   <url>
     <loc>/portfolio/</loc>
     <lastmod>2020-08-18T21:54:02-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/lca/</loc>
+    <lastmod>2020-07-15T11:00:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/talk/lca/</loc>
+    <lastmod>2020-07-15T11:00:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/machine-learning/</loc>
+    <lastmod>2020-07-15T11:00:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/sparse-coding/</loc>
+    <lastmod>2020-07-15T11:00:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/deep-learning/</loc>
+    <lastmod>2020-08-18T21:54:02-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/talk/histopathology/</loc>
+    <lastmod>2020-06-06T11:00:00-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/histopathology/</loc>
+    <lastmod>2020-06-06T11:00:00-04:00</lastmod>
   </url>
   
   <url>
@@ -148,6 +183,26 @@
   </url>
   
   <url>
+    <loc>/tag/embedding/</loc>
+    <lastmod>2020-01-22T13:45:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/graph-representation-learning/</loc>
+    <lastmod>2020-01-22T13:45:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/knowledge-graph/</loc>
+    <lastmod>2020-01-22T13:45:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/talk/transe/</loc>
+    <lastmod>2020-01-22T13:45:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/tag/cgan/</loc>
     <lastmod>2019-12-15T14:11:56-04:00</lastmod>
   </url>
@@ -160,11 +215,6 @@
   <url>
     <loc>/tag/dcgan/</loc>
     <lastmod>2019-12-15T14:11:56-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/deep-learning/</loc>
-    <lastmod>2020-08-18T21:54:02-04:00</lastmod>
   </url>
   
   <url>
@@ -323,11 +373,6 @@
   </url>
   
   <url>
-    <loc>/tag/machine-learning/</loc>
-    <lastmod>2019-10-21T14:11:20-04:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/tag/naive-bayes/</loc>
     <lastmod>2019-10-21T14:11:20-04:00</lastmod>
   </url>
@@ -380,6 +425,116 @@
   <url>
     <loc>/project/gem/</loc>
     <lastmod>2019-05-21T09:20:41-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/biological-neural-networks/</loc>
+    <lastmod>2020-09-08T21:46:41-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/dnn/</loc>
+    <lastmod>2020-09-08T21:46:41-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/feature-extraction/</loc>
+    <lastmod>2020-09-08T21:46:41-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/mel-frequency-cepstral-coefficient/</loc>
+    <lastmod>2020-09-08T21:46:41-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/mel-frequency-cepstral-coefficients/</loc>
+    <lastmod>2020-09-08T21:46:41-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/neural-nets/</loc>
+    <lastmod>2020-09-08T21:46:41-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/neural-network/</loc>
+    <lastmod>2020-09-08T21:46:41-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/neural-networks/</loc>
+    <lastmod>2020-09-08T21:46:41-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/noise-measurement/</loc>
+    <lastmod>2020-09-08T21:46:41-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/slfn/</loc>
+    <lastmod>2020-09-08T21:46:41-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/speaker-recognition-systems/</loc>
+    <lastmod>2020-09-08T21:46:41-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/training/</loc>
+    <lastmod>2020-09-08T21:46:41-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication-type/1/</loc>
+    <lastmod>2020-09-08T21:46:41-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/mahesh-chandra/</loc>
+    <lastmod>2020-09-08T21:46:41-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/mfcc/</loc>
+    <lastmod>2020-09-08T21:46:41-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication/mishra-performance-2019/</loc>
+    <lastmod>2020-09-08T21:46:41-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/pnn/</loc>
+    <lastmod>2020-09-08T21:46:41-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/prasun-anand/</loc>
+    <lastmod>2020-09-08T21:46:41-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/publication_types/</loc>
+    <lastmod>2020-09-08T21:46:41-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/rbfnn/</loc>
+    <lastmod>2020-09-08T21:46:41-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/speaker-recognition/</loc>
+    <lastmod>2020-09-08T21:46:41-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/zainab-feroz/</loc>
+    <lastmod>2020-09-08T21:46:41-04:00</lastmod>
   </url>
   
   <url>
@@ -458,11 +613,6 @@
   </url>
   
   <url>
-    <loc>/author/prasun-anand/</loc>
-    <lastmod>2018-05-10T14:12:20-04:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/tag/rgb-d/</loc>
     <lastmod>2018-05-10T14:12:20-04:00</lastmod>
   </url>
@@ -484,11 +634,6 @@
   
   <url>
     <loc>/tag/speech/</loc>
-    <lastmod>2018-05-10T14:12:20-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/zainab-feroz/</loc>
     <lastmod>2018-05-10T14:12:20-04:00</lastmod>
   </url>
   
@@ -618,32 +763,12 @@
   </url>
   
   <url>
-    <loc>/tag/mfcc/</loc>
-    <lastmod>2016-12-11T09:22:49-04:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/category/neural-network/</loc>
     <lastmod>2016-12-11T09:22:49-04:00</lastmod>
   </url>
   
   <url>
-    <loc>/tag/pnn/</loc>
-    <lastmod>2016-12-11T09:22:49-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/rbfnn/</loc>
-    <lastmod>2016-12-11T09:22:49-04:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/project/speaker_recognition/</loc>
-    <lastmod>2016-12-11T09:22:49-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/speaker-recognition/</loc>
     <lastmod>2016-12-11T09:22:49-04:00</lastmod>
   </url>
   
@@ -700,10 +825,6 @@
   <url>
     <loc>/post/</loc>
     <lastmod>2020-07-29T20:27:45+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication_types/</loc>
   </url>
   
   <url>

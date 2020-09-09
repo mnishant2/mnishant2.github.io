@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>graph representation learning | Nishant Mishra</title>
+    <link>/tag/graph-representation-learning/</link>
+      <atom:link href="/tag/graph-representation-learning/index.xml" rel="self" type="application/rss+xml" />
+    <description>graph representation learning</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Wed, 22 Jan 2020 13:45:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>graph representation learning</title>
+      <link>/tag/graph-representation-learning/</link>
+    </image>
+    
+    <item>
+      <title>TransE</title>
+      <link>/talk/transe/</link>
+      <pubDate>Wed, 22 Jan 2020 13:45:00 +0000</pubDate>
+      <guid>/talk/transe/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

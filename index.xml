@@ -40,6 +40,22 @@
     </item>
     
     <item>
+      <title>Locally Competitive Algorithms</title>
+      <link>/talk/lca/</link>
+      <pubDate>Wed, 15 Jul 2020 11:00:00 -0400</pubDate>
+      <guid>/talk/lca/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Histopathology</title>
+      <link>/talk/histopathology/</link>
+      <pubDate>Sat, 06 Jun 2020 11:00:00 -0400</pubDate>
+      <guid>/talk/histopathology/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Policy Gradient</title>
       <link>/project/policy_gradient/</link>
       <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
@@ -193,6 +209,14 @@ entities. These two predictions are jointly iterated. This can be viewed as lear
 &lt;/div&gt;
 &lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>TransE</title>
+      <link>/talk/transe/</link>
+      <pubDate>Wed, 22 Jan 2020 13:45:00 +0000</pubDate>
+      <guid>/talk/transe/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -703,6 +727,14 @@ classifier further bolstered the accuracy to 60.1%. We finished
 &lt;p&gt;Not only did the model perform admirably well on unseen text from ID types part of training data irrespective of variations in OCR output and image layout, but it generalised well for out of sample ID types too when finetuned with just 1-5 samples of these cards.&lt;/p&gt;
 &lt;p&gt;The idea behind this was to build a generic, flexible information retrieval engine thats pretrained to extract important information from OCR output of all ID cards without specifically being trained on them or having seen them, without any rule based processing, that can be easily finetuned on a very small number of samples of any new card type for optimum performance. This was made into a rest API as a plug and play product for clients to finetune the model on their samples and then use it out of the box to extract information from IDs. The performance was measured using precision and recall figures.&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>Performance Evaluation of Neural Networks for Speaker Recognition</title>
+      <link>/publication/mishra-performance-2019/</link>
+      <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/mishra-performance-2019/</guid>
+      <description></description>
     </item>
     
     <item>

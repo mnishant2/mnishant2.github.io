@@ -5,12 +5,20 @@
     <link>/author/zainab-feroz/</link>
       <atom:link href="/author/zainab-feroz/index.xml" rel="self" type="application/rss+xml" />
     <description>Zainab Feroz</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Thu, 10 May 2018 14:12:20 -0400</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Fri, 01 Feb 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Zainab Feroz</title>
       <link>/author/zainab-feroz/</link>
     </image>
+    
+    <item>
+      <title>Performance Evaluation of Neural Networks for Speaker Recognition</title>
+      <link>/publication/mishra-performance-2019/</link>
+      <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>/publication/mishra-performance-2019/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Sign Language Classification [Bachelor Project]</title>

@@ -12,5 +12,29 @@
       <link>/talk/</link>
     </image>
     
+    <item>
+      <title>Locally Competitive Algorithms</title>
+      <link>/talk/lca/</link>
+      <pubDate>Wed, 15 Jul 2020 11:00:00 -0400</pubDate>
+      <guid>/talk/lca/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Histopathology</title>
+      <link>/talk/histopathology/</link>
+      <pubDate>Sat, 06 Jun 2020 11:00:00 -0400</pubDate>
+      <guid>/talk/histopathology/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>TransE</title>
+      <link>/talk/transe/</link>
+      <pubDate>Wed, 22 Jan 2020 13:45:00 +0000</pubDate>
+      <guid>/talk/transe/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

@@ -5,12 +5,20 @@
     <link>/tag/deep-learning/</link>
       <atom:link href="/tag/deep-learning/index.xml" rel="self" type="application/rss+xml" />
     <description>deep learning</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Sun, 15 Dec 2019 14:11:56 -0400</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Sat, 06 Jun 2020 11:00:00 -0400</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>deep learning</title>
       <link>/tag/deep-learning/</link>
     </image>
+    
+    <item>
+      <title>Histopathology</title>
+      <link>/talk/histopathology/</link>
+      <pubDate>Sat, 06 Jun 2020 11:00:00 -0400</pubDate>
+      <guid>/talk/histopathology/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Generative Adversarial Networks: Reproducibility Study</title>
