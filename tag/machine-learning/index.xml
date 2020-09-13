@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>machine learning | Nishant Mishra</title>
-    <link>/tag/machine-learning/</link>
-      <atom:link href="/tag/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://mnishant2.github.io/tag/machine-learning/</link>
+      <atom:link href="https://mnishant2.github.io/tag/machine-learning/index.xml" rel="self" type="application/rss+xml" />
     <description>machine learning</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© NM 2020</copyright><lastBuildDate>Wed, 15 Jul 2020 11:00:00 -0400</lastBuildDate>
     <image>
-      <url>/media/dab.jpg</url>
+      <url>https://mnishant2.github.io/media/dab.jpg</url>
       <title>machine learning</title>
-      <link>/tag/machine-learning/</link>
+      <link>https://mnishant2.github.io/tag/machine-learning/</link>
     </image>
     
     <item>
       <title>Locally Competitive Algorithms</title>
-      <link>/talk/lca/</link>
+      <link>https://mnishant2.github.io/talk/lca/</link>
       <pubDate>Wed, 15 Jul 2020 11:00:00 -0400</pubDate>
-      <guid>/talk/lca/</guid>
+      <guid>https://mnishant2.github.io/talk/lca/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Reddit Comment Classification [Kaggle]</title>
-      <link>/project/reddit_comment/</link>
+      <link>https://mnishant2.github.io/project/reddit_comment/</link>
       <pubDate>Mon, 21 Oct 2019 14:11:20 -0400</pubDate>
-      <guid>/project/reddit_comment/</guid>
+      <guid>https://mnishant2.github.io/project/reddit_comment/</guid>
       <description>&lt;p&gt;This was a 
 &lt;a href=&#34;https://www.kaggle.com/c/reddit-comment-classification-comp-551&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;competition hosted on Kaggle&lt;/a&gt;
 

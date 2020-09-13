@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Benjamin Bigot | Nishant Mishra</title>
-    <link>/author/benjamin-bigot/</link>
-      <atom:link href="/author/benjamin-bigot/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://mnishant2.github.io/author/benjamin-bigot/</link>
+      <atom:link href="https://mnishant2.github.io/author/benjamin-bigot/index.xml" rel="self" type="application/rss+xml" />
     <description>Benjamin Bigot</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© NM 2020</copyright><lastBuildDate>Wed, 31 May 2017 09:20:00 -0400</lastBuildDate>
     <image>
-      <url>/media/dab.jpg</url>
+      <url>https://mnishant2.github.io/media/dab.jpg</url>
       <title>Benjamin Bigot</title>
-      <link>/author/benjamin-bigot/</link>
+      <link>https://mnishant2.github.io/author/benjamin-bigot/</link>
     </image>
     
     <item>
       <title>OCR to enrich ASR</title>
-      <link>/project/ocr_asr/</link>
+      <link>https://mnishant2.github.io/project/ocr_asr/</link>
       <pubDate>Wed, 31 May 2017 09:20:00 -0400</pubDate>
-      <guid>/project/ocr_asr/</guid>
+      <guid>https://mnishant2.github.io/project/ocr_asr/</guid>
       <description>&lt;p&gt;Automatic Speech Recognition systems, especially those leveraging probabilistic modeling such as 
 &lt;a href=&#34;https://en.wikipedia.org/wiki/Hidden_Markov_model&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hidden Markov Model&lt;/a&gt;
 

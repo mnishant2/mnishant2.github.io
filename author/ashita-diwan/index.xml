@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ashita Diwan | Nishant Mishra</title>
-    <link>/author/ashita-diwan/</link>
-      <atom:link href="/author/ashita-diwan/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://mnishant2.github.io/author/ashita-diwan/</link>
+      <atom:link href="https://mnishant2.github.io/author/ashita-diwan/index.xml" rel="self" type="application/rss+xml" />
     <description>Ashita Diwan</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© NM 2020</copyright><lastBuildDate>Sun, 15 Dec 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/media/dab.jpg</url>
+      <url>https://mnishant2.github.io/media/dab.jpg</url>
       <title>Ashita Diwan</title>
-      <link>/author/ashita-diwan/</link>
+      <link>https://mnishant2.github.io/author/ashita-diwan/</link>
     </image>
     
     <item>
       <title>Incremental Knowledge Graphs</title>
-      <link>/project/transe/</link>
+      <link>https://mnishant2.github.io/project/transe/</link>
       <pubDate>Sun, 15 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>/project/transe/</guid>
+      <guid>https://mnishant2.github.io/project/transe/</guid>
       <description>&lt;p&gt;This project was directed towards the final course project requirement for 
 &lt;a href=&#34;https://www.mcgill.ca/study/2019-2020/courses/comp-550&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;COMP 550: Natural Language Processing&lt;/a&gt;
 

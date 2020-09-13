@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ocr | Nishant Mishra</title>
-    <link>/tag/ocr/</link>
-      <atom:link href="/tag/ocr/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://mnishant2.github.io/tag/ocr/</link>
+      <atom:link href="https://mnishant2.github.io/tag/ocr/index.xml" rel="self" type="application/rss+xml" />
     <description>ocr</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© NM 2020</copyright><lastBuildDate>Fri, 21 Aug 2020 09:18:07 -0400</lastBuildDate>
     <image>
-      <url>/media/dab.jpg</url>
+      <url>https://mnishant2.github.io/media/dab.jpg</url>
       <title>ocr</title>
-      <link>/tag/ocr/</link>
+      <link>https://mnishant2.github.io/tag/ocr/</link>
     </image>
     
     <item>
       <title>Highlighter(Auto field detection)</title>
-      <link>/project/highlighter/</link>
+      <link>https://mnishant2.github.io/project/highlighter/</link>
       <pubDate>Fri, 21 Aug 2020 09:18:07 -0400</pubDate>
-      <guid>/project/highlighter/</guid>
+      <guid>https://mnishant2.github.io/project/highlighter/</guid>
       <description>&lt;p&gt;This project involved an automatic highlighter tool for automatic highlighting and extraction of specific form fields from documents for further processing such as Optical Character Recognition, information retrieval from handwritten documents or even to facilitate semi manual digital population of records from forms using a user interface.&lt;/p&gt;
 &lt;p&gt;The tool utilizes document layout detection, classical Computer vision techniques like template matching and mathematical heuristics to create a generalizable automatic highlighting tool using only one sample of the concerned document.&lt;/p&gt;
 &lt;p&gt;The associated repository here is designed for handling a particular bank form and is a command line highlighting tool that can be appropriated/extended for other documents and interfaces.&lt;/p&gt;
@@ -25,9 +25,9 @@
     
     <item>
       <title>Image Quality Assessment</title>
-      <link>/project/iqa/</link>
+      <link>https://mnishant2.github.io/project/iqa/</link>
       <pubDate>Mon, 21 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>/project/iqa/</guid>
+      <guid>https://mnishant2.github.io/project/iqa/</guid>
       <description>&lt;p&gt;Many of the vision based applications or APIs meant for information retrieval/data verification such as Text extraction or face recognition need a minimal quality of image for efficient processing and adequate performance. Hence it becomes imperative to implement an Image quality assessment layer before proceeding with further processing. This will ensure smooth applicaton of the vision algorithms, reliable performance and an overall time reduction by ensuring less redundant computations on oor quality images, and prventing multiple requests and passes through the algorithm.&lt;/p&gt;
 &lt;p&gt;This additional filter helps by ensuring only optimal quality images are passed on and poor quality images are screened at the client/user stage itself saving the users time and the server unnecessary processing, ensuring higher throughput and efficiency.&lt;/p&gt;
 &lt;p&gt;We implemented one such pipeline using an ensemble of models that qualitatively analysed images and produced a quantitative measure for image quality that could then be used as a threshold for decision on whether they are sent for downstream processing or the user is notified to repeat the request with better quality images. This quantitative score ensures flexibility for different tasks and different people tailored to their needs.&lt;/p&gt;
@@ -45,17 +45,17 @@
     
     <item>
       <title>Dory OCR</title>
-      <link>/project/dory-ocr/</link>
+      <link>https://mnishant2.github.io/project/dory-ocr/</link>
       <pubDate>Fri, 05 Oct 2018 00:34:01 -0400</pubDate>
-      <guid>/project/dory-ocr/</guid>
+      <guid>https://mnishant2.github.io/project/dory-ocr/</guid>
       <description></description>
     </item>
     
     <item>
       <title>OCR to enrich ASR</title>
-      <link>/project/ocr_asr/</link>
+      <link>https://mnishant2.github.io/project/ocr_asr/</link>
       <pubDate>Wed, 31 May 2017 09:20:00 -0400</pubDate>
-      <guid>/project/ocr_asr/</guid>
+      <guid>https://mnishant2.github.io/project/ocr_asr/</guid>
       <description>&lt;p&gt;Automatic Speech Recognition systems, especially those leveraging probabilistic modeling such as 
 &lt;a href=&#34;https://en.wikipedia.org/wiki/Hidden_Markov_model&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hidden Markov Model&lt;/a&gt;
 

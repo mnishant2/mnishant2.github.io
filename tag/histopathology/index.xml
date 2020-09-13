@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>histopathology | Nishant Mishra</title>
-    <link>/tag/histopathology/</link>
-      <atom:link href="/tag/histopathology/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://mnishant2.github.io/tag/histopathology/</link>
+      <atom:link href="https://mnishant2.github.io/tag/histopathology/index.xml" rel="self" type="application/rss+xml" />
     <description>histopathology</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© NM 2020</copyright><lastBuildDate>Sat, 06 Jun 2020 11:00:00 -0400</lastBuildDate>
     <image>
-      <url>/media/dab.jpg</url>
+      <url>https://mnishant2.github.io/media/dab.jpg</url>
       <title>histopathology</title>
-      <link>/tag/histopathology/</link>
+      <link>https://mnishant2.github.io/tag/histopathology/</link>
     </image>
     
     <item>
       <title>Histopathology</title>
-      <link>/talk/histopathology/</link>
+      <link>https://mnishant2.github.io/talk/histopathology/</link>
       <pubDate>Sat, 06 Jun 2020 11:00:00 -0400</pubDate>
-      <guid>/talk/histopathology/</guid>
+      <guid>https://mnishant2.github.io/talk/histopathology/</guid>
       <description></description>
     </item>
     

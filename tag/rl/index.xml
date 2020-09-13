@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>RL | Nishant Mishra</title>
-    <link>/tag/rl/</link>
-      <atom:link href="/tag/rl/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://mnishant2.github.io/tag/rl/</link>
+      <atom:link href="https://mnishant2.github.io/tag/rl/index.xml" rel="self" type="application/rss+xml" />
     <description>RL</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© NM 2020</copyright><lastBuildDate>Fri, 01 May 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/media/dab.jpg</url>
+      <url>https://mnishant2.github.io/media/dab.jpg</url>
       <title>RL</title>
-      <link>/tag/rl/</link>
+      <link>https://mnishant2.github.io/tag/rl/</link>
     </image>
     
     <item>
       <title>Policy Gradient</title>
-      <link>/project/policy_gradient/</link>
+      <link>https://mnishant2.github.io/project/policy_gradient/</link>
       <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
-      <guid>/project/policy_gradient/</guid>
+      <guid>https://mnishant2.github.io/project/policy_gradient/</guid>
       <description>&lt;p&gt;This project was done as part of my final project submission for 
 &lt;a href=&#34;https://www.cs.mcgill.ca/~dprecup/courses/RL/lectures.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;COMP767: Reinforcement Learning&lt;/a&gt;
 

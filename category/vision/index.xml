@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>vision | Nishant Mishra</title>
-    <link>/category/vision/</link>
-      <atom:link href="/category/vision/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://mnishant2.github.io/category/vision/</link>
+      <atom:link href="https://mnishant2.github.io/category/vision/index.xml" rel="self" type="application/rss+xml" />
     <description>vision</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© NM 2020</copyright><lastBuildDate>Sun, 15 Dec 2019 14:11:56 -0400</lastBuildDate>
     <image>
-      <url>/media/dab.jpg</url>
+      <url>https://mnishant2.github.io/media/dab.jpg</url>
       <title>vision</title>
-      <link>/category/vision/</link>
+      <link>https://mnishant2.github.io/category/vision/</link>
     </image>
     
     <item>
       <title>Generative Adversarial Networks: Reproducibility Study</title>
-      <link>/project/gan/</link>
+      <link>https://mnishant2.github.io/project/gan/</link>
       <pubDate>Sun, 15 Dec 2019 14:11:56 -0400</pubDate>
-      <guid>/project/gan/</guid>
+      <guid>https://mnishant2.github.io/project/gan/</guid>
       <description>&lt;p&gt;In this project, the final project for 
 &lt;a href=&#34;https://cs.mcgill.ca/~wlh/comp551/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;COMP551: Applied Machine Learning Course&lt;/a&gt;
 
@@ -70,9 +70,9 @@ where the vanilla GAN is upscaled using CNNs.&lt;/li&gt;
     
     <item>
       <title>Image Stitching (Panorama)</title>
-      <link>/project/image_stitching/</link>
+      <link>https://mnishant2.github.io/project/image_stitching/</link>
       <pubDate>Tue, 03 Dec 2019 14:11:05 -0400</pubDate>
-      <guid>/project/image_stitching/</guid>
+      <guid>https://mnishant2.github.io/project/image_stitching/</guid>
       <description>&lt;p&gt;This was the final assignment of 
 &lt;a href=&#34;https://www.mcgill.ca/study/2018-2019/courses/comp-558&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;COMP558:Fundamentals of Computer Vision&lt;/a&gt;
 
@@ -104,11 +104,11 @@ series based thresholding. Instead of 36 dimension feature histograms, now we ha
 
 .
 
-&lt;link rel=&#34;stylesheet&#34; href=/css/hugo-easy-gallery.css /&gt;
+&lt;link rel=&#34;stylesheet&#34; href=https://mnishant2.github.io/css/hugo-easy-gallery.css /&gt;
 &lt;div class=&#34;box&#34; &gt;
   &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
     &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/media/homography.jpg#center&#34; alt=&#34;Least Squares Estimation equation for finding Homography&#34;/&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://mnishant2.github.io/media/homography.jpg#center&#34; alt=&#34;Least Squares Estimation equation for finding Homography&#34;/&gt;
     &lt;/div&gt;
     &lt;a href=&#34;../../media/homography.jpg#center&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
       &lt;figcaption&gt;
@@ -125,7 +125,7 @@ series based thresholding. Instead of 36 dimension feature histograms, now we ha
 
 
 &lt;script src=&#34;https://code.jquery.com/jquery-1.12.4.min.js&#34; integrity=&#34;sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=&#34; crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
-&lt;script src=/js/load-photoswipe.js&gt;&lt;/script&gt;
+&lt;script src=https://mnishant2.github.io/js/load-photoswipe.js&gt;&lt;/script&gt;
 
 
 &lt;link rel=&#34;stylesheet&#34; href=&#34;https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.css&#34; integrity=&#34;sha256-sCl5PUOGMLfFYctzDW3MtRib0ctyUvI9Qsmq2wXOeBY=&#34; crossorigin=&#34;anonymous&#34; /&gt;
@@ -195,7 +195,7 @@ on the learned homography after which they are warped on to the panorama canvas.
 &lt;div class=&#34;box&#34; &gt;
   &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
     &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/media/stitch3.jpg#center&#34; alt=&#34;Result of our Image stitching algorithm on Real images taken from my OnePlus phone&#34;/&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://mnishant2.github.io/media/stitch3.jpg#center&#34; alt=&#34;Result of our Image stitching algorithm on Real images taken from my OnePlus phone&#34;/&gt;
     &lt;/div&gt;
     &lt;a href=&#34;../../media/stitch3.jpg#center&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
       &lt;figcaption&gt;
@@ -209,9 +209,9 @@ on the learned homography after which they are warped on to the panorama canvas.
     
     <item>
       <title>Modified MNIST [Kaggle]</title>
-      <link>/project/modified_mnist/</link>
+      <link>https://mnishant2.github.io/project/modified_mnist/</link>
       <pubDate>Thu, 14 Nov 2019 14:11:29 -0400</pubDate>
-      <guid>/project/modified_mnist/</guid>
+      <guid>https://mnishant2.github.io/project/modified_mnist/</guid>
       <description>&lt;p&gt;This was a 
 &lt;a href=&#34;https://www.kaggle.com/c/modified-mnist&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;competition hosted on Kaggle&lt;/a&gt;
 
@@ -230,11 +230,11 @@ We analyze different Machine Learning models to process a modified version of th
 . After fine-tuning the best performing models’ hyper-parameters, to further boost the classification accuracy, we used various data augmentation techniques, including Affine Transformation
 Mappings, Scale-Space blurring, Contrast changes and Perspective transforms. By doing so, we were able to gain a higher accuracy on the test set, as compared to before data augmentation.
 
-&lt;link rel=&#34;stylesheet&#34; href=/css/hugo-easy-gallery.css /&gt;
+&lt;link rel=&#34;stylesheet&#34; href=https://mnishant2.github.io/css/hugo-easy-gallery.css /&gt;
 &lt;div class=&#34;box&#34; &gt;
   &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
     &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/media/modified_mnist2.jpg#center&#34; /&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://mnishant2.github.io/media/modified_mnist2.jpg#center&#34; /&gt;
     &lt;/div&gt;
     &lt;a href=&#34;../../media/modified_mnist2.jpg#center&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
   &lt;/figure&gt;
@@ -248,7 +248,7 @@ Mappings, Scale-Space blurring, Contrast changes and Perspective transforms. By 
 
 
 &lt;script src=&#34;https://code.jquery.com/jquery-1.12.4.min.js&#34; integrity=&#34;sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=&#34; crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
-&lt;script src=/js/load-photoswipe.js&gt;&lt;/script&gt;
+&lt;script src=https://mnishant2.github.io/js/load-photoswipe.js&gt;&lt;/script&gt;
 
 
 &lt;link rel=&#34;stylesheet&#34; href=&#34;https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.css&#34; integrity=&#34;sha256-sCl5PUOGMLfFYctzDW3MtRib0ctyUvI9Qsmq2wXOeBY=&#34; crossorigin=&#34;anonymous&#34; /&gt;
@@ -310,9 +310,9 @@ Mappings, Scale-Space blurring, Contrast changes and Perspective transforms. By 
     
     <item>
       <title>SIFT</title>
-      <link>/project/sift/</link>
+      <link>https://mnishant2.github.io/project/sift/</link>
       <pubDate>Mon, 11 Nov 2019 14:11:11 -0400</pubDate>
-      <guid>/project/sift/</guid>
+      <guid>https://mnishant2.github.io/project/sift/</guid>
       <description>&lt;p&gt;In this project, which was essentially an assignment in 
 &lt;a href=&#34;https://www.mcgill.ca/study/2018-2019/courses/comp-558&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;COMP558:Fundamentals of Computer Vision&lt;/a&gt;
 
@@ -360,9 +360,9 @@ neighbourhood sizes(3&lt;em&gt;3,5&lt;/em&gt;5) were tried.&lt;/p&gt;
     
     <item>
       <title>Image Quality Assessment</title>
-      <link>/project/iqa/</link>
+      <link>https://mnishant2.github.io/project/iqa/</link>
       <pubDate>Mon, 21 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>/project/iqa/</guid>
+      <guid>https://mnishant2.github.io/project/iqa/</guid>
       <description>&lt;p&gt;Many of the vision based applications or APIs meant for information retrieval/data verification such as Text extraction or face recognition need a minimal quality of image for efficient processing and adequate performance. Hence it becomes imperative to implement an Image quality assessment layer before proceeding with further processing. This will ensure smooth applicaton of the vision algorithms, reliable performance and an overall time reduction by ensuring less redundant computations on oor quality images, and prventing multiple requests and passes through the algorithm.&lt;/p&gt;
 &lt;p&gt;This additional filter helps by ensuring only optimal quality images are passed on and poor quality images are screened at the client/user stage itself saving the users time and the server unnecessary processing, ensuring higher throughput and efficiency.&lt;/p&gt;
 &lt;p&gt;We implemented one such pipeline using an ensemble of models that qualitatively analysed images and produced a quantitative measure for image quality that could then be used as a threshold for decision on whether they are sent for downstream processing or the user is notified to repeat the request with better quality images. This quantitative score ensures flexibility for different tasks and different people tailored to their needs.&lt;/p&gt;
@@ -380,17 +380,17 @@ neighbourhood sizes(3&lt;em&gt;3,5&lt;/em&gt;5) were tried.&lt;/p&gt;
     
     <item>
       <title>Dory OCR</title>
-      <link>/project/dory-ocr/</link>
+      <link>https://mnishant2.github.io/project/dory-ocr/</link>
       <pubDate>Fri, 05 Oct 2018 00:34:01 -0400</pubDate>
-      <guid>/project/dory-ocr/</guid>
+      <guid>https://mnishant2.github.io/project/dory-ocr/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Sign Language Classification [Bachelor Project]</title>
-      <link>/project/sign_language/</link>
+      <link>https://mnishant2.github.io/project/sign_language/</link>
       <pubDate>Thu, 10 May 2018 14:12:20 -0400</pubDate>
-      <guid>/project/sign_language/</guid>
+      <guid>https://mnishant2.github.io/project/sign_language/</guid>
       <description>&lt;p&gt;This was our Undergrad Final Project where we set out to implement a speech Sign Language intercoversion system. More specifically it was Hindi speech- Indian sign Language interconversion system. The speech to sign language subsystem was essentially a derivative of our 
 &lt;a href=&#34;../speech_recognition&#34;&gt;speech recognition project&lt;/a&gt;
 
@@ -407,11 +407,11 @@ Here I shall be discussing our Indian Sign Language detection subsystem. Initial
 
  pixel values of the data to segment skin region and intensify the skin pixel areas in the RGB-D images.
 
-&lt;link rel=&#34;stylesheet&#34; href=/css/hugo-easy-gallery.css /&gt;
+&lt;link rel=&#34;stylesheet&#34; href=https://mnishant2.github.io/css/hugo-easy-gallery.css /&gt;
 &lt;div class=&#34;box&#34; &gt;
   &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
     &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/media/sign2.jpg#center&#34; alt=&#34;Skin segmentation using Multivariate GMM&#34;/&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://mnishant2.github.io/media/sign2.jpg#center&#34; alt=&#34;Skin segmentation using Multivariate GMM&#34;/&gt;
     &lt;/div&gt;
     &lt;a href=&#34;../../media/sign2.jpg#center&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
       &lt;figcaption&gt;
@@ -428,7 +428,7 @@ Here I shall be discussing our Indian Sign Language detection subsystem. Initial
 
 
 &lt;script src=&#34;https://code.jquery.com/jquery-1.12.4.min.js&#34; integrity=&#34;sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=&#34; crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
-&lt;script src=/js/load-photoswipe.js&gt;&lt;/script&gt;
+&lt;script src=https://mnishant2.github.io/js/load-photoswipe.js&gt;&lt;/script&gt;
 
 
 &lt;link rel=&#34;stylesheet&#34; href=&#34;https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.css&#34; integrity=&#34;sha256-sCl5PUOGMLfFYctzDW3MtRib0ctyUvI9Qsmq2wXOeBY=&#34; crossorigin=&#34;anonymous&#34; /&gt;
@@ -487,7 +487,7 @@ Here I shall be discussing our Indian Sign Language detection subsystem. Initial
 &lt;div class=&#34;box&#34; &gt;
   &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
     &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/media/sign3.jpg#center&#34; alt=&#34;Data sample along with Augmentation&#34;/&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://mnishant2.github.io/media/sign3.jpg#center&#34; alt=&#34;Data sample along with Augmentation&#34;/&gt;
     &lt;/div&gt;
     &lt;a href=&#34;../../media/sign3.jpg#center&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
       &lt;figcaption&gt;
@@ -508,9 +508,9 @@ Here I shall be discussing our Indian Sign Language detection subsystem. Initial
     
     <item>
       <title>Cropnet</title>
-      <link>/project/cropnet/</link>
+      <link>https://mnishant2.github.io/project/cropnet/</link>
       <pubDate>Thu, 12 Apr 2018 00:00:00 +0000</pubDate>
-      <guid>/project/cropnet/</guid>
+      <guid>https://mnishant2.github.io/project/cropnet/</guid>
       <description>&lt;p&gt;As the name suggests, this project involved training a model to crop out documents from a background. Essentially this can be classified as a segmentation task that would need massive annotation of data with a mask on the foreground object which is to be used for supervised segmentation training.&lt;/p&gt;
 &lt;p&gt;We decided to cast this into a regression based problem where we annotated only the four corner points of the foreground object as our training labels and then used them to train a regression model with 8 continuous valued outputs({x,y} coordinates of all four corners). Once we had these points we implemented a perspective transform to warp the object into a rectangular space for the final cropped output.&lt;/p&gt;
 &lt;p&gt;For training we used custom aggregated and crowdsourced dataset of ID cards and other documents in various background settings. We implemented our own 
@@ -547,9 +547,9 @@ Here I shall be discussing our Indian Sign Language detection subsystem. Initial
     
     <item>
       <title>Activity Recognition</title>
-      <link>/project/activity_recognition/</link>
+      <link>https://mnishant2.github.io/project/activity_recognition/</link>
       <pubDate>Sun, 15 Oct 2017 00:00:00 +0000</pubDate>
-      <guid>/project/activity_recognition/</guid>
+      <guid>https://mnishant2.github.io/project/activity_recognition/</guid>
       <description>&lt;p&gt;This work was selected for and presented at the final round of Smart India Hackathon 2017 by government of India.
 The project involved implementing a proof of concept system to detect anomalous activities from camera feed. For this purpose we used the 
 &lt;a href=&#34;https://www.csc.kth.se/cvap/actions/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Database for recognition of human actions&lt;/a&gt;
@@ -570,9 +570,9 @@ The project involved implementing a proof of concept system to detect anomalous 
     
     <item>
       <title>OCR to enrich ASR</title>
-      <link>/project/ocr_asr/</link>
+      <link>https://mnishant2.github.io/project/ocr_asr/</link>
       <pubDate>Wed, 31 May 2017 09:20:00 -0400</pubDate>
-      <guid>/project/ocr_asr/</guid>
+      <guid>https://mnishant2.github.io/project/ocr_asr/</guid>
       <description>&lt;p&gt;Automatic Speech Recognition systems, especially those leveraging probabilistic modeling such as 
 &lt;a href=&#34;https://en.wikipedia.org/wiki/Hidden_Markov_model&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hidden Markov Model&lt;/a&gt;
 

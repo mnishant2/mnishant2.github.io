@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>object detection | Nishant Mishra</title>
-    <link>/tag/object-detection/</link>
-      <atom:link href="/tag/object-detection/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://mnishant2.github.io/tag/object-detection/</link>
+      <atom:link href="https://mnishant2.github.io/tag/object-detection/index.xml" rel="self" type="application/rss+xml" />
     <description>object detection</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© NM 2020</copyright><lastBuildDate>Fri, 05 Oct 2018 00:34:01 -0400</lastBuildDate>
     <image>
-      <url>/media/dab.jpg</url>
+      <url>https://mnishant2.github.io/media/dab.jpg</url>
       <title>object detection</title>
-      <link>/tag/object-detection/</link>
+      <link>https://mnishant2.github.io/tag/object-detection/</link>
     </image>
     
     <item>
       <title>Dory OCR</title>
-      <link>/project/dory-ocr/</link>
+      <link>https://mnishant2.github.io/project/dory-ocr/</link>
       <pubDate>Fri, 05 Oct 2018 00:34:01 -0400</pubDate>
-      <guid>/project/dory-ocr/</guid>
+      <guid>https://mnishant2.github.io/project/dory-ocr/</guid>
       <description></description>
     </item>
     

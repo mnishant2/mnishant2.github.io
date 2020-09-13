@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>featured | Nishant Mishra</title>
-    <link>/tag/featured/</link>
-      <atom:link href="/tag/featured/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://mnishant2.github.io/tag/featured/</link>
+      <atom:link href="https://mnishant2.github.io/tag/featured/index.xml" rel="self" type="application/rss+xml" />
     <description>featured</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© NM 2020</copyright><lastBuildDate>Fri, 01 May 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/media/dab.jpg</url>
+      <url>https://mnishant2.github.io/media/dab.jpg</url>
       <title>featured</title>
-      <link>/tag/featured/</link>
+      <link>https://mnishant2.github.io/tag/featured/</link>
     </image>
     
     <item>
       <title>Policy Gradient</title>
-      <link>/project/policy_gradient/</link>
+      <link>https://mnishant2.github.io/project/policy_gradient/</link>
       <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
-      <guid>/project/policy_gradient/</guid>
+      <guid>https://mnishant2.github.io/project/policy_gradient/</guid>
       <description>&lt;p&gt;This project was done as part of my final project submission for 
 &lt;a href=&#34;https://www.cs.mcgill.ca/~dprecup/courses/RL/lectures.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;COMP767: Reinforcement Learning&lt;/a&gt;
 
@@ -54,9 +54,9 @@ Network Size, Batch Sizes) on the performance of these methods.&lt;/p&gt;
     
     <item>
       <title>Online Learning of temporal Knowledge Graphs</title>
-      <link>/project/online_learning/</link>
+      <link>https://mnishant2.github.io/project/online_learning/</link>
       <pubDate>Tue, 14 Apr 2020 09:23:37 -0400</pubDate>
-      <guid>/project/online_learning/</guid>
+      <guid>https://mnishant2.github.io/project/online_learning/</guid>
       <description>&lt;p&gt;This project was undertaken as part of the  final project for 
 &lt;a href=&#34;https://cs.mcgill.ca/~wlh/comp766/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;COMP 766: Graph Representation Learning&lt;/a&gt;
 
@@ -91,11 +91,11 @@ obtain an updated representation of old entities based on the recently learned e
 entities. These two predictions are jointly iterated. This can be viewed as learning to learn problem
 (meta-learning).
 
-&lt;link rel=&#34;stylesheet&#34; href=/css/hugo-easy-gallery.css /&gt;
+&lt;link rel=&#34;stylesheet&#34; href=https://mnishant2.github.io/css/hugo-easy-gallery.css /&gt;
 &lt;div class=&#34;box&#34; style=&#34;max-width:50%&#34;&gt;
   &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
     &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/media/tsne-2d-40clusters.png#center&#34; alt=&#34;tsne visualization of top 40 entity embeddings cluster&#34;/&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://mnishant2.github.io/media/tsne-2d-40clusters.png#center&#34; alt=&#34;tsne visualization of top 40 entity embeddings cluster&#34;/&gt;
     &lt;/div&gt;
     &lt;a href=&#34;../../media/tsne-2d-40clusters.png#center&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
       &lt;figcaption&gt;
@@ -112,7 +112,7 @@ entities. These two predictions are jointly iterated. This can be viewed as lear
 
 
 &lt;script src=&#34;https://code.jquery.com/jquery-1.12.4.min.js&#34; integrity=&#34;sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=&#34; crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
-&lt;script src=/js/load-photoswipe.js&gt;&lt;/script&gt;
+&lt;script src=https://mnishant2.github.io/js/load-photoswipe.js&gt;&lt;/script&gt;
 
 
 &lt;link rel=&#34;stylesheet&#34; href=&#34;https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.css&#34; integrity=&#34;sha256-sCl5PUOGMLfFYctzDW3MtRib0ctyUvI9Qsmq2wXOeBY=&#34; crossorigin=&#34;anonymous&#34; /&gt;
@@ -170,9 +170,9 @@ entities. These two predictions are jointly iterated. This can be viewed as lear
     
     <item>
       <title>Incremental Knowledge Graphs</title>
-      <link>/project/transe/</link>
+      <link>https://mnishant2.github.io/project/transe/</link>
       <pubDate>Sun, 15 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>/project/transe/</guid>
+      <guid>https://mnishant2.github.io/project/transe/</guid>
       <description>&lt;p&gt;This project was directed towards the final course project requirement for 
 &lt;a href=&#34;https://www.mcgill.ca/study/2019-2020/courses/comp-550&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;COMP 550: Natural Language Processing&lt;/a&gt;
 
@@ -236,9 +236,9 @@ aims to predict the missing h or t for a relation fact
     
     <item>
       <title>Image Stitching (Panorama)</title>
-      <link>/project/image_stitching/</link>
+      <link>https://mnishant2.github.io/project/image_stitching/</link>
       <pubDate>Tue, 03 Dec 2019 14:11:05 -0400</pubDate>
-      <guid>/project/image_stitching/</guid>
+      <guid>https://mnishant2.github.io/project/image_stitching/</guid>
       <description>&lt;p&gt;This was the final assignment of 
 &lt;a href=&#34;https://www.mcgill.ca/study/2018-2019/courses/comp-558&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;COMP558:Fundamentals of Computer Vision&lt;/a&gt;
 
@@ -270,11 +270,11 @@ series based thresholding. Instead of 36 dimension feature histograms, now we ha
 
 .
 
-&lt;link rel=&#34;stylesheet&#34; href=/css/hugo-easy-gallery.css /&gt;
+&lt;link rel=&#34;stylesheet&#34; href=https://mnishant2.github.io/css/hugo-easy-gallery.css /&gt;
 &lt;div class=&#34;box&#34; &gt;
   &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
     &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/media/homography.jpg#center&#34; alt=&#34;Least Squares Estimation equation for finding Homography&#34;/&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://mnishant2.github.io/media/homography.jpg#center&#34; alt=&#34;Least Squares Estimation equation for finding Homography&#34;/&gt;
     &lt;/div&gt;
     &lt;a href=&#34;../../media/homography.jpg#center&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
       &lt;figcaption&gt;
@@ -291,7 +291,7 @@ series based thresholding. Instead of 36 dimension feature histograms, now we ha
 
 
 &lt;script src=&#34;https://code.jquery.com/jquery-1.12.4.min.js&#34; integrity=&#34;sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=&#34; crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
-&lt;script src=/js/load-photoswipe.js&gt;&lt;/script&gt;
+&lt;script src=https://mnishant2.github.io/js/load-photoswipe.js&gt;&lt;/script&gt;
 
 
 &lt;link rel=&#34;stylesheet&#34; href=&#34;https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.css&#34; integrity=&#34;sha256-sCl5PUOGMLfFYctzDW3MtRib0ctyUvI9Qsmq2wXOeBY=&#34; crossorigin=&#34;anonymous&#34; /&gt;
@@ -361,7 +361,7 @@ on the learned homography after which they are warped on to the panorama canvas.
 &lt;div class=&#34;box&#34; &gt;
   &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
     &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/media/stitch3.jpg#center&#34; alt=&#34;Result of our Image stitching algorithm on Real images taken from my OnePlus phone&#34;/&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://mnishant2.github.io/media/stitch3.jpg#center&#34; alt=&#34;Result of our Image stitching algorithm on Real images taken from my OnePlus phone&#34;/&gt;
     &lt;/div&gt;
     &lt;a href=&#34;../../media/stitch3.jpg#center&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
       &lt;figcaption&gt;
@@ -375,9 +375,9 @@ on the learned homography after which they are warped on to the panorama canvas.
     
     <item>
       <title>Generic Extraction Module (G.E.M)</title>
-      <link>/project/gem/</link>
+      <link>https://mnishant2.github.io/project/gem/</link>
       <pubDate>Tue, 21 May 2019 09:20:41 -0400</pubDate>
-      <guid>/project/gem/</guid>
+      <guid>https://mnishant2.github.io/project/gem/</guid>
       <description>&lt;p&gt;The project at Signzy involved training a generalizable model for information retrieval from OCR output of Indian ID cards. We used both character level embeddings and word level embeddings(
 &lt;a href=&#34;https://allennlp.org/elmo&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ELMO&lt;/a&gt;
 
@@ -399,9 +399,9 @@ on the learned homography after which they are warped on to the panorama canvas.
     
     <item>
       <title>Image Quality Assessment</title>
-      <link>/project/iqa/</link>
+      <link>https://mnishant2.github.io/project/iqa/</link>
       <pubDate>Mon, 21 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>/project/iqa/</guid>
+      <guid>https://mnishant2.github.io/project/iqa/</guid>
       <description>&lt;p&gt;Many of the vision based applications or APIs meant for information retrieval/data verification such as Text extraction or face recognition need a minimal quality of image for efficient processing and adequate performance. Hence it becomes imperative to implement an Image quality assessment layer before proceeding with further processing. This will ensure smooth applicaton of the vision algorithms, reliable performance and an overall time reduction by ensuring less redundant computations on oor quality images, and prventing multiple requests and passes through the algorithm.&lt;/p&gt;
 &lt;p&gt;This additional filter helps by ensuring only optimal quality images are passed on and poor quality images are screened at the client/user stage itself saving the users time and the server unnecessary processing, ensuring higher throughput and efficiency.&lt;/p&gt;
 &lt;p&gt;We implemented one such pipeline using an ensemble of models that qualitatively analysed images and produced a quantitative measure for image quality that could then be used as a threshold for decision on whether they are sent for downstream processing or the user is notified to repeat the request with better quality images. This quantitative score ensures flexibility for different tasks and different people tailored to their needs.&lt;/p&gt;
@@ -419,17 +419,17 @@ on the learned homography after which they are warped on to the panorama canvas.
     
     <item>
       <title>Dory OCR</title>
-      <link>/project/dory-ocr/</link>
+      <link>https://mnishant2.github.io/project/dory-ocr/</link>
       <pubDate>Fri, 05 Oct 2018 00:34:01 -0400</pubDate>
-      <guid>/project/dory-ocr/</guid>
+      <guid>https://mnishant2.github.io/project/dory-ocr/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Sign Language Classification [Bachelor Project]</title>
-      <link>/project/sign_language/</link>
+      <link>https://mnishant2.github.io/project/sign_language/</link>
       <pubDate>Thu, 10 May 2018 14:12:20 -0400</pubDate>
-      <guid>/project/sign_language/</guid>
+      <guid>https://mnishant2.github.io/project/sign_language/</guid>
       <description>&lt;p&gt;This was our Undergrad Final Project where we set out to implement a speech Sign Language intercoversion system. More specifically it was Hindi speech- Indian sign Language interconversion system. The speech to sign language subsystem was essentially a derivative of our 
 &lt;a href=&#34;../speech_recognition&#34;&gt;speech recognition project&lt;/a&gt;
 
@@ -446,11 +446,11 @@ Here I shall be discussing our Indian Sign Language detection subsystem. Initial
 
  pixel values of the data to segment skin region and intensify the skin pixel areas in the RGB-D images.
 
-&lt;link rel=&#34;stylesheet&#34; href=/css/hugo-easy-gallery.css /&gt;
+&lt;link rel=&#34;stylesheet&#34; href=https://mnishant2.github.io/css/hugo-easy-gallery.css /&gt;
 &lt;div class=&#34;box&#34; &gt;
   &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
     &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/media/sign2.jpg#center&#34; alt=&#34;Skin segmentation using Multivariate GMM&#34;/&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://mnishant2.github.io/media/sign2.jpg#center&#34; alt=&#34;Skin segmentation using Multivariate GMM&#34;/&gt;
     &lt;/div&gt;
     &lt;a href=&#34;../../media/sign2.jpg#center&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
       &lt;figcaption&gt;
@@ -467,7 +467,7 @@ Here I shall be discussing our Indian Sign Language detection subsystem. Initial
 
 
 &lt;script src=&#34;https://code.jquery.com/jquery-1.12.4.min.js&#34; integrity=&#34;sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=&#34; crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
-&lt;script src=/js/load-photoswipe.js&gt;&lt;/script&gt;
+&lt;script src=https://mnishant2.github.io/js/load-photoswipe.js&gt;&lt;/script&gt;
 
 
 &lt;link rel=&#34;stylesheet&#34; href=&#34;https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.css&#34; integrity=&#34;sha256-sCl5PUOGMLfFYctzDW3MtRib0ctyUvI9Qsmq2wXOeBY=&#34; crossorigin=&#34;anonymous&#34; /&gt;
@@ -526,7 +526,7 @@ Here I shall be discussing our Indian Sign Language detection subsystem. Initial
 &lt;div class=&#34;box&#34; &gt;
   &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
     &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/media/sign3.jpg#center&#34; alt=&#34;Data sample along with Augmentation&#34;/&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://mnishant2.github.io/media/sign3.jpg#center&#34; alt=&#34;Data sample along with Augmentation&#34;/&gt;
     &lt;/div&gt;
     &lt;a href=&#34;../../media/sign3.jpg#center&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
       &lt;figcaption&gt;
@@ -547,9 +547,9 @@ Here I shall be discussing our Indian Sign Language detection subsystem. Initial
     
     <item>
       <title>Activity Recognition</title>
-      <link>/project/activity_recognition/</link>
+      <link>https://mnishant2.github.io/project/activity_recognition/</link>
       <pubDate>Sun, 15 Oct 2017 00:00:00 +0000</pubDate>
-      <guid>/project/activity_recognition/</guid>
+      <guid>https://mnishant2.github.io/project/activity_recognition/</guid>
       <description>&lt;p&gt;This work was selected for and presented at the final round of Smart India Hackathon 2017 by government of India.
 The project involved implementing a proof of concept system to detect anomalous activities from camera feed. For this purpose we used the 
 &lt;a href=&#34;https://www.csc.kth.se/cvap/actions/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Database for recognition of human actions&lt;/a&gt;
@@ -570,9 +570,9 @@ The project involved implementing a proof of concept system to detect anomalous 
     
     <item>
       <title>OCR to enrich ASR</title>
-      <link>/project/ocr_asr/</link>
+      <link>https://mnishant2.github.io/project/ocr_asr/</link>
       <pubDate>Wed, 31 May 2017 09:20:00 -0400</pubDate>
-      <guid>/project/ocr_asr/</guid>
+      <guid>https://mnishant2.github.io/project/ocr_asr/</guid>
       <description>&lt;p&gt;Automatic Speech Recognition systems, especially those leveraging probabilistic modeling such as 
 &lt;a href=&#34;https://en.wikipedia.org/wiki/Hidden_Markov_model&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hidden Markov Model&lt;/a&gt;
 

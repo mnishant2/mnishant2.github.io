@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>sentiment analysis | Nishant Mishra</title>
-    <link>/category/sentiment-analysis/</link>
-      <atom:link href="/category/sentiment-analysis/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://mnishant2.github.io/category/sentiment-analysis/</link>
+      <atom:link href="https://mnishant2.github.io/category/sentiment-analysis/index.xml" rel="self" type="application/rss+xml" />
     <description>sentiment analysis</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© NM 2020</copyright><lastBuildDate>Mon, 21 Oct 2019 14:11:20 -0400</lastBuildDate>
     <image>
-      <url>/media/dab.jpg</url>
+      <url>https://mnishant2.github.io/media/dab.jpg</url>
       <title>sentiment analysis</title>
-      <link>/category/sentiment-analysis/</link>
+      <link>https://mnishant2.github.io/category/sentiment-analysis/</link>
     </image>
     
     <item>
       <title>Reddit Comment Classification [Kaggle]</title>
-      <link>/project/reddit_comment/</link>
+      <link>https://mnishant2.github.io/project/reddit_comment/</link>
       <pubDate>Mon, 21 Oct 2019 14:11:20 -0400</pubDate>
-      <guid>/project/reddit_comment/</guid>
+      <guid>https://mnishant2.github.io/project/reddit_comment/</guid>
       <description>&lt;p&gt;This was a 
 &lt;a href=&#34;https://www.kaggle.com/c/reddit-comment-classification-comp-551&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;competition hosted on Kaggle&lt;/a&gt;
 

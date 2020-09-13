@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>regression | Nishant Mishra</title>
-    <link>/tag/regression/</link>
-      <atom:link href="/tag/regression/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://mnishant2.github.io/tag/regression/</link>
+      <atom:link href="https://mnishant2.github.io/tag/regression/index.xml" rel="self" type="application/rss+xml" />
     <description>regression</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© NM 2020</copyright><lastBuildDate>Thu, 12 Apr 2018 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/media/dab.jpg</url>
+      <url>https://mnishant2.github.io/media/dab.jpg</url>
       <title>regression</title>
-      <link>/tag/regression/</link>
+      <link>https://mnishant2.github.io/tag/regression/</link>
     </image>
     
     <item>
       <title>Cropnet</title>
-      <link>/project/cropnet/</link>
+      <link>https://mnishant2.github.io/project/cropnet/</link>
       <pubDate>Thu, 12 Apr 2018 00:00:00 +0000</pubDate>
-      <guid>/project/cropnet/</guid>
+      <guid>https://mnishant2.github.io/project/cropnet/</guid>
       <description>&lt;p&gt;As the name suggests, this project involved training a model to crop out documents from a background. Essentially this can be classified as a segmentation task that would need massive annotation of data with a mask on the foreground object which is to be used for supervised segmentation training.&lt;/p&gt;
 &lt;p&gt;We decided to cast this into a regression based problem where we annotated only the four corner points of the foreground object as our training labels and then used them to train a regression model with 8 continuous valued outputs({x,y} coordinates of all four corners). Once we had these points we implemented a perspective transform to warp the object into a rectangular space for the final cropped output.&lt;/p&gt;
 &lt;p&gt;For training we used custom aggregated and crowdsourced dataset of ID cards and other documents in various background settings. We implemented our own 

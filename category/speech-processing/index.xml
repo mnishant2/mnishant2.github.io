@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Speech Processing | Nishant Mishra</title>
-    <link>/category/speech-processing/</link>
-      <atom:link href="/category/speech-processing/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://mnishant2.github.io/category/speech-processing/</link>
+      <atom:link href="https://mnishant2.github.io/category/speech-processing/index.xml" rel="self" type="application/rss+xml" />
     <description>Speech Processing</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© NM 2020</copyright><lastBuildDate>Sun, 11 Dec 2016 09:22:49 -0400</lastBuildDate>
     <image>
-      <url>/media/dab.jpg</url>
+      <url>https://mnishant2.github.io/media/dab.jpg</url>
       <title>Speech Processing</title>
-      <link>/category/speech-processing/</link>
+      <link>https://mnishant2.github.io/category/speech-processing/</link>
     </image>
     
     <item>
       <title>Speaker Recognition</title>
-      <link>/project/speaker_recognition/</link>
+      <link>https://mnishant2.github.io/project/speaker_recognition/</link>
       <pubDate>Sun, 11 Dec 2016 09:22:49 -0400</pubDate>
-      <guid>/project/speaker_recognition/</guid>
+      <guid>https://mnishant2.github.io/project/speaker_recognition/</guid>
       <description>&lt;p&gt;At the Signal Processing lab, BIT Mesra, we worked on the automatic speaker recognition project to predict the speaker given a speech utterance. Speaker Recognition is one of the principle problems in Speech processing. The performance of speaker recognition systems can be improved by carefully choosing and calculating suitable features, which is an arduous task.&lt;/p&gt;
 &lt;p&gt;This project was done on a custom dataset containing hindi digit utterances by 50 speakers. The database consisted of 5000 utterances, 100 for each of the 50 different speakers, in both clean and noisy environment, with varying levels of noise from -5dB, 0dB, 5dB, 10dB, 20dB and 30dB.&lt;/p&gt;
 &lt;p&gt;The 
@@ -32,11 +32,11 @@
 &lt;p&gt;Accuracy of all neural networks was expectedly very high (&amp;gt;90%) for clean data, large variations coming in with introduction and change in the level of noise. RBFNN has been shown to consistently perform well under all conditions. DNN was the other consistent performer and has the potential to outperform
 other techniques, if trained on more data.
 
-&lt;link rel=&#34;stylesheet&#34; href=/css/hugo-easy-gallery.css /&gt;
+&lt;link rel=&#34;stylesheet&#34; href=https://mnishant2.github.io/css/hugo-easy-gallery.css /&gt;
 &lt;div class=&#34;box&#34; &gt;
   &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
     &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/media/50spk.png#center&#34; alt=&#34;Accuracy Vs SNR (in dB) for 50 speakers&#34;/&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://mnishant2.github.io/media/50spk.png#center&#34; alt=&#34;Accuracy Vs SNR (in dB) for 50 speakers&#34;/&gt;
     &lt;/div&gt;
     &lt;a href=&#34;../../media/50spk.png#center&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
       &lt;figcaption&gt;
@@ -53,7 +53,7 @@ other techniques, if trained on more data.
 
 
 &lt;script src=&#34;https://code.jquery.com/jquery-1.12.4.min.js&#34; integrity=&#34;sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=&#34; crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
-&lt;script src=/js/load-photoswipe.js&gt;&lt;/script&gt;
+&lt;script src=https://mnishant2.github.io/js/load-photoswipe.js&gt;&lt;/script&gt;
 
 
 &lt;link rel=&#34;stylesheet&#34; href=&#34;https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.css&#34; integrity=&#34;sha256-sCl5PUOGMLfFYctzDW3MtRib0ctyUvI9Qsmq2wXOeBY=&#34; crossorigin=&#34;anonymous&#34; /&gt;

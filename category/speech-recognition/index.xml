@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>speech recognition | Nishant Mishra</title>
-    <link>/category/speech-recognition/</link>
-      <atom:link href="/category/speech-recognition/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://mnishant2.github.io/category/speech-recognition/</link>
+      <atom:link href="https://mnishant2.github.io/category/speech-recognition/index.xml" rel="self" type="application/rss+xml" />
     <description>speech recognition</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© NM 2020</copyright><lastBuildDate>Wed, 31 May 2017 09:20:00 -0400</lastBuildDate>
     <image>
-      <url>/media/dab.jpg</url>
+      <url>https://mnishant2.github.io/media/dab.jpg</url>
       <title>speech recognition</title>
-      <link>/category/speech-recognition/</link>
+      <link>https://mnishant2.github.io/category/speech-recognition/</link>
     </image>
     
     <item>
       <title>OCR to enrich ASR</title>
-      <link>/project/ocr_asr/</link>
+      <link>https://mnishant2.github.io/project/ocr_asr/</link>
       <pubDate>Wed, 31 May 2017 09:20:00 -0400</pubDate>
-      <guid>/project/ocr_asr/</guid>
+      <guid>https://mnishant2.github.io/project/ocr_asr/</guid>
       <description>&lt;p&gt;Automatic Speech Recognition systems, especially those leveraging probabilistic modeling such as 
 &lt;a href=&#34;https://en.wikipedia.org/wiki/Hidden_Markov_model&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hidden Markov Model&lt;/a&gt;
 
@@ -53,9 +53,9 @@ In this project done as part of my undergrad summer research Internship at
     
     <item>
       <title>Multilingual Speech Recognition</title>
-      <link>/project/speech_recognition/</link>
+      <link>https://mnishant2.github.io/project/speech_recognition/</link>
       <pubDate>Sun, 16 Oct 2016 00:59:54 -0400</pubDate>
-      <guid>/project/speech_recognition/</guid>
+      <guid>https://mnishant2.github.io/project/speech_recognition/</guid>
       <description>&lt;p&gt;In this project we used the same custom database of Hindi Digit utterances by 50 different subjects 10 times each in various noise levels including ideal 0dB lab conditions as used in the 
 &lt;a href=&#34;../speaker_recognition/&#34;&gt;speaker recognition project&lt;/a&gt;
 

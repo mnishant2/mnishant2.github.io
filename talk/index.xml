@@ -2,37 +2,37 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Recent &amp; Upcoming Talks | Nishant Mishra</title>
-    <link>/talk/</link>
-      <atom:link href="/talk/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://mnishant2.github.io/talk/</link>
+      <atom:link href="https://mnishant2.github.io/talk/index.xml" rel="self" type="application/rss+xml" />
     <description>Recent &amp; Upcoming Talks</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© NM 2020</copyright>
     <image>
-      <url>/media/dab.jpg</url>
+      <url>https://mnishant2.github.io/media/dab.jpg</url>
       <title>Recent &amp; Upcoming Talks</title>
-      <link>/talk/</link>
+      <link>https://mnishant2.github.io/talk/</link>
     </image>
     
     <item>
       <title>Locally Competitive Algorithms</title>
-      <link>/talk/lca/</link>
+      <link>https://mnishant2.github.io/talk/lca/</link>
       <pubDate>Wed, 15 Jul 2020 11:00:00 -0400</pubDate>
-      <guid>/talk/lca/</guid>
+      <guid>https://mnishant2.github.io/talk/lca/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Histopathology</title>
-      <link>/talk/histopathology/</link>
+      <link>https://mnishant2.github.io/talk/histopathology/</link>
       <pubDate>Sat, 06 Jun 2020 11:00:00 -0400</pubDate>
-      <guid>/talk/histopathology/</guid>
+      <guid>https://mnishant2.github.io/talk/histopathology/</guid>
       <description></description>
     </item>
     
     <item>
       <title>TransE</title>
-      <link>/talk/transe/</link>
+      <link>https://mnishant2.github.io/talk/transe/</link>
       <pubDate>Wed, 22 Jan 2020 13:45:00 +0000</pubDate>
-      <guid>/talk/transe/</guid>
+      <guid>https://mnishant2.github.io/talk/transe/</guid>
       <description></description>
     </item>
     

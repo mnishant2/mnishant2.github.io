@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>layout analysis | Nishant Mishra</title>
-    <link>/category/layout-analysis/</link>
-      <atom:link href="/category/layout-analysis/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://mnishant2.github.io/category/layout-analysis/</link>
+      <atom:link href="https://mnishant2.github.io/category/layout-analysis/index.xml" rel="self" type="application/rss+xml" />
     <description>layout analysis</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© NM 2020</copyright><lastBuildDate>Fri, 21 Aug 2020 09:18:07 -0400</lastBuildDate>
     <image>
-      <url>/media/dab.jpg</url>
+      <url>https://mnishant2.github.io/media/dab.jpg</url>
       <title>layout analysis</title>
-      <link>/category/layout-analysis/</link>
+      <link>https://mnishant2.github.io/category/layout-analysis/</link>
     </image>
     
     <item>
       <title>Highlighter(Auto field detection)</title>
-      <link>/project/highlighter/</link>
+      <link>https://mnishant2.github.io/project/highlighter/</link>
       <pubDate>Fri, 21 Aug 2020 09:18:07 -0400</pubDate>
-      <guid>/project/highlighter/</guid>
+      <guid>https://mnishant2.github.io/project/highlighter/</guid>
       <description>&lt;p&gt;This project involved an automatic highlighter tool for automatic highlighting and extraction of specific form fields from documents for further processing such as Optical Character Recognition, information retrieval from handwritten documents or even to facilitate semi manual digital population of records from forms using a user interface.&lt;/p&gt;
 &lt;p&gt;The tool utilizes document layout detection, classical Computer vision techniques like template matching and mathematical heuristics to create a generalizable automatic highlighting tool using only one sample of the concerned document.&lt;/p&gt;
 &lt;p&gt;The associated repository here is designed for handling a particular bank form and is a command line highlighting tool that can be appropriated/extended for other documents and interfaces.&lt;/p&gt;

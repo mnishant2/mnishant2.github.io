@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>gcn | Nishant Mishra</title>
-    <link>/tag/gcn/</link>
-      <atom:link href="/tag/gcn/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://mnishant2.github.io/tag/gcn/</link>
+      <atom:link href="https://mnishant2.github.io/tag/gcn/index.xml" rel="self" type="application/rss+xml" />
     <description>gcn</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© NM 2020</copyright><lastBuildDate>Tue, 14 Apr 2020 09:23:37 -0400</lastBuildDate>
     <image>
-      <url>/media/dab.jpg</url>
+      <url>https://mnishant2.github.io/media/dab.jpg</url>
       <title>gcn</title>
-      <link>/tag/gcn/</link>
+      <link>https://mnishant2.github.io/tag/gcn/</link>
     </image>
     
     <item>
       <title>Online Learning of temporal Knowledge Graphs</title>
-      <link>/project/online_learning/</link>
+      <link>https://mnishant2.github.io/project/online_learning/</link>
       <pubDate>Tue, 14 Apr 2020 09:23:37 -0400</pubDate>
-      <guid>/project/online_learning/</guid>
+      <guid>https://mnishant2.github.io/project/online_learning/</guid>
       <description>&lt;p&gt;This project was undertaken as part of the  final project for 
 &lt;a href=&#34;https://cs.mcgill.ca/~wlh/comp766/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;COMP 766: Graph Representation Learning&lt;/a&gt;
 
@@ -51,11 +51,11 @@ obtain an updated representation of old entities based on the recently learned e
 entities. These two predictions are jointly iterated. This can be viewed as learning to learn problem
 (meta-learning).
 
-&lt;link rel=&#34;stylesheet&#34; href=/css/hugo-easy-gallery.css /&gt;
+&lt;link rel=&#34;stylesheet&#34; href=https://mnishant2.github.io/css/hugo-easy-gallery.css /&gt;
 &lt;div class=&#34;box&#34; style=&#34;max-width:50%&#34;&gt;
   &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
     &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/media/tsne-2d-40clusters.png#center&#34; alt=&#34;tsne visualization of top 40 entity embeddings cluster&#34;/&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://mnishant2.github.io/media/tsne-2d-40clusters.png#center&#34; alt=&#34;tsne visualization of top 40 entity embeddings cluster&#34;/&gt;
     &lt;/div&gt;
     &lt;a href=&#34;../../media/tsne-2d-40clusters.png#center&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
       &lt;figcaption&gt;
@@ -72,7 +72,7 @@ entities. These two predictions are jointly iterated. This can be viewed as lear
 
 
 &lt;script src=&#34;https://code.jquery.com/jquery-1.12.4.min.js&#34; integrity=&#34;sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=&#34; crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
-&lt;script src=/js/load-photoswipe.js&gt;&lt;/script&gt;
+&lt;script src=https://mnishant2.github.io/js/load-photoswipe.js&gt;&lt;/script&gt;
 
 
 &lt;link rel=&#34;stylesheet&#34; href=&#34;https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.css&#34; integrity=&#34;sha256-sCl5PUOGMLfFYctzDW3MtRib0ctyUvI9Qsmq2wXOeBY=&#34; crossorigin=&#34;anonymous&#34; /&gt;
@@ -130,9 +130,9 @@ entities. These two predictions are jointly iterated. This can be viewed as lear
     
     <item>
       <title>Incremental Knowledge Graphs</title>
-      <link>/project/transe/</link>
+      <link>https://mnishant2.github.io/project/transe/</link>
       <pubDate>Sun, 15 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>/project/transe/</guid>
+      <guid>https://mnishant2.github.io/project/transe/</guid>
       <description>&lt;p&gt;This project was directed towards the final course project requirement for 
 &lt;a href=&#34;https://www.mcgill.ca/study/2019-2020/courses/comp-550&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;COMP 550: Natural Language Processing&lt;/a&gt;
 

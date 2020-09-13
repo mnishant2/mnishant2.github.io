@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>laplacian | Nishant Mishra</title>
-    <link>/tag/laplacian/</link>
-      <atom:link href="/tag/laplacian/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://mnishant2.github.io/tag/laplacian/</link>
+      <atom:link href="https://mnishant2.github.io/tag/laplacian/index.xml" rel="self" type="application/rss+xml" />
     <description>laplacian</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© NM 2020</copyright><lastBuildDate>Mon, 11 Nov 2019 14:11:11 -0400</lastBuildDate>
     <image>
-      <url>/media/dab.jpg</url>
+      <url>https://mnishant2.github.io/media/dab.jpg</url>
       <title>laplacian</title>
-      <link>/tag/laplacian/</link>
+      <link>https://mnishant2.github.io/tag/laplacian/</link>
     </image>
     
     <item>
       <title>SIFT</title>
-      <link>/project/sift/</link>
+      <link>https://mnishant2.github.io/project/sift/</link>
       <pubDate>Mon, 11 Nov 2019 14:11:11 -0400</pubDate>
-      <guid>/project/sift/</guid>
+      <guid>https://mnishant2.github.io/project/sift/</guid>
       <description>&lt;p&gt;In this project, which was essentially an assignment in 
 &lt;a href=&#34;https://www.mcgill.ca/study/2018-2019/courses/comp-558&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;COMP558:Fundamentals of Computer Vision&lt;/a&gt;
 

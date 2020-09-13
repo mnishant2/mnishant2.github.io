@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>embedding | Nishant Mishra</title>
-    <link>/tag/embedding/</link>
-      <atom:link href="/tag/embedding/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://mnishant2.github.io/tag/embedding/</link>
+      <atom:link href="https://mnishant2.github.io/tag/embedding/index.xml" rel="self" type="application/rss+xml" />
     <description>embedding</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© NM 2020</copyright><lastBuildDate>Wed, 22 Jan 2020 13:45:00 +0000</lastBuildDate>
     <image>
-      <url>/media/dab.jpg</url>
+      <url>https://mnishant2.github.io/media/dab.jpg</url>
       <title>embedding</title>
-      <link>/tag/embedding/</link>
+      <link>https://mnishant2.github.io/tag/embedding/</link>
     </image>
     
     <item>
       <title>TransE</title>
-      <link>/talk/transe/</link>
+      <link>https://mnishant2.github.io/talk/transe/</link>
       <pubDate>Wed, 22 Jan 2020 13:45:00 +0000</pubDate>
-      <guid>/talk/transe/</guid>
+      <guid>https://mnishant2.github.io/talk/transe/</guid>
       <description></description>
     </item>
     

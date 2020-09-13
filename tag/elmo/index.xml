@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ELMO | Nishant Mishra</title>
-    <link>/tag/elmo/</link>
-      <atom:link href="/tag/elmo/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://mnishant2.github.io/tag/elmo/</link>
+      <atom:link href="https://mnishant2.github.io/tag/elmo/index.xml" rel="self" type="application/rss+xml" />
     <description>ELMO</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© NM 2020</copyright><lastBuildDate>Tue, 21 May 2019 09:20:41 -0400</lastBuildDate>
     <image>
-      <url>/media/dab.jpg</url>
+      <url>https://mnishant2.github.io/media/dab.jpg</url>
       <title>ELMO</title>
-      <link>/tag/elmo/</link>
+      <link>https://mnishant2.github.io/tag/elmo/</link>
     </image>
     
     <item>
       <title>Generic Extraction Module (G.E.M)</title>
-      <link>/project/gem/</link>
+      <link>https://mnishant2.github.io/project/gem/</link>
       <pubDate>Tue, 21 May 2019 09:20:41 -0400</pubDate>
-      <guid>/project/gem/</guid>
+      <guid>https://mnishant2.github.io/project/gem/</guid>
       <description>&lt;p&gt;The project at Signzy involved training a generalizable model for information retrieval from OCR output of Indian ID cards. We used both character level embeddings and word level embeddings(
 &lt;a href=&#34;https://allennlp.org/elmo&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ELMO&lt;/a&gt;
 

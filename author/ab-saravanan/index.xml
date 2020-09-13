@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>AB Saravanan | Nishant Mishra</title>
-    <link>/author/ab-saravanan/</link>
-      <atom:link href="/author/ab-saravanan/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://mnishant2.github.io/author/ab-saravanan/</link>
+      <atom:link href="https://mnishant2.github.io/author/ab-saravanan/index.xml" rel="self" type="application/rss+xml" />
     <description>AB Saravanan</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© NM 2020</copyright><lastBuildDate>Mon, 21 Jan 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/media/dab.jpg</url>
+      <url>https://mnishant2.github.io/media/dab.jpg</url>
       <title>AB Saravanan</title>
-      <link>/author/ab-saravanan/</link>
+      <link>https://mnishant2.github.io/author/ab-saravanan/</link>
     </image>
     
     <item>
       <title>Image Quality Assessment</title>
-      <link>/project/iqa/</link>
+      <link>https://mnishant2.github.io/project/iqa/</link>
       <pubDate>Mon, 21 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>/project/iqa/</guid>
+      <guid>https://mnishant2.github.io/project/iqa/</guid>
       <description>&lt;p&gt;Many of the vision based applications or APIs meant for information retrieval/data verification such as Text extraction or face recognition need a minimal quality of image for efficient processing and adequate performance. Hence it becomes imperative to implement an Image quality assessment layer before proceeding with further processing. This will ensure smooth applicaton of the vision algorithms, reliable performance and an overall time reduction by ensuring less redundant computations on oor quality images, and prventing multiple requests and passes through the algorithm.&lt;/p&gt;
 &lt;p&gt;This additional filter helps by ensuring only optimal quality images are passed on and poor quality images are screened at the client/user stage itself saving the users time and the server unnecessary processing, ensuring higher throughput and efficiency.&lt;/p&gt;
 &lt;p&gt;We implemented one such pipeline using an ensemble of models that qualitatively analysed images and produced a quantitative measure for image quality that could then be used as a threshold for decision on whether they are sent for downstream processing or the user is notified to repeat the request with better quality images. This quantitative score ensures flexibility for different tasks and different people tailored to their needs.&lt;/p&gt;
@@ -34,9 +34,9 @@
     
     <item>
       <title>Dory OCR</title>
-      <link>/project/dory-ocr/</link>
+      <link>https://mnishant2.github.io/project/dory-ocr/</link>
       <pubDate>Fri, 05 Oct 2018 00:34:01 -0400</pubDate>
-      <guid>/project/dory-ocr/</guid>
+      <guid>https://mnishant2.github.io/project/dory-ocr/</guid>
       <description></description>
     </item>
     

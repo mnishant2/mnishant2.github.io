@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>RANSAC | Nishant Mishra</title>
-    <link>/tag/ransac/</link>
-      <atom:link href="/tag/ransac/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://mnishant2.github.io/tag/ransac/</link>
+      <atom:link href="https://mnishant2.github.io/tag/ransac/index.xml" rel="self" type="application/rss+xml" />
     <description>RANSAC</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© NM 2020</copyright><lastBuildDate>Tue, 03 Dec 2019 14:11:05 -0400</lastBuildDate>
     <image>
-      <url>/media/dab.jpg</url>
+      <url>https://mnishant2.github.io/media/dab.jpg</url>
       <title>RANSAC</title>
-      <link>/tag/ransac/</link>
+      <link>https://mnishant2.github.io/tag/ransac/</link>
     </image>
     
     <item>
       <title>Image Stitching (Panorama)</title>
-      <link>/project/image_stitching/</link>
+      <link>https://mnishant2.github.io/project/image_stitching/</link>
       <pubDate>Tue, 03 Dec 2019 14:11:05 -0400</pubDate>
-      <guid>/project/image_stitching/</guid>
+      <guid>https://mnishant2.github.io/project/image_stitching/</guid>
       <description>&lt;p&gt;This was the final assignment of 
 &lt;a href=&#34;https://www.mcgill.ca/study/2018-2019/courses/comp-558&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;COMP558:Fundamentals of Computer Vision&lt;/a&gt;
 
@@ -48,11 +48,11 @@ series based thresholding. Instead of 36 dimension feature histograms, now we ha
 
 .
 
-&lt;link rel=&#34;stylesheet&#34; href=/css/hugo-easy-gallery.css /&gt;
+&lt;link rel=&#34;stylesheet&#34; href=https://mnishant2.github.io/css/hugo-easy-gallery.css /&gt;
 &lt;div class=&#34;box&#34; &gt;
   &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
     &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/media/homography.jpg#center&#34; alt=&#34;Least Squares Estimation equation for finding Homography&#34;/&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://mnishant2.github.io/media/homography.jpg#center&#34; alt=&#34;Least Squares Estimation equation for finding Homography&#34;/&gt;
     &lt;/div&gt;
     &lt;a href=&#34;../../media/homography.jpg#center&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
       &lt;figcaption&gt;
@@ -69,7 +69,7 @@ series based thresholding. Instead of 36 dimension feature histograms, now we ha
 
 
 &lt;script src=&#34;https://code.jquery.com/jquery-1.12.4.min.js&#34; integrity=&#34;sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=&#34; crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
-&lt;script src=/js/load-photoswipe.js&gt;&lt;/script&gt;
+&lt;script src=https://mnishant2.github.io/js/load-photoswipe.js&gt;&lt;/script&gt;
 
 
 &lt;link rel=&#34;stylesheet&#34; href=&#34;https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.css&#34; integrity=&#34;sha256-sCl5PUOGMLfFYctzDW3MtRib0ctyUvI9Qsmq2wXOeBY=&#34; crossorigin=&#34;anonymous&#34; /&gt;
@@ -139,7 +139,7 @@ on the learned homography after which they are warped on to the panorama canvas.
 &lt;div class=&#34;box&#34; &gt;
   &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
     &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/media/stitch3.jpg#center&#34; alt=&#34;Result of our Image stitching algorithm on Real images taken from my OnePlus phone&#34;/&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://mnishant2.github.io/media/stitch3.jpg#center&#34; alt=&#34;Result of our Image stitching algorithm on Real images taken from my OnePlus phone&#34;/&gt;
     &lt;/div&gt;
     &lt;a href=&#34;../../media/stitch3.jpg#center&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
       &lt;figcaption&gt;

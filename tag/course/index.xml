@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>course | Nishant Mishra</title>
-    <link>/tag/course/</link>
-      <atom:link href="/tag/course/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://mnishant2.github.io/tag/course/</link>
+      <atom:link href="https://mnishant2.github.io/tag/course/index.xml" rel="self" type="application/rss+xml" />
     <description>course</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© NM 2020</copyright><lastBuildDate>Sun, 15 Dec 2019 14:11:56 -0400</lastBuildDate>
     <image>
-      <url>/media/dab.jpg</url>
+      <url>https://mnishant2.github.io/media/dab.jpg</url>
       <title>course</title>
-      <link>/tag/course/</link>
+      <link>https://mnishant2.github.io/tag/course/</link>
     </image>
     
     <item>
       <title>Generative Adversarial Networks: Reproducibility Study</title>
-      <link>/project/gan/</link>
+      <link>https://mnishant2.github.io/project/gan/</link>
       <pubDate>Sun, 15 Dec 2019 14:11:56 -0400</pubDate>
-      <guid>/project/gan/</guid>
+      <guid>https://mnishant2.github.io/project/gan/</guid>
       <description>&lt;p&gt;In this project, the final project for 
 &lt;a href=&#34;https://cs.mcgill.ca/~wlh/comp551/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;COMP551: Applied Machine Learning Course&lt;/a&gt;
 
@@ -70,9 +70,9 @@ where the vanilla GAN is upscaled using CNNs.&lt;/li&gt;
     
     <item>
       <title>Image Stitching (Panorama)</title>
-      <link>/project/image_stitching/</link>
+      <link>https://mnishant2.github.io/project/image_stitching/</link>
       <pubDate>Tue, 03 Dec 2019 14:11:05 -0400</pubDate>
-      <guid>/project/image_stitching/</guid>
+      <guid>https://mnishant2.github.io/project/image_stitching/</guid>
       <description>&lt;p&gt;This was the final assignment of 
 &lt;a href=&#34;https://www.mcgill.ca/study/2018-2019/courses/comp-558&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;COMP558:Fundamentals of Computer Vision&lt;/a&gt;
 
@@ -104,11 +104,11 @@ series based thresholding. Instead of 36 dimension feature histograms, now we ha
 
 .
 
-&lt;link rel=&#34;stylesheet&#34; href=/css/hugo-easy-gallery.css /&gt;
+&lt;link rel=&#34;stylesheet&#34; href=https://mnishant2.github.io/css/hugo-easy-gallery.css /&gt;
 &lt;div class=&#34;box&#34; &gt;
   &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
     &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/media/homography.jpg#center&#34; alt=&#34;Least Squares Estimation equation for finding Homography&#34;/&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://mnishant2.github.io/media/homography.jpg#center&#34; alt=&#34;Least Squares Estimation equation for finding Homography&#34;/&gt;
     &lt;/div&gt;
     &lt;a href=&#34;../../media/homography.jpg#center&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
       &lt;figcaption&gt;
@@ -125,7 +125,7 @@ series based thresholding. Instead of 36 dimension feature histograms, now we ha
 
 
 &lt;script src=&#34;https://code.jquery.com/jquery-1.12.4.min.js&#34; integrity=&#34;sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=&#34; crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
-&lt;script src=/js/load-photoswipe.js&gt;&lt;/script&gt;
+&lt;script src=https://mnishant2.github.io/js/load-photoswipe.js&gt;&lt;/script&gt;
 
 
 &lt;link rel=&#34;stylesheet&#34; href=&#34;https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.css&#34; integrity=&#34;sha256-sCl5PUOGMLfFYctzDW3MtRib0ctyUvI9Qsmq2wXOeBY=&#34; crossorigin=&#34;anonymous&#34; /&gt;
@@ -195,7 +195,7 @@ on the learned homography after which they are warped on to the panorama canvas.
 &lt;div class=&#34;box&#34; &gt;
   &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
     &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/media/stitch3.jpg#center&#34; alt=&#34;Result of our Image stitching algorithm on Real images taken from my OnePlus phone&#34;/&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://mnishant2.github.io/media/stitch3.jpg#center&#34; alt=&#34;Result of our Image stitching algorithm on Real images taken from my OnePlus phone&#34;/&gt;
     &lt;/div&gt;
     &lt;a href=&#34;../../media/stitch3.jpg#center&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
       &lt;figcaption&gt;
@@ -209,9 +209,9 @@ on the learned homography after which they are warped on to the panorama canvas.
     
     <item>
       <title>Modified MNIST [Kaggle]</title>
-      <link>/project/modified_mnist/</link>
+      <link>https://mnishant2.github.io/project/modified_mnist/</link>
       <pubDate>Thu, 14 Nov 2019 14:11:29 -0400</pubDate>
-      <guid>/project/modified_mnist/</guid>
+      <guid>https://mnishant2.github.io/project/modified_mnist/</guid>
       <description>&lt;p&gt;This was a 
 &lt;a href=&#34;https://www.kaggle.com/c/modified-mnist&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;competition hosted on Kaggle&lt;/a&gt;
 
@@ -230,11 +230,11 @@ We analyze different Machine Learning models to process a modified version of th
 . After fine-tuning the best performing models’ hyper-parameters, to further boost the classification accuracy, we used various data augmentation techniques, including Affine Transformation
 Mappings, Scale-Space blurring, Contrast changes and Perspective transforms. By doing so, we were able to gain a higher accuracy on the test set, as compared to before data augmentation.
 
-&lt;link rel=&#34;stylesheet&#34; href=/css/hugo-easy-gallery.css /&gt;
+&lt;link rel=&#34;stylesheet&#34; href=https://mnishant2.github.io/css/hugo-easy-gallery.css /&gt;
 &lt;div class=&#34;box&#34; &gt;
   &lt;figure  itemprop=&#34;associatedMedia&#34; itemscope itemtype=&#34;http://schema.org/ImageObject&#34;&gt;
     &lt;div class=&#34;img&#34;&gt;
-      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;/media/modified_mnist2.jpg#center&#34; /&gt;
+      &lt;img itemprop=&#34;thumbnail&#34; src=&#34;https://mnishant2.github.io/media/modified_mnist2.jpg#center&#34; /&gt;
     &lt;/div&gt;
     &lt;a href=&#34;../../media/modified_mnist2.jpg#center&#34; itemprop=&#34;contentUrl&#34;&gt;&lt;/a&gt;
   &lt;/figure&gt;
@@ -248,7 +248,7 @@ Mappings, Scale-Space blurring, Contrast changes and Perspective transforms. By 
 
 
 &lt;script src=&#34;https://code.jquery.com/jquery-1.12.4.min.js&#34; integrity=&#34;sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=&#34; crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;
-&lt;script src=/js/load-photoswipe.js&gt;&lt;/script&gt;
+&lt;script src=https://mnishant2.github.io/js/load-photoswipe.js&gt;&lt;/script&gt;
 
 
 &lt;link rel=&#34;stylesheet&#34; href=&#34;https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.css&#34; integrity=&#34;sha256-sCl5PUOGMLfFYctzDW3MtRib0ctyUvI9Qsmq2wXOeBY=&#34; crossorigin=&#34;anonymous&#34; /&gt;
@@ -310,9 +310,9 @@ Mappings, Scale-Space blurring, Contrast changes and Perspective transforms. By 
     
     <item>
       <title>SIFT</title>
-      <link>/project/sift/</link>
+      <link>https://mnishant2.github.io/project/sift/</link>
       <pubDate>Mon, 11 Nov 2019 14:11:11 -0400</pubDate>
-      <guid>/project/sift/</guid>
+      <guid>https://mnishant2.github.io/project/sift/</guid>
       <description>&lt;p&gt;In this project, which was essentially an assignment in 
 &lt;a href=&#34;https://www.mcgill.ca/study/2018-2019/courses/comp-558&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;COMP558:Fundamentals of Computer Vision&lt;/a&gt;
 
@@ -360,9 +360,9 @@ neighbourhood sizes(3&lt;em&gt;3,5&lt;/em&gt;5) were tried.&lt;/p&gt;
     
     <item>
       <title>Reddit Comment Classification [Kaggle]</title>
-      <link>/project/reddit_comment/</link>
+      <link>https://mnishant2.github.io/project/reddit_comment/</link>
       <pubDate>Mon, 21 Oct 2019 14:11:20 -0400</pubDate>
-      <guid>/project/reddit_comment/</guid>
+      <guid>https://mnishant2.github.io/project/reddit_comment/</guid>
       <description>&lt;p&gt;This was a 
 &lt;a href=&#34;https://www.kaggle.com/c/reddit-comment-classification-comp-551&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;competition hosted on Kaggle&lt;/a&gt;
 

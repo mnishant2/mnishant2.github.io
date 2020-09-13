@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>nlp | Nishant Mishra</title>
-    <link>/tag/nlp/</link>
-      <atom:link href="/tag/nlp/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://mnishant2.github.io/tag/nlp/</link>
+      <atom:link href="https://mnishant2.github.io/tag/nlp/index.xml" rel="self" type="application/rss+xml" />
     <description>nlp</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© NM 2020</copyright><lastBuildDate>Sun, 15 Dec 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/media/dab.jpg</url>
+      <url>https://mnishant2.github.io/media/dab.jpg</url>
       <title>nlp</title>
-      <link>/tag/nlp/</link>
+      <link>https://mnishant2.github.io/tag/nlp/</link>
     </image>
     
     <item>
       <title>Incremental Knowledge Graphs</title>
-      <link>/project/transe/</link>
+      <link>https://mnishant2.github.io/project/transe/</link>
       <pubDate>Sun, 15 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>/project/transe/</guid>
+      <guid>https://mnishant2.github.io/project/transe/</guid>
       <description>&lt;p&gt;This project was directed towards the final course project requirement for 
 &lt;a href=&#34;https://www.mcgill.ca/study/2019-2020/courses/comp-550&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;COMP 550: Natural Language Processing&lt;/a&gt;
 
@@ -80,9 +80,9 @@ aims to predict the missing h or t for a relation fact
     
     <item>
       <title>Reddit Comment Classification [Kaggle]</title>
-      <link>/project/reddit_comment/</link>
+      <link>https://mnishant2.github.io/project/reddit_comment/</link>
       <pubDate>Mon, 21 Oct 2019 14:11:20 -0400</pubDate>
-      <guid>/project/reddit_comment/</guid>
+      <guid>https://mnishant2.github.io/project/reddit_comment/</guid>
       <description>&lt;p&gt;This was a 
 &lt;a href=&#34;https://www.kaggle.com/c/reddit-comment-classification-comp-551&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;competition hosted on Kaggle&lt;/a&gt;
 
@@ -154,9 +154,9 @@ classifier further bolstered the accuracy to 60.1%. We finished
     
     <item>
       <title>Generic Extraction Module (G.E.M)</title>
-      <link>/project/gem/</link>
+      <link>https://mnishant2.github.io/project/gem/</link>
       <pubDate>Tue, 21 May 2019 09:20:41 -0400</pubDate>
-      <guid>/project/gem/</guid>
+      <guid>https://mnishant2.github.io/project/gem/</guid>
       <description>&lt;p&gt;The project at Signzy involved training a generalizable model for information retrieval from OCR output of Indian ID cards. We used both character level embeddings and word level embeddings(
 &lt;a href=&#34;https://allennlp.org/elmo&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ELMO&lt;/a&gt;
 
@@ -178,9 +178,9 @@ classifier further bolstered the accuracy to 60.1%. We finished
     
     <item>
       <title>March Madness [Kaggle]</title>
-      <link>/project/march-madness/</link>
+      <link>https://mnishant2.github.io/project/march-madness/</link>
       <pubDate>Thu, 07 Dec 2017 09:24:13 -0400</pubDate>
-      <guid>/project/march-madness/</guid>
+      <guid>https://mnishant2.github.io/project/march-madness/</guid>
       <description>&lt;p&gt;The 
 &lt;a href=&#34;&#34;&gt;NCAA Division I Men&amp;rsquo;s and Womens Basketball Tournament&lt;/a&gt;
 

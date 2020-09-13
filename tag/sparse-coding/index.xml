@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>sparse coding | Nishant Mishra</title>
-    <link>/tag/sparse-coding/</link>
-      <atom:link href="/tag/sparse-coding/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://mnishant2.github.io/tag/sparse-coding/</link>
+      <atom:link href="https://mnishant2.github.io/tag/sparse-coding/index.xml" rel="self" type="application/rss+xml" />
     <description>sparse coding</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© NM 2020</copyright><lastBuildDate>Wed, 15 Jul 2020 11:00:00 -0400</lastBuildDate>
     <image>
-      <url>/media/dab.jpg</url>
+      <url>https://mnishant2.github.io/media/dab.jpg</url>
       <title>sparse coding</title>
-      <link>/tag/sparse-coding/</link>
+      <link>https://mnishant2.github.io/tag/sparse-coding/</link>
     </image>
     
     <item>
       <title>Locally Competitive Algorithms</title>
-      <link>/talk/lca/</link>
+      <link>https://mnishant2.github.io/talk/lca/</link>
       <pubDate>Wed, 15 Jul 2020 11:00:00 -0400</pubDate>
-      <guid>/talk/lca/</guid>
+      <guid>https://mnishant2.github.io/talk/lca/</guid>
       <description></description>
     </item>
     
