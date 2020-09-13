@@ -13,6 +13,23 @@
     </image>
     
     <item>
+      <title>LICENSE: CC-BY-SA</title>
+      <link>/license/</link>
+      <pubDate>Sun, 13 Sep 2020 00:00:00 +0100</pubDate>
+      <guid>/license/</guid>
+      <description>&lt;p&gt;My 
+&lt;a href=&#34;../&#34;&gt;website&lt;/a&gt;
+
+ is licensed under a 
+&lt;a href=&#34;https://creativecommons.org/licenses/by-sa/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Creative Commons Attribution-ShareAlike 4.0 International License&lt;/a&gt;
+
+.&lt;/p&gt;
+&lt;center&gt;
+&lt;i class=&#34;fab fa-creative-commons fa-2x&#34;&gt;&lt;/i&gt;&lt;i class=&#34;fab fa-creative-commons-by fa-2x&#34;&gt;&lt;/i&gt;&lt;i class=&#34;fab fa-creative-commons-sa fa-2x&#34;&gt;&lt;/i&gt;
+&lt;/center&gt;</description>
+    </item>
+    
+    <item>
       <title>Highlighter(Auto field detection)</title>
       <link>/project/highlighter/</link>
       <pubDate>Fri, 21 Aug 2020 09:18:07 -0400</pubDate>
