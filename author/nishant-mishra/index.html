@@ -221,6 +221,44 @@
 
 
 
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-178011031-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-178011031-1', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
   
 
 
@@ -255,7 +293,7 @@
   <meta property="og:description" content="Graduate Student"><meta property="og:image" content="https://mnishant2.github.io/media/dab.jpg">
   <meta property="twitter:image" content="https://mnishant2.github.io/media/dab.jpg"><meta property="og:locale" content="en-us">
   
-    
+    <meta property="og:updated_time" content="2020-08-21T09:18:07-04:00">
   
 
   
@@ -544,262 +582,113 @@
 
 
 
+<div class="universal-wrapper pt-3">
+  <h1>Nishant Mishra</h1>
+</div>
+
 
 <section id="profile-page" class="pt-5">
   <div class="container">
     
     
-      
-      
-      
-      
 
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-<style>
-#particles-js {
-  pointer-events: all;  
-}
-#content {
-    pointer-events: none;
-}
-a, button {
-    pointer-events: all;
-}
-</style>
-<div class="row">
-  
-  <div class="col-12 col-lg-4">
-    <div id="profile">
-
-      
-      
-      <img class="avatar avatar-circle" src="/author/nishant-mishra/avatar_hu1fef3c132241d276c6bdd94fb6aee72d_1622346_270x270_fill_lanczos_center_2.png" alt="Nishant Mishra">
-      
-
-      <div class="portrait-title">
-        <h2>Nishant Mishra</h2>
-        <h3>Graduate Student</h3>
-
-        
-        <h3>
-          <a href="cs.mcgill.ca" target="_blank" rel="noopener">
-          <span>School of Computer Science, McGill University</span>
-          </a>
-        </h3>
-        
-      </div>
-
-      <ul class="network-icon" aria-hidden="true">
-        
-        
-        
-        
-          
-        
-        
-        
-        
-        
-          
+    
+    
+    
+    <div class="article-widget content-widget-hr">
+      <h3>Latest</h3>
+      <ul>
         
         <li>
-          <a href="/#contact" >
-            <i class="fas fa-envelope big-icon"></i>
-          </a>
+          <a href="/project/highlighter/">Highlighter(Auto field detection)</a>
         </li>
         
-        
-        
-        
-          
-        
-        
-        
-        
-        
-          
-        
         <li>
-          <a href="https://www.kaggle.com/chipmonk" target="_blank" rel="noopener">
-            <i class="fab fa-kaggle big-icon"></i>
-          </a>
+          <a href="/talk/lca/">Locally Competitive Algorithms</a>
         </li>
         
-        
-        
-        
-          
-        
-        
-        
-        
-        
-          
-        
         <li>
-          <a href="https://github.com/mnishant2" target="_blank" rel="noopener">
-            <i class="fab fa-github big-icon"></i>
-          </a>
+          <a href="/talk/histopathology/">Histopathology</a>
         </li>
         
-        
-        
-        
-          
-        
-        
-        
-        
-        
-          
-        
         <li>
-          <a href="https://linkedin.com/in/mnishant2" target="_blank" rel="noopener">
-            <i class="fab fa-linkedin big-icon"></i>
-          </a>
+          <a href="/project/policy_gradient/">Policy Gradient</a>
         </li>
         
-        
-        
-        
-          
-        
-        
-        
-        
-        
-          
-        
         <li>
-          <a href="https://medium.com/@mnishant2" target="_blank" rel="noopener">
-            <i class="fab fa-medium big-icon"></i>
-          </a>
+          <a href="/project/online_learning/">Online Learning of temporal Knowledge Graphs</a>
         </li>
         
-        
-        
-        
-        
-        
-        
-        
-          
+        <li>
+          <a href="/talk/transe/">TransE</a>
+        </li>
         
         <li>
-          <a href="/cv" >
-            <i class="ai ai-cv big-icon"></i>
-          </a>
+          <a href="/project/gan/">Generative Adversarial Networks: Reproducibility Study</a>
+        </li>
+        
+        <li>
+          <a href="/project/transe/">Incremental Knowledge Graphs</a>
+        </li>
+        
+        <li>
+          <a href="/project/image_stitching/">Image Stitching (Panorama)</a>
+        </li>
+        
+        <li>
+          <a href="/project/modified_mnist/">Modified MNIST [Kaggle]</a>
+        </li>
+        
+        <li>
+          <a href="/project/sift/">SIFT</a>
+        </li>
+        
+        <li>
+          <a href="/project/reddit_comment/">Reddit Comment Classification [Kaggle]</a>
+        </li>
+        
+        <li>
+          <a href="/publication/mishra-performance-2019/">Performance Evaluation of Neural Networks for Speaker Recognition</a>
+        </li>
+        
+        <li>
+          <a href="/project/iqa/">Image Quality Assessment</a>
+        </li>
+        
+        <li>
+          <a href="/project/dory-ocr/">Dory OCR</a>
+        </li>
+        
+        <li>
+          <a href="/project/sign_language/">Sign Language Classification [Bachelor Project]</a>
+        </li>
+        
+        <li>
+          <a href="/project/cropnet/">Cropnet</a>
+        </li>
+        
+        <li>
+          <a href="/project/march-madness/">March Madness [Kaggle]</a>
+        </li>
+        
+        <li>
+          <a href="/project/activity_recognition/">Activity Recognition</a>
+        </li>
+        
+        <li>
+          <a href="/project/ocr_asr/">OCR to enrich ASR</a>
+        </li>
+        
+        <li>
+          <a href="/project/speaker_recognition/">Speaker Recognition</a>
+        </li>
+        
+        <li>
+          <a href="/project/speech_recognition/">Multilingual Speech Recognition</a>
         </li>
         
       </ul>
-
     </div>
-  </div>
-  <div class="col-12 col-lg-8">
-
-    
-    
-
-    <style>
-  #txt{
-    padding:15px;
-    padding-bottom:5px;
-    border: 5px double blue;
-    border-radius: 15px;
-  background-color: rgba(0,0,0,0.1);
-  }
-  #txt1{
-    padding-top:15px;
-  }
-</style>
-<body>
-<div id="txt"><p>Hi there!! I am currently pursuing my Masters 
-    at the <a href="https://www.cs.mcgill.ca/">School of Computer Science</a>, McGill University.
-    I am also working as a Graduate Research Assistant in collaboration with <a href="http://www.cim.mcgill.ca/">Center for Intelligent Machines</a> and <a href="https://www.mcgill.ca/radiology/research/augmented-intelligence-precision-health-laboratory">AIPHL</a>, Department of Diagnostic Radiology.<br> 
-    I completed my Bachelors from <a href="https://www.bitmesra.ac.in/">Birla Institute of Technology, India </a> in Electronics and Communication Engineering. 
-    Previously, I have worked as a developer in the AI team of a FinTech startup in India <a href="https://signzy.com/">Signzy</a>.
-    <br>My interests primarily lie in the domain of Deep Learning, specifically its applications to Computer Vision and Natural Language Processing tasks.</p>
-    </div>
-  <div id="txt1">
-    <p>Currently, I am working on Deep Learning for Digital Histopathology as part of my Master's thesis. 
-    It largely involves using sparse approximation based unsupervised instance segmentation in Whole Slide Images and cross modal feature representation learning.<br>
-    In the past I have worked on a range of projects as part of coursework, internships and job encompassing diverse tasks in areas of Machine Learning like Face Detection, Optical Character Recognition, Information Retrieval from text, Activity Recognition, Image forensics, Speech Recognition among others.<br>
-    I intend to pursue a career in AI research, academic or industrial, in order to push the state of the art in this field and solve the contemporary set of real world problems. </p>
-</div>
-</body> 
-
-
-    <div class="row">
-
-      
-      <div class="col-md-6">
-        <h3>Interests</h3>
-        <ul class="ul-interests">
-          
-          <li>Deep Learning</li>
-          
-          <li>Statistical Machine Learning</li>
-          
-          <li>Computer Vision</li>
-          
-          <li>Natural Language Processing</li>
-          
-          <li>Probabilistic Graphical Models</li>
-          
-          <li>Reinforcement Learning</li>
-          
-          <li>Graph Representation Learning</li>
-          
-        </ul>
-      </div>
-      
-
-      
-      <div class="col-md-6">
-        <h3>Education</h3>
-        <ul class="ul-edu fa-ul">
-          
-          <li>
-            <i class="fa-li fas fa-graduation-cap"></i>
-            <div class="description">
-              <p class="course">MSc in Computer Science, 2019-Present</p>
-              <p class="institution">McGill University</p>
-            </div>
-          </li>
-          
-          <li>
-            <i class="fa-li fas fa-graduation-cap"></i>
-            <div class="description">
-              <p class="course">BEng in Electronics and Communication Engineering, 2014-2018</p>
-              <p class="institution">Birla Institute of Technology, India</p>
-            </div>
-          </li>
-          
-        </ul>
-      </div>
-      
-
-    </div>
-  </div>
-</div>
-
-    
-
-    
-    
     
   </div>
 </section>
@@ -955,6 +844,45 @@ a, button {
       <a href="#" class="back-to-top">
         <span class="button_icon">
           <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+  </div>
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
+  <i class="fas fa-chevron-up fa-2x"></i>
         </span>
       </a>
     </span>
