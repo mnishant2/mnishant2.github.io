@@ -3,18 +3,98 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://mnishant2.github.io/license/</loc>
-    <lastmod>2020-09-13T00:00:00+01:00</lastmod>
+    <loc>https://mnishant2.github.io/author/ankur-agarwal/</loc>
+    <lastmod>2020-12-15T13:07:25-05:00</lastmod>
   </url>
   
   <url>
     <loc>https://mnishant2.github.io/authors/</loc>
-    <lastmod>2020-09-08T21:46:41-04:00</lastmod>
+    <lastmod>2020-12-15T13:07:25-05:00</lastmod>
   </url>
   
   <url>
     <loc>https://mnishant2.github.io/categories/</loc>
-    <lastmod>2020-08-21T09:18:07-04:00</lastmod>
+    <lastmod>2020-12-15T13:07:25-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mnishant2.github.io/category/deep-learning/</loc>
+    <lastmod>2020-12-15T13:07:25-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mnishant2.github.io/tag/featured/</loc>
+    <lastmod>2020-12-15T13:07:25-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mnishant2.github.io/tag/generative-learning/</loc>
+    <lastmod>2020-12-15T13:07:25-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mnishant2.github.io/category/generative-learning/</loc>
+    <lastmod>2020-12-15T13:07:25-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mnishant2.github.io/project/multimodalvae/</loc>
+    <lastmod>2020-12-15T13:07:25-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mnishant2.github.io/tag/multimodal-learning/</loc>
+    <lastmod>2020-12-15T13:07:25-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mnishant2.github.io/category/multimodal-learning/</loc>
+    <lastmod>2020-12-15T13:07:25-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mnishant2.github.io/author/nishant-mishra/</loc>
+    <lastmod>2020-12-15T13:07:25-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mnishant2.github.io/</loc>
+    <lastmod>2020-12-15T13:07:25-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mnishant2.github.io/tag/pgm/</loc>
+    <lastmod>2020-12-15T13:07:25-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mnishant2.github.io/project/</loc>
+    <lastmod>2020-12-15T13:07:25-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mnishant2.github.io/tags/</loc>
+    <lastmod>2020-12-15T13:07:25-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mnishant2.github.io/tag/vae/</loc>
+    <lastmod>2020-12-15T13:07:25-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mnishant2.github.io/tag/variational-inference/</loc>
+    <lastmod>2020-12-15T13:07:25-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mnishant2.github.io/tag/vision/</loc>
+    <lastmod>2020-12-15T13:07:25-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mnishant2.github.io/license/</loc>
+    <lastmod>2020-09-13T00:00:00+01:00</lastmod>
   </url>
   
   <url>
@@ -33,37 +113,12 @@
   </url>
   
   <url>
-    <loc>https://mnishant2.github.io/author/nishant-mishra/</loc>
-    <lastmod>2020-09-08T21:46:41-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mnishant2.github.io/</loc>
-    <lastmod>2020-09-08T21:46:41-04:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://mnishant2.github.io/tag/ocr/</loc>
     <lastmod>2020-08-21T09:18:07-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://mnishant2.github.io/project/</loc>
-    <lastmod>2020-08-21T09:18:07-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mnishant2.github.io/tags/</loc>
-    <lastmod>2020-09-08T21:46:41-04:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://mnishant2.github.io/tag/text-extration/</loc>
-    <lastmod>2020-08-21T09:18:07-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mnishant2.github.io/tag/vision/</loc>
     <lastmod>2020-08-21T09:18:07-04:00</lastmod>
   </url>
   
@@ -115,11 +170,6 @@
   <url>
     <loc>https://mnishant2.github.io/category/course-project/</loc>
     <lastmod>2020-05-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mnishant2.github.io/tag/featured/</loc>
-    <lastmod>2020-08-18T21:54:02-04:00</lastmod>
   </url>
   
   <url>
@@ -225,11 +275,6 @@
   <url>
     <loc>https://mnishant2.github.io/tag/dcgan/</loc>
     <lastmod>2019-12-15T14:11:56-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mnishant2.github.io/category/deep-learning/</loc>
-    <lastmod>2020-08-18T21:54:02-04:00</lastmod>
   </url>
   
   <url>

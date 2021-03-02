@@ -5,12 +5,80 @@
     <link>https://mnishant2.github.io/author/nishant-mishra/</link>
       <atom:link href="https://mnishant2.github.io/author/nishant-mishra/index.xml" rel="self" type="application/rss+xml" />
     <description>Nishant Mishra</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© NM 2020</copyright><lastBuildDate>Fri, 21 Aug 2020 09:18:07 -0400</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© NM 2021</copyright><lastBuildDate>Tue, 15 Dec 2020 13:07:25 -0500</lastBuildDate>
     <image>
       <url>https://mnishant2.github.io/media/dab.jpg</url>
       <title>Nishant Mishra</title>
       <link>https://mnishant2.github.io/author/nishant-mishra/</link>
     </image>
+    
+    <item>
+      <title>Generative Multimodal Learning for Reconstructing Missing Modality</title>
+      <link>https://mnishant2.github.io/project/multimodalvae/</link>
+      <pubDate>Tue, 15 Dec 2020 13:07:25 -0500</pubDate>
+      <guid>https://mnishant2.github.io/project/multimodalvae/</guid>
+      <description>&lt;p&gt;Multimodal learning with latent space models
+has the potential to help learn deeper, more useful
+representations that help getting better performance,
+even in missing modality scenarios.
+In this project we leverage latent space based
+model to perform inference and reconstruction
+in all missing modality combinations.
+We trained a 
+&lt;a href=&#34;https://arxiv.org/abs/1802.05335&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Multimodal Variational Auto Encoder&lt;/a&gt;
+
+
+which uses a product of Experts based inference
+network on three different modalities consisting
+of MNIST handwritten digit images in
+two languages and spoken digit recordings for
+our experiments. We trained the model in a
+subsampled training paradigm using an ELBO
+loss that comprised the modality reconstruction
+losses, label cross-entropy loss as well as the
+Kullback-Leibler divergence for the latent distribution.
+We evaluated the total 
+&lt;a href=&#34;https://en.wikipedia.org/wiki/Evidence_lower_bound&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ELBO loss&lt;/a&gt;
+
+, individual
+reconstruction losses, classification accuracy
+and visual reconstruction outputs as part
+of our analysis. We observed encouraging results
+both in terms of successful convergence as
+well as accurate reconstructions.&lt;/p&gt;
+&lt;p&gt;We approached the missing modality reconstruction
+and classification based problem using a Multimodal Variational
+Autoencoder(MVAE). Our model used a tree like graph where the
+different modalities define the observation nodes. It consists
+of parallel fully connected encoder and decoder networks
+associated with each modality as part of a VAE and a product of experts technique for late fusion of the respective
+latent distribution parameters from each encoder to get a
+final representation. An additional linear decoder branch
+was used for label classification.Each modality has its own
+inference network. This model was trained by optimizing
+an estimated lower bound (ELBO) on the marginal likelihood
+of observed data, i.e reconstructions of the modalities
+as well as the classification loss.&lt;/p&gt;
+&lt;p&gt;We also used a sampling
+based training scheme such that for each training example
+containing modalities, we obtained the loss for all combinations
+of modalities given to the model, this ensured the
+learned model generalized to perform well in reconstructing
+given any combination set of the modalities.
+We used three modalities for experimentation and trained the
+model on a MNIST dataset with images in two languages,
+Farsi and Kannada as first two modalities and speech utterances
+of the MNIST digits as the third modality.&lt;/p&gt;
+&lt;p&gt;The model
+performed well in terms of the convergence of ELBO loss,
+individual reconstruction losses, classification accuracy as
+well as the final visual reconstructions of the modalities. We
+also performed various analyses in terms of hyperparameter
+tuning, reconstruction under different modality combinations
+as well as analysis of disentanglement of representation
+property.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Highlighter(Auto field detection)</title>
